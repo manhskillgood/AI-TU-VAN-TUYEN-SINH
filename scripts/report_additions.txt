@@ -1,0 +1,50 @@
+--- Phần bổ sung do trợ lý tạo (chèn vào Báo cáo Đồ án) ---
+
+1) Mô tả API backend (FastAPI)
+- Endpoint POST /recommend
+  Request JSON: {"profile_text": "..."}
+  Response JSON: {"top_majors": [...], "top_confidence": 0.85, "need_human_support": false, ...}
+
+- Endpoint POST /advice
+  Request JSON: {"major": "Tên ngành (tùy chọn)", "profile_text": "..."}
+  Response JSON: {"major": "...", "advice": "...", "need_human_support": boolean}
+
+- Endpoint POST /select_major
+  Request JSON: {"selected_major": "...", "profile_text": "...", "user_id": "..."}
+  Response JSON: {"ok": true, "message": "..."}
+
+Ghi chú: các endpoint được định nghĩa trong `ml/app.py`.
+
+2) Hướng dẫn chạy hệ thống (tóm tắt)
+- Backend (ML recommender):
+  - Tạo môi trường ảo và cài phụ thuộc:
+    ```powershell
+    python -m venv .venv
+    .\.venv\Scripts\Activate.ps1
+    pip install -r ml/requirements.txt
+    ```
+  - Chạy server:
+    ```powershell
+    $env:PYTHONIOENCODING='utf-8'
+    uvicorn app:app --host 0.0.0.0 --port 8000
+    ```
+
+- Frontend (Flutter): build/run bình thường, truyền API key Gemini bằng `--dart-define=GEN_AI_KEY=YOUR_KEY` khi chạy.
+
+3) Sinh embeddings & dữ liệu
+- File `ml/train_recommender.py` tạo `ml_artifacts/major_embeddings.npy` từ `ml/majors_list.json` bằng `sentence-transformers`.
+- Nếu không có mô hình embedding, hệ thống dùng bộ lọc từ khóa dự phòng.
+
+4) Thử nghiệm mẫu (gợi ý chèn vào phần Kết quả/Thử nghiệm)
+- Case A (hồ sơ: "yêu thích lập trình, học Python, toán 8.5") → Top: Công nghệ thông tin, Khoa học máy tính, Khoa học dữ liệu
+- Case B (hồ sơ: "quan tâm marketing, content, sáng tạo") → Top: Marketing, Truyền thông, Quản trị kinh doanh
+
+5) Hạn chế & khuyến nghị (bổ sung)
+- Phụ thuộc API LLM bên thứ ba (Gemini) — cần xử lý lỗi và fallback.
+- Dữ liệu majors cần cập nhật thường xuyên; cần kiểm soát bias trong rules và embeddings.
+- Bảo mật: lưu trữ thông tin người dùng phải mã hoá / tuân thủ chính sách privacy.
+
+6) Tài liệu tham khảo (gợi ý nhập vào phần Tài liệu tham khảo)
+- Til: FastAPI, Sentence-Transformers, Google Generative AI SDK, Firebase.
+
+--- Hết phần bổ sung ---

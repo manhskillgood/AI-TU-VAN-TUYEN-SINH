@@ -1,0 +1,237 @@
+[
+  {
+    "id": "block_C00_deprioritize_tech",
+    "conditions": {
+      "exam_blocks": [
+        "C00"
+      ]
+    },
+    "boostMajors": {
+      "Công nghệ thông tin": 0.01,
+      "Khoa học máy tính": 0.01,
+      "Kỹ thuật phần mềm": 0.01,
+      "Trí tuệ nhân tạo": 0.01
+    },
+    "confidence": 0.99,
+    "reason": "Khối C ưu tiên ngành xã hội — giảm ưu tiên ngành kỹ thuật/CNTT"
+  },
+  {
+    "id": "block_C00_boost_social",
+    "conditions": {
+      "exam_blocks": [
+        "C00"
+      ]
+    },
+    "boostMajors": {
+      "Báo chí": 1.2,
+      "Luật": 1.2,
+      "Sư phạm Văn": 1.15,
+      "Du lịch": 1.1,
+      "Quan hệ công chúng": 1.15,
+      "Tâm lý học": 1.1
+    },
+    "confidence": 0.9,
+    "reason": "Khối C ưu tiên các ngành xã hội, sư phạm, báo chí, luật, du lịch"
+  },
+  {
+    "id": "tech_interest_boost",
+    "conditions": {
+      "interests_contains": [
+        "lập trình",
+        "công nghệ",
+        "ai",
+        "dữ liệu",
+        "data"
+      ]
+    },
+    "boostMajors": {
+      "Công nghệ thông tin": 1.2,
+      "Khoa học máy tính": 1.2,
+      "Kỹ thuật phần mềm": 1.15,
+      "Trí tuệ nhân tạo": 1.14
+    },
+    "confidence": 0.9,
+    "reason": "Thích công nghệ/lập trình -> ưu tiên nhóm CNTT/AI nếu có tín hiệu rõ ràng"
+  },
+  {
+    "id": "tech_interest_deprioritize_non_it",
+    "conditions": {
+      "interests_contains": [
+        "công nghệ",
+        "lập trình",
+        "cntt"
+      ]
+    },
+    "boostMajors": {
+      "Công nghệ thực phẩm": 0.25,
+      "Công nghệ sinh học": 0.35,
+      "Công nghệ nông nghiệp": 0.3,
+      "Công nghệ hóa học": 0.4
+    },
+    "confidence": 0.92,
+    "reason": "Sở thích CNTT — giảm các ngành 'công nghệ' phi CNTT (thực phẩm, sinh học...)"
+  },
+  {
+    "id": "tech_skill_and_math",
+    "conditions": {
+      "strengths_contains": [
+        "tư duy logic",
+        "phân tích"
+      ],
+      "min_scores": {
+        "math": 0.6
+      }
+    },
+    "boostMajors": {
+      "Công nghệ thông tin": 1.15,
+      "Khoa học máy tính": 1.15,
+      "Trí tuệ nhân tạo": 1.12
+    },
+    "confidence": 0.9,
+    "reason": "Có kỹ năng tư duy logic + Toán → phù hợp các ngành CNTT/AI"
+  },
+  {
+    "id": "block_A_boost_tech",
+    "conditions": {
+      "exam_blocks": [
+        "A00",
+        "A01"
+      ]
+    },
+    "boostMajors": {
+      "Công nghệ thông tin": 1.1,
+      "Kỹ thuật phần mềm": 1.1,
+      "Khoa học máy tính": 1.08
+    },
+    "confidence": 0.85,
+    "reason": "Khối A ưu tiên các ngành kỹ thuật và CNTT"
+  },
+  {
+    "id": "block_B_boost_health",
+    "conditions": {
+      "exam_blocks": [
+        "B00"
+      ]
+    },
+    "boostMajors": {
+      "Y khoa": 1.18,
+      "Dược học": 1.15,
+      "Điều dưỡng": 1.12
+    },
+    "confidence": 0.95,
+    "reason": "Khối B ưu tiên y dược"
+  },
+  {
+    "id": "block_D_boost_lang_econ",
+    "conditions": {
+      "exam_blocks": [
+        "D01"
+      ]
+    },
+    "boostMajors": {
+      "Ngôn ngữ Anh": 1.18,
+      "Quản trị kinh doanh": 1.1,
+      "Marketing": 1.08
+    },
+    "confidence": 0.88,
+    "reason": "Khối D ưu tiên ngoại ngữ, kinh tế, marketing"
+  },
+  {
+    "id": "creative_interest_boost",
+    "conditions": {
+      "interests_contains": [
+        "sáng tạo",
+        "thiết kế",
+        "nghệ thuật"
+      ]
+    },
+    "boostMajors": {
+      "Báo chí": 1.12,
+      "Marketing": 1.12,
+      "Thiết kế đồ họa": 1.2,
+      "Truyền thông đa phương tiện": 1.15
+    },
+    "confidence": 0.9,
+    "reason": "Sở thích sáng tạo/thiết kế → ưu tiên báo chí, marketing, truyền thông, thiết kế"
+  },
+  {
+    "id": "health_interest_boost",
+    "conditions": {
+      "interests_contains": [
+        "chăm sóc sức khỏe",
+        "y tế",
+        "dược"
+      ]
+    },
+    "boostMajors": {
+      "Điều dưỡng": 1.2,
+      "Y khoa": 1.2,
+      "Dược học": 1.18
+    },
+    "confidence": 0.95,
+    "reason": "Quan tâm chăm sóc sức khỏe → ưu tiên ngành y dược"
+  },
+  {
+    "id": "block_A01_boost_english_tech",
+    "conditions": {
+      "exam_blocks": [
+        "A01"
+      ]
+    },
+    "boostMajors": {
+      "Công nghệ thông tin": 1.12,
+      "Khoa học máy tính": 1.1,
+      "Ngôn ngữ Anh": 1.08
+    },
+    "confidence": 0.88,
+    "reason": "Khối A01 (Toán-Lý-Anh) phù hợp CNTT và ngoại ngữ"
+  },
+  {
+    "id": "kinh_te_interest_boost",
+    "conditions": {
+      "interests_contains": [
+        "kinh tế",
+        "kinh doanh"
+      ]
+    },
+    "boostMajors": {
+      "Quản trị kinh doanh": 1.15,
+      "Kinh tế học": 1.12,
+      "Marketing": 1.1
+    },
+    "confidence": 0.85,
+    "reason": "Quan tâm kinh tế/kinh doanh"
+  },
+  {
+    "id": "giao_tiep_strength_boost",
+    "conditions": {
+      "strengths_contains": [
+        "giao tiếp"
+      ]
+    },
+    "boostMajors": {
+      "Marketing": 1.12,
+      "Quan hệ công chúng": 1.1,
+      "Ngôn ngữ Anh": 1.08,
+      "Báo chí": 1.08
+    },
+    "confidence": 0.82,
+    "reason": "Kỹ năng giao tiếp tốt — phù hợp marketing, truyền thông, ngoại ngữ"
+  },
+  {
+    "id": "lich_su_interest_boost",
+    "conditions": {
+      "interests_contains": [
+        "lịch sử",
+        "lich su",
+        "sử học"
+      ]
+    },
+    "boostMajors": {
+      "Sư phạm Lịch sử": 1.2,
+      "Việt Nam học": 1.1
+    },
+    "confidence": 0.88,
+    "reason": "Yêu thích lịch sử — ưu tiên sư phạm và nghiên cứu Việt Nam"
+  }
+]

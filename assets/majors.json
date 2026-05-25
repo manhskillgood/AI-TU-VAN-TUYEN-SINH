@@ -1,0 +1,1924 @@
+[
+  {
+    "code": "7480201",
+    "name": "Công nghệ thông tin",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D07"
+    ],
+    "reference_score": 21.0,
+    "core_skills": [
+      "lập trình",
+      "phân tích",
+      "hệ thống"
+    ],
+    "job_trends": "Rất cao",
+    "description": "Nền tảng rộng về lý thuyết và ứng dụng CNTT."
+  },
+  {
+    "code": "7480103",
+    "name": "Kỹ thuật phần mềm",
+    "exam_blocks": [
+      "A00",
+      "A01"
+    ],
+    "reference_score": 22.5,
+    "core_skills": [
+      "lập trình",
+      "thuật toán",
+      "tư duy logic"
+    ],
+    "job_trends": "Cao",
+    "description": "Thiết kế, phát triển và bảo trì phần mềm cho nhiều nền tảng."
+  },
+  {
+    "code": "7480101",
+    "name": "Khoa học máy tính",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ],
+    "reference_score": 22.0,
+    "core_skills": [
+      "thuật toán",
+      "cấu trúc dữ liệu",
+      "lập trình"
+    ],
+    "job_trends": "Cao",
+    "description": "Nghiên cứu nền tảng lý thuyết và hệ thống máy tính."
+  },
+  {
+    "code": "7340110",
+    "name": "Trí tuệ nhân tạo",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D07"
+    ],
+    "reference_score": 24.0,
+    "core_skills": [
+      "machine learning",
+      "deep learning",
+      "python"
+    ],
+    "job_trends": "Rất cao",
+    "description": "Phát triển hệ thống thông minh và AI."
+  },
+  {
+    "code": "7340121",
+    "name": "Khoa học dữ liệu",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D07"
+    ],
+    "reference_score": 23.0,
+    "core_skills": [
+      "thống kê",
+      "phân tích dữ liệu",
+      "machine learning"
+    ],
+    "job_trends": "Cao",
+    "description": "Phân tích và khai thác dữ liệu để hỗ trợ quyết định."
+  },
+  {
+    "code": "7480202",
+    "name": "An toàn thông tin",
+    "exam_blocks": [
+      "A00",
+      "A01"
+    ],
+    "reference_score": 20.0,
+    "core_skills": [
+      "bảo mật",
+      "mạng",
+      "mã hóa"
+    ],
+    "job_trends": "Tăng",
+    "description": "Bảo vệ hệ thống và dữ liệu khỏi tấn công mạng."
+  },
+  {
+    "code": "7480104",
+    "name": "Hệ thống thông tin",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D07"
+    ],
+    "reference_score": 22.5,
+    "core_skills": [
+      "lập trình",
+      "tư duy logic",
+      "phân tích"
+    ],
+    "job_trends": "Rất cao",
+    "description": "Quản trị hạ tầng CNTT, ERP, quy trình nghiệp vụ số và tích hợp hệ thống doanh nghiệp."
+  },
+  {
+    "code": "7480102",
+    "name": "Mạng máy tính và truyền thông dữ liệu",
+    "exam_blocks": [
+      "A00",
+      "A01"
+    ],
+    "reference_score": 19.6,
+    "core_skills": [
+      "lập trình",
+      "tư duy logic",
+      "phân tích"
+    ],
+    "job_trends": "Tăng",
+    "description": "Thiết kế mạng, truyền dẫn, cloud và vận hành hạ tầng viễn thông."
+  },
+  {
+    "code": "7480106",
+    "name": "Kỹ thuật máy tính",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02",
+      "D07"
+    ],
+    "reference_score": 22.2,
+    "core_skills": [
+      "lập trình",
+      "tư duy logic",
+      "phân tích"
+    ],
+    "job_trends": "Rất cao",
+    "description": "Phần cứng máy tính, nhúng và kiến trúc hệ thống; gần kỹ thuật điện–điện tử."
+  },
+  {
+    "code": "7520216",
+    "name": "Lập trình nhúng và IoT",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02",
+      "D07"
+    ],
+    "reference_score": 22.5,
+    "core_skills": [
+      "lập trình",
+      "tư duy logic",
+      "phân tích"
+    ],
+    "job_trends": "Rất cao",
+    "description": "Lập trình firmware, cảm biến, IoT và hệ thống nhúng trong công nghiệp 4.0."
+  },
+  {
+    "code": "7480108",
+    "name": "Thiết kế game",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01"
+    ],
+    "reference_score": 18.6,
+    "core_skills": [
+      "lập trình",
+      "tư duy logic",
+      "phân tích"
+    ],
+    "job_trends": "Tăng",
+    "description": "Kết hợp lập trình game, đồ họa và thiết kế trải nghiệm người chơi."
+  },
+  {
+    "code": "7320106",
+    "name": "Công nghệ đa phương tiện",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03",
+      "D07",
+      "H00"
+    ],
+    "reference_score": 22.2,
+    "core_skills": [],
+    "job_trends": "Rất cao",
+    "description": "Công nghệ đa phương tiện: ứng dụng khoa học vào sản xuất và kiểm định (không phải lập trình CNTT). Khối thi thường: A02, B00, B03."
+  },
+  {
+    "code": "7340122",
+    "name": "Thương mại điện tử",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ],
+    "reference_score": 16.0,
+    "core_skills": [
+      "digital marketing",
+      "phân tích",
+      "kinh doanh"
+    ],
+    "job_trends": "Rất cao",
+    "description": "Kinh doanh và vận hành nền tảng online."
+  },
+  {
+    "code": "7460101",
+    "name": "Toán học",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.4,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Toán thuần — đại số, giải tích, xác suất; nền cho nghiên cứu, tài chính định lượng và CNTT."
+  },
+  {
+    "code": "7460112",
+    "name": "Toán ứng dụng",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.8,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Ứng dụng toán vào mô hình kinh tế, tối ưu, thống kê và khoa học dữ liệu."
+  },
+  {
+    "code": "7460102",
+    "name": "Thống kê",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.8,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Thu thập dữ liệu, ước lượng và kiểm định giả thuyết; nền cho phân tích kinh tế–xã hội."
+  },
+  {
+    "code": "7340121",
+    "name": "Khoa học dữ liệu thống kê",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02",
+      "B00",
+      "D07"
+    ],
+    "reference_score": 22.6,
+    "core_skills": [
+      "lập trình",
+      "tư duy logic",
+      "phân tích"
+    ],
+    "job_trends": "Rất cao",
+    "description": "Kết hợp thống kê hiện đại và khoa học dữ liệu cho quyết định dựa trên số liệu."
+  },
+  {
+    "code": "7440101",
+    "name": "Vật lý học",
+    "exam_blocks": [
+      "A00",
+      "B00",
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.6,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Nghiên cứu vật lý cơ bản; nền cho kỹ thuật, vật liệu và công nghệ cao."
+  },
+  {
+    "code": "7520401",
+    "name": "Kỹ thuật vật lý",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ],
+    "reference_score": 21.2,
+    "core_skills": [
+      "tư duy logic",
+      "kỹ thuật",
+      "giải quyết vấn đề"
+    ],
+    "job_trends": "Cao",
+    "description": "Ứng dụng vật lý trong thiết bị, đo lường và công nghiệp chính xác."
+  },
+  {
+    "code": "7510402",
+    "name": "Công nghệ vật liệu",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03",
+      "D07",
+      "H00"
+    ],
+    "reference_score": 22.6,
+    "core_skills": [],
+    "job_trends": "Rất cao",
+    "description": "Phát triển và kiểm định vật liệu mới trong cơ khí, điện tử và xây dựng."
+  },
+  {
+    "code": "7510203",
+    "name": "Cơ điện tử",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ],
+    "reference_score": 20.2,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Cơ điện tử: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: A00, A01, A02."
+  },
+  {
+    "code": "7520101",
+    "name": "Kỹ thuật cơ khí",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ],
+    "reference_score": 21.5,
+    "core_skills": [
+      "tư duy logic",
+      "kỹ thuật",
+      "giải quyết vấn đề"
+    ],
+    "job_trends": "Cao",
+    "description": "Thiết kế, chế tạo và bảo trì máy móc, ô tô, năng lượng và sản xuất."
+  },
+  {
+    "code": "7520114",
+    "name": "Kỹ thuật ô tô",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ],
+    "reference_score": 21.5,
+    "core_skills": [
+      "tư duy logic",
+      "kỹ thuật",
+      "giải quyết vấn đề"
+    ],
+    "job_trends": "Cao",
+    "description": "Kỹ thuật động cơ, khung gầm và hệ thống điện–điều khiển trên ô tô."
+  },
+  {
+    "code": "7520120",
+    "name": "Kỹ thuật hàng không",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01"
+    ],
+    "reference_score": 21.1,
+    "core_skills": [],
+    "job_trends": "Cao",
+    "description": "Thiết kế, bảo dưỡng và vận hành kết cấu, động cơ hàng không."
+  },
+  {
+    "code": "7520201",
+    "name": "Kỹ thuật điện",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ],
+    "reference_score": 21.9,
+    "core_skills": [
+      "tư duy logic",
+      "kỹ thuật",
+      "giải quyết vấn đề"
+    ],
+    "job_trends": "Cao",
+    "description": "Kỹ thuật điện: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02."
+  },
+  {
+    "code": "7520201",
+    "name": "Kỹ thuật điện tử viễn thông",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ],
+    "reference_score": 21.1,
+    "core_skills": [
+      "tư duy logic",
+      "kỹ thuật",
+      "giải quyết vấn đề"
+    ],
+    "job_trends": "Cao",
+    "description": "Kỹ thuật điện tử viễn thông: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02."
+  },
+  {
+    "code": "7520216",
+    "name": "Kỹ thuật điều khiển và tự động hóa",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ],
+    "reference_score": 21.6,
+    "core_skills": [
+      "tư duy logic",
+      "kỹ thuật",
+      "giải quyết vấn đề"
+    ],
+    "job_trends": "Cao",
+    "description": "Kỹ thuật điều khiển và tự động hóa: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02."
+  },
+  {
+    "code": "7480107",
+    "name": "Robot và trí tuệ nhân tạo",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02",
+      "D07"
+    ],
+    "reference_score": 22.1,
+    "core_skills": [
+      "lập trình",
+      "tư duy logic",
+      "phân tích"
+    ],
+    "job_trends": "Rất cao",
+    "description": "Robot học, thị giác máy tính và AI cho tự động hóa thông minh."
+  },
+  {
+    "code": "7440112",
+    "name": "Hóa học",
+    "exam_blocks": [
+      "A00",
+      "B00",
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.8,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Hóa lý, hóa hữu cơ và phân tích; nền cho dược, vật liệu và môi trường."
+  },
+  {
+    "code": "7440112",
+    "name": "Công nghệ hóa học",
+    "exam_blocks": [
+      "A00",
+      "B00",
+      "B03",
+      "D07"
+    ],
+    "reference_score": 22.4,
+    "core_skills": [],
+    "job_trends": "Rất cao",
+    "description": "Ứng dụng hóa học trong sản xuất công nghiệp, dược phẩm và năng lượng."
+  },
+  {
+    "code": "7540101",
+    "name": "Công nghệ thực phẩm",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "D07",
+      "H00"
+    ],
+    "reference_score": 22.2,
+    "core_skills": [
+      "an toàn thực phẩm",
+      "hóa học",
+      "kiểm định"
+    ],
+    "job_trends": "Rất cao",
+    "description": "Kiểm soát chất lượng, chế biến và an toàn vệ sinh thực phẩm — không phải lập trình CNTT."
+  },
+  {
+    "code": "7420201",
+    "name": "Công nghệ sinh học",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03",
+      "H00"
+    ],
+    "reference_score": 22.1,
+    "core_skills": [],
+    "job_trends": "Rất cao",
+    "description": "Ứng dụng sinh học phân tử trong lab, dược và công nghiệp sinh học."
+  },
+  {
+    "code": "7520801",
+    "name": "Kỹ thuật môi trường",
+    "exam_blocks": [
+      "A00",
+      "A02",
+      "B00"
+    ],
+    "reference_score": 17.6,
+    "core_skills": [],
+    "job_trends": "Trung bình",
+    "description": "Xử lý nước thải, khí thải và công nghệ xanh trong sản xuất."
+  },
+  {
+    "code": "7850101",
+    "name": "Quản lý tài nguyên môi trường",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "C00"
+    ],
+    "reference_score": 17.7,
+    "core_skills": [],
+    "job_trends": "Trung bình",
+    "description": "Quy hoạch, giám sát tài nguyên và chính sách môi trường bền vững."
+  },
+  {
+    "code": "7420101",
+    "name": "Sinh học",
+    "exam_blocks": [
+      "A02",
+      "B00"
+    ],
+    "reference_score": 20.8,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Nghiên cứu sự sống ở tế bào–quần thể; nền cho y sinh, môi trường và R&D."
+  },
+  {
+    "code": "7420201",
+    "name": "Công nghệ sinh học y dược",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "D07",
+      "H00"
+    ],
+    "reference_score": 24.0,
+    "core_skills": [],
+    "job_trends": "Cao",
+    "description": "Sinh học phục vụ dược phẩm, xét nghiệm và sản xuất sinh phẩm y tế."
+  },
+  {
+    "code": "7720601",
+    "name": "Công nghệ xét nghiệm",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ],
+    "reference_score": 22.8,
+    "core_skills": [],
+    "job_trends": "Rất cao",
+    "description": "Kỹ thuật xét nghiệm lâm sàng, thiết bị lab và quy trình chẩn đoán."
+  },
+  {
+    "code": "7440112",
+    "name": "Khoa học sự sống",
+    "exam_blocks": [
+      "A00",
+      "B00",
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.2,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Tổng hợp sinh học, hóa sinh và phương pháp nghiên cứu đa ngành."
+  },
+  {
+    "code": "7720101",
+    "name": "Y khoa",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ],
+    "reference_score": 24.4,
+    "core_skills": [
+      "chăm sóc",
+      "sinh học",
+      "giao tiếp"
+    ],
+    "job_trends": "Cao",
+    "description": "Chăm sóc sức khỏe, điều trị và nghiên cứu y sinh; yêu cầu cam kết học tập lâu dài."
+  },
+  {
+    "code": "7720501",
+    "name": "Răng hàm mặt",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ],
+    "reference_score": 23.7,
+    "core_skills": [
+      "chăm sóc",
+      "sinh học",
+      "giao tiếp"
+    ],
+    "job_trends": "Cao",
+    "description": "Nha khoa lâm sàng, phục hình và điều trị răng–hàm–mặt."
+  },
+  {
+    "code": "7720201",
+    "name": "Dược học",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ],
+    "reference_score": 23.6,
+    "core_skills": [
+      "chăm sóc",
+      "sinh học",
+      "giao tiếp"
+    ],
+    "job_trends": "Cao",
+    "description": "Dược lý, bào chế và tư vấn sử dụng thuốc an toàn."
+  },
+  {
+    "code": "7720301",
+    "name": "Điều dưỡng",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ],
+    "reference_score": 20.4,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Điều dưỡng: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: B00, B03, H00."
+  },
+  {
+    "code": "7720601",
+    "name": "Kỹ thuật xét nghiệm y học",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ],
+    "reference_score": 21.6,
+    "core_skills": [
+      "tư duy logic",
+      "kỹ thuật",
+      "giải quyết vấn đề"
+    ],
+    "job_trends": "Cao",
+    "description": "Vận hành máy xét nghiệm và quy trình kiểm tra mẫu bệnh phẩm."
+  },
+  {
+    "code": "7720602",
+    "name": "Kỹ thuật hình ảnh y học",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ],
+    "reference_score": 23.6,
+    "core_skills": [
+      "chăm sóc",
+      "sinh học",
+      "giao tiếp"
+    ],
+    "job_trends": "Cao",
+    "description": "Chụp X-quang, CT, MRI và kỹ thuật chẩn đoán hình ảnh."
+  },
+  {
+    "code": "7720701",
+    "name": "Y tế công cộng",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ],
+    "reference_score": 23.9,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Epidemiology, phòng chống dịch và quản lý sức khỏe cộng đồng."
+  },
+  {
+    "code": "7720401",
+    "name": "Dinh dưỡng",
+    "exam_blocks": [
+      "H00"
+    ],
+    "reference_score": 20.1,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Tư vấn dinh dưỡng lâm sàng và chế độ ăn phòng bệnh."
+  },
+  {
+    "code": "7720603",
+    "name": "Vật lý trị liệu",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ],
+    "reference_score": 24.0,
+    "core_skills": [
+      "chăm sóc",
+      "sinh học",
+      "giao tiếp"
+    ],
+    "job_trends": "Cao",
+    "description": "Phục hồi chức năng vận động bằng vật lý trị liệu và kỹ thuật y sinh."
+  },
+  {
+    "code": "7720302",
+    "name": "Hộ sinh",
+    "exam_blocks": [
+      "B00"
+    ],
+    "reference_score": 24.1,
+    "core_skills": [
+      "chăm sóc",
+      "sinh học",
+      "giao tiếp"
+    ],
+    "job_trends": "Cao",
+    "description": "Hỗ trợ sinh sản an toàn trong đẻ và chăm sóc sơ sinh."
+  },
+  {
+    "code": "7380101",
+    "name": "Luật",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D14"
+    ],
+    "reference_score": 21.0,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Hệ thống pháp luật Việt Nam, tố tụng và tư vấn pháp lý."
+  },
+  {
+    "code": "7380107",
+    "name": "Luật kinh tế",
+    "exam_blocks": [
+      "C00",
+      "D01",
+      "D14"
+    ],
+    "reference_score": 20.6,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Pháp luật doanh nghiệp, hợp đồng thương mại và tranh chấp kinh tế."
+  },
+  {
+    "code": "7380108",
+    "name": "Luật quốc tế",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D01",
+      "D14"
+    ],
+    "reference_score": 20.9,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Luật quốc tế, thương mại xuyên biên giới và tổ chức quốc tế."
+  },
+  {
+    "code": "7310101",
+    "name": "Kinh tế học",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.5,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Lý thuyết kinh tế vĩ mô–vi mô và phân tích chính sách."
+  },
+  {
+    "code": "7310106",
+    "name": "Kinh tế quốc tế",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.8,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Thương mại, FDI và kinh tế toàn cầu."
+  },
+  {
+    "code": "7340204",
+    "name": "Kinh doanh quốc tế",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.1,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Phân tích thị trường, quản trị doanh nghiệp và tài chính."
+  },
+  {
+    "code": "7340101",
+    "name": "Quản trị kinh doanh",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 17.5,
+    "core_skills": [
+      "lãnh đạo",
+      "quản lý",
+      "phân tích"
+    ],
+    "job_trends": "Ổn định",
+    "description": "Quản lý và vận hành doanh nghiệp."
+  },
+  {
+    "code": "7340404",
+    "name": "Quản trị nhân lực",
+    "exam_blocks": [
+      "C00",
+      "D01"
+    ],
+    "reference_score": 20.8,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Tuyển dụng, đào tạo và phát triển nguồn nhân lực."
+  },
+  {
+    "code": "7340115",
+    "name": "Marketing",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D07"
+    ],
+    "reference_score": 18.0,
+    "core_skills": [
+      "sáng tạo",
+      "giao tiếp",
+      "phân tích thị trường"
+    ],
+    "job_trends": "Cao",
+    "description": "Xây dựng chiến lược tiếp thị và thương hiệu."
+  },
+  {
+    "code": "7340115",
+    "name": "Digital Marketing",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.2,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Sáng tạo nội dung, truyền thông và chiến lược tiếp thị."
+  },
+  {
+    "code": "7340201",
+    "name": "Tài chính ngân hàng",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.9,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Tín dụng, đầu tư và quản trị rủi ro tài chính."
+  },
+  {
+    "code": "7340301",
+    "name": "Kế toán",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.5,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Ghi chép, báo cáo tài chính và tuân thủ kế toán–thuế."
+  },
+  {
+    "code": "7340302",
+    "name": "Kiểm toán",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.4,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Kiểm toán độc lập, nội bộ và đánh giá minh bạch tài chính."
+  },
+  {
+    "code": "7310104",
+    "name": "Phân tích đầu tư tài chính",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.6,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Phân tích đầu tư tài chính: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: D01, D07."
+  },
+  {
+    "code": "7340201",
+    "name": "Chứng khoán",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.1,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Môi giới, phân tích thị trường và dịch vụ chứng khoán."
+  },
+  {
+    "code": "7340204",
+    "name": "Bảo hiểm",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.1,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Sản phẩm bảo hiểm, bồi thường và quản trị rủi ro."
+  },
+  {
+    "code": "7840104",
+    "name": "Logistics và quản lý chuỗi cung ứng",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.5,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Vận tải, kho bãi và tối ưu chuỗi cung ứng."
+  },
+  {
+    "code": "7510605",
+    "name": "Quản trị logistics",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.6,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Điều phối vận hành logistics và hợp đồng vận chuyển."
+  },
+  {
+    "code": "7340121",
+    "name": "Thương mại quốc tế",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.4,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Xuất nhập khẩu, Incoterms và thương lượng hợp đồng."
+  },
+  {
+    "code": "7340116",
+    "name": "Bất động sản",
+    "exam_blocks": [
+      "C00",
+      "D01"
+    ],
+    "reference_score": 20.2,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Bất động sản: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: C00, D01."
+  },
+  {
+    "code": "7340409",
+    "name": "Quản lý dự án",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.2,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Lập kế hoạch, giám sát tiến độ và quản trị dự án."
+  },
+  {
+    "code": "7340406",
+    "name": "Quản trị văn phòng",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ],
+    "reference_score": 20.1,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Hành chính, thư ký điều hành và quy trình văn phòng."
+  },
+  {
+    "code": "7810101",
+    "name": "Du lịch",
+    "exam_blocks": [
+      "C00",
+      "C15",
+      "D15"
+    ],
+    "reference_score": 19.8,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Lữ hành, điểm đến và phát triển sản phẩm du lịch."
+  },
+  {
+    "code": "7810201",
+    "name": "Quản trị khách sạn",
+    "exam_blocks": [
+      "C15",
+      "D01",
+      "D15"
+    ],
+    "reference_score": 19.1,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Vận hành khách sạn, lễ tân và trải nghiệm lưu trú."
+  },
+  {
+    "code": "7810202",
+    "name": "Quản trị nhà hàng",
+    "exam_blocks": [
+      "C00",
+      "C15",
+      "D01",
+      "D15"
+    ],
+    "reference_score": 19.2,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Ẩm thực, F&B và quản lý nhà hàng–dịch vụ ăn uống."
+  },
+  {
+    "code": "7810102",
+    "name": "Hướng dẫn du lịch",
+    "exam_blocks": [
+      "C00",
+      "C15",
+      "D15"
+    ],
+    "reference_score": 19.8,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Thuyết minh, tour và dịch vụ hướng dẫn viên chuyên nghiệp."
+  },
+  {
+    "code": "7810103",
+    "name": "Dịch vụ hàng không",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01"
+    ],
+    "reference_score": 21.9,
+    "core_skills": [],
+    "job_trends": "Cao",
+    "description": "Tiếp viên, dịch vụ sân bay và vận hành hàng không thương mại."
+  },
+  {
+    "code": "7220201",
+    "name": "Ngôn ngữ Anh",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14"
+    ],
+    "reference_score": 20.3,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Tiếng Anh học thuật, giao tiếp và biên phiên dịch."
+  },
+  {
+    "code": "7220204",
+    "name": "Ngôn ngữ Trung",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14",
+      "D15"
+    ],
+    "reference_score": 19.9,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Tiếng Trung thương mại và văn hóa Trung Hoa."
+  },
+  {
+    "code": "7220209",
+    "name": "Ngôn ngữ Nhật",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14",
+      "D15"
+    ],
+    "reference_score": 20.0,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Tiếng Nhật cho doanh nghiệp và du học."
+  },
+  {
+    "code": "7220210",
+    "name": "Ngôn ngữ Hàn",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14",
+      "D15"
+    ],
+    "reference_score": 19.6,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Tiếng Hàn cho giao tiếp và làm việc với doanh nghiệp Hàn Quốc."
+  },
+  {
+    "code": "7220203",
+    "name": "Ngôn ngữ Pháp",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14",
+      "D15"
+    ],
+    "reference_score": 19.7,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Tiếng Pháp và văn hóa Pháp ngữ."
+  },
+  {
+    "code": "7220205",
+    "name": "Ngôn ngữ Đức",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14",
+      "D15"
+    ],
+    "reference_score": 19.6,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Ngôn ngữ Đức: ngoại ngữ, biên phiên dịch và giao tiếp quốc tế. Khối thi thường: C14, D01, D14."
+  },
+  {
+    "code": "7229040",
+    "name": "Biên - phiên dịch",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14"
+    ],
+    "reference_score": 20.3,
+    "core_skills": [
+      "ngoại ngữ",
+      "giao tiếp"
+    ],
+    "job_trends": "Ổn định",
+    "description": "Đào tạo kỹ năng biên dịch và phiên dịch; phù hợp khối D và người giỏi ngoại ngữ."
+  },
+  {
+    "code": "7320101",
+    "name": "Báo chí",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D14"
+    ],
+    "reference_score": 20.4,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Tìm tin, viết bài và sản xuất nội dung báo chí."
+  },
+  {
+    "code": "7320104",
+    "name": "Truyền thông đa phương tiện",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D01"
+    ],
+    "reference_score": 20.1,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Truyền thông đa phương tiện: truyền thông, báo chí và quan hệ công chúng. Khối thi thường: C00, C14, D01."
+  },
+  {
+    "code": "7320104",
+    "name": "Quan hệ công chúng",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ],
+    "reference_score": 19.9,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "PR, quản trị khủng hoảng và hình ảnh thương hiệu."
+  },
+  {
+    "code": "7320105",
+    "name": "Quảng cáo",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D01"
+    ],
+    "reference_score": 19.9,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Sáng tạo quảng cáo, media planning và truyền thông thương hiệu."
+  },
+  {
+    "code": "7320401",
+    "name": "Xuất bản",
+    "exam_blocks": [
+      "C00",
+      "C14"
+    ],
+    "reference_score": 20.9,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Biên tập, xuất bản sách và quản lý bản quyền."
+  },
+  {
+    "code": "7210403",
+    "name": "Thiết kế đồ họa",
+    "exam_blocks": [
+      "C15",
+      "D01",
+      "K00",
+      "K01"
+    ],
+    "reference_score": 19.4,
+    "core_skills": [
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "job_trends": "Tăng",
+    "description": "Thiết kế đồ họa: thiết kế, mỹ thuật và sáng tạo thẩm mỹ. Khối thi thường: C15, D01, K00."
+  },
+  {
+    "code": "7210404",
+    "name": "Thiết kế thời trang",
+    "exam_blocks": [
+      "D01",
+      "K00",
+      "K01"
+    ],
+    "reference_score": 19.1,
+    "core_skills": [
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "job_trends": "Tăng",
+    "description": "Phác thảo, may mẫu và xu hướng thời trang."
+  },
+  {
+    "code": "7580108",
+    "name": "Thiết kế nội thất",
+    "exam_blocks": [
+      "D01",
+      "D15",
+      "K00",
+      "K01"
+    ],
+    "reference_score": 18.7,
+    "core_skills": [
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "job_trends": "Tăng",
+    "description": "Không gian nội thất, vật liệu và trải nghiệm sống."
+  },
+  {
+    "code": "7210402",
+    "name": "Thiết kế công nghiệp",
+    "exam_blocks": [
+      "A00",
+      "D01",
+      "K00",
+      "K01"
+    ],
+    "reference_score": 19.0,
+    "core_skills": [
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "job_trends": "Tăng",
+    "description": "Thiết kế sản phẩm công nghiệp và ergonomics."
+  },
+  {
+    "code": "7210101",
+    "name": "Mỹ thuật ứng dụng",
+    "exam_blocks": [
+      "C00",
+      "K00",
+      "K01"
+    ],
+    "reference_score": 19.0,
+    "core_skills": [
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "job_trends": "Tăng",
+    "description": "Mỹ thuật ứng dụng trong in ấn, trang trí và sản phẩm."
+  },
+  {
+    "code": "7580101",
+    "name": "Kiến trúc",
+    "exam_blocks": [
+      "A00",
+      "D01",
+      "K00"
+    ],
+    "reference_score": 19.1,
+    "core_skills": [
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "job_trends": "Tăng",
+    "description": "Thiết kế công trình, quy hoạch công trình và giám sát thi công."
+  },
+  {
+    "code": "7580105",
+    "name": "Quy hoạch đô thị",
+    "exam_blocks": [
+      "A00",
+      "C00"
+    ],
+    "reference_score": 20.5,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Quy hoạch đô thị: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: A00, C00."
+  },
+  {
+    "code": "7140209",
+    "name": "Sư phạm Toán",
+    "exam_blocks": [
+      "A00",
+      "A01"
+    ],
+    "reference_score": 19.9,
+    "core_skills": [
+      "giảng dạy",
+      "giao tiếp",
+      "kiên nhẫn"
+    ],
+    "job_trends": "Tăng",
+    "description": "Đào tạo giáo viên Toán THPT và phương pháp giảng dạy."
+  },
+  {
+    "code": "7140217",
+    "name": "Sư phạm Văn",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14"
+    ],
+    "reference_score": 19.4,
+    "core_skills": [
+      "giảng dạy",
+      "giao tiếp",
+      "kiên nhẫn"
+    ],
+    "job_trends": "Tăng",
+    "description": "Đào tạo giáo viên Ngữ văn và kỹ năng soạn giảng."
+  },
+  {
+    "code": "7140231",
+    "name": "Sư phạm Anh",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14"
+    ],
+    "reference_score": 19.9,
+    "core_skills": [
+      "giảng dạy",
+      "giao tiếp",
+      "kiên nhẫn"
+    ],
+    "job_trends": "Tăng",
+    "description": "Đào tạo giáo viên Tiếng Anh và sư phạm ngoại ngữ."
+  },
+  {
+    "code": "7140210",
+    "name": "Sư phạm Tin học",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01"
+    ],
+    "reference_score": 19.8,
+    "core_skills": [
+      "giảng dạy",
+      "giao tiếp",
+      "kiên nhẫn"
+    ],
+    "job_trends": "Tăng",
+    "description": "Đào tạo giáo viên Tin học và STEM trong nhà trường."
+  },
+  {
+    "code": "7140202",
+    "name": "Giáo dục tiểu học",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "D01"
+    ],
+    "reference_score": 19.9,
+    "core_skills": [
+      "giảng dạy",
+      "giao tiếp",
+      "kiên nhẫn"
+    ],
+    "job_trends": "Tăng",
+    "description": "Sư phạm tiểu học và tâm lý lứa tuổi."
+  },
+  {
+    "code": "7140201",
+    "name": "Giáo dục mầm non",
+    "exam_blocks": [
+      "C00",
+      "C01"
+    ],
+    "reference_score": 19.5,
+    "core_skills": [
+      "giảng dạy",
+      "giao tiếp",
+      "kiên nhẫn"
+    ],
+    "job_trends": "Tăng",
+    "description": "Chăm sóc và giáo dục trẻ mầm non."
+  },
+  {
+    "code": "7310403",
+    "name": "Tâm lý học giáo dục",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ],
+    "reference_score": 19.9,
+    "core_skills": [
+      "giảng dạy",
+      "giao tiếp",
+      "kiên nhẫn"
+    ],
+    "job_trends": "Tăng",
+    "description": "Tâm lý học đường và tư vấn học sinh."
+  },
+  {
+    "code": "7310601",
+    "name": "Tâm lý học",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ],
+    "reference_score": 20.0,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Tư vấn tâm lý, đánh giá hành vi và nghiên cứu tâm lý."
+  },
+  {
+    "code": "7310301",
+    "name": "Xã hội học",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ],
+    "reference_score": 19.9,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Nghiên cứu xã hội, khảo sát và chính sách cộng đồng."
+  },
+  {
+    "code": "7760101",
+    "name": "Công tác xã hội",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ],
+    "reference_score": 20.0,
+    "core_skills": [],
+    "job_trends": "Tăng",
+    "description": "Hỗ trợ nhóm yếu thế và can thiệp xã hội."
+  },
+  {
+    "code": "7310206",
+    "name": "Quan hệ quốc tế",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D01",
+      "D14"
+    ],
+    "reference_score": 20.5,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Ngoại giao, quan hệ quốc tế và tổ chức phi chính phủ."
+  },
+  {
+    "code": "7310608",
+    "name": "Đông phương học",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ],
+    "reference_score": 20.9,
+    "core_skills": [
+      "phân tích",
+      "giao tiếp",
+      "kinh doanh"
+    ],
+    "job_trends": "Cao",
+    "description": "Đông phương học: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: D01, D07."
+  },
+  {
+    "code": "7310630",
+    "name": "Việt Nam học",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ],
+    "reference_score": 19.4,
+    "core_skills": [
+      "giảng dạy",
+      "giao tiếp",
+      "kiên nhẫn"
+    ],
+    "job_trends": "Tăng",
+    "description": "Lịch sử, văn hóa và nghiên cứu Việt Nam."
+  },
+  {
+    "code": "7140218",
+    "name": "Sư phạm Lịch sử",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14"
+    ],
+    "reference_score": 19.6,
+    "core_skills": [
+      "giảng dạy",
+      "nghiên cứu",
+      "giao tiếp"
+    ],
+    "job_trends": "Ổn định",
+    "description": "Đào tạo giáo viên Lịch sử; phù hợp người yêu thích lịch sử, khối C và định hướng giáo dục."
+  },
+  {
+    "code": "7620101",
+    "name": "Nông nghiệp",
+    "exam_blocks": [
+      "A02",
+      "B00"
+    ],
+    "reference_score": 17.6,
+    "core_skills": [],
+    "job_trends": "Trung bình",
+    "description": "Sản xuất cây trồng, đất đai và quản lý trang trại."
+  },
+  {
+    "code": "7620101",
+    "name": "Công nghệ nông nghiệp",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03"
+    ],
+    "reference_score": 18.1,
+    "core_skills": [],
+    "job_trends": "Trung bình",
+    "description": "Cơ giới hóa, IoT nông nghiệp và chế biến nông sản."
+  },
+  {
+    "code": "7640101",
+    "name": "Thú y",
+    "exam_blocks": [
+      "B00"
+    ],
+    "reference_score": 18.1,
+    "core_skills": [],
+    "job_trends": "Trung bình",
+    "description": "Thú y lâm sàng, dịch tễ và an toàn thực phẩm động vật."
+  },
+  {
+    "code": "7620105",
+    "name": "Chăn nuôi",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03"
+    ],
+    "reference_score": 18.3,
+    "core_skills": [],
+    "job_trends": "Trung bình",
+    "description": "Chăn nuôi gia súc, thức ăn và quản lý trại."
+  },
+  {
+    "code": "7620202",
+    "name": "Lâm nghiệp",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03"
+    ],
+    "reference_score": 17.6,
+    "core_skills": [],
+    "job_trends": "Trung bình",
+    "description": "Lâm sinh, quản lý rừng và bảo tồn."
+  },
+  {
+    "code": "7620301",
+    "name": "Nuôi trồng thủy sản",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03"
+    ],
+    "reference_score": 18.1,
+    "core_skills": [],
+    "job_trends": "Trung bình",
+    "description": "Nuôi trồng thủy sản, chế biến và quản lý ao hồ–biển."
+  },
+  {
+    "code": "7729001",
+    "name": "Thể dục thể thao",
+    "exam_blocks": [
+      "B00",
+      "C00"
+    ],
+    "reference_score": 18.9,
+    "core_skills": [],
+    "job_trends": "Trung bình",
+    "description": "Huấn luyện thể thao, quản lý thi đấu và giáo dục thể chất."
+  },
+  {
+    "code": "7140207",
+    "name": "Huấn luyện thể thao",
+    "exam_blocks": [
+      "B00",
+      "C00"
+    ],
+    "reference_score": 18.1,
+    "core_skills": [],
+    "job_trends": "Trung bình",
+    "description": "Huấn luyện viên chuyên môn và khoa học thể thao."
+  },
+  {
+    "code": "7140221",
+    "name": "Âm nhạc",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "K01"
+    ],
+    "reference_score": 18.6,
+    "core_skills": [
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "job_trends": "Tăng",
+    "description": "Thanh nhạc, nhạc cụ và biểu diễn âm nhạc."
+  },
+  {
+    "code": "7210234",
+    "name": "Diễn viên sân khấu điện ảnh",
+    "exam_blocks": [
+      "D01",
+      "K00",
+      "K01"
+    ],
+    "reference_score": 21.1,
+    "core_skills": [
+      "tư duy logic",
+      "kỹ thuật",
+      "giải quyết vấn đề"
+    ],
+    "job_trends": "Cao",
+    "description": "Diễn viên sân khấu điện ảnh: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02."
+  },
+  {
+    "code": "7210227",
+    "name": "Đạo diễn",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ],
+    "reference_score": 21.5,
+    "core_skills": [
+      "tư duy logic",
+      "kỹ thuật",
+      "giải quyết vấn đề"
+    ],
+    "job_trends": "Cao",
+    "description": "Đạo diễn: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02."
+  },
+  {
+    "code": "7210225",
+    "name": "Biên kịch",
+    "exam_blocks": [
+      "C00",
+      "C14"
+    ],
+    "reference_score": 18.9,
+    "core_skills": [
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "job_trends": "Tăng",
+    "description": "Viết kịch bản phim, phim truyền hình và sân khấu."
+  },
+  {
+    "code": "7210301",
+    "name": "Nhiếp ảnh",
+    "exam_blocks": [
+      "C00",
+      "C15",
+      "D01"
+    ],
+    "reference_score": 19.0,
+    "core_skills": [
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "job_trends": "Tăng",
+    "description": "Nhiếp ảnh nghệ thuật, thương mại và post-production."
+  },
+  {
+    "code": "7210101",
+    "name": "Mỹ thuật",
+    "exam_blocks": [
+      "C00",
+      "K01"
+    ],
+    "reference_score": 19.0,
+    "core_skills": [
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "job_trends": "Tăng",
+    "description": "Hội họa, điêu khắc và triển lãm mỹ thuật."
+  }
+]

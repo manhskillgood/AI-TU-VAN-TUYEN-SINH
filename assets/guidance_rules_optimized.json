@@ -1,0 +1,767 @@
+[
+  {
+    "id": "R001",
+    "conditions": {
+      "math": ">=8",
+      "interest": [
+        "công nghệ",
+        "lập trình"
+      ]
+    },
+    "major": "Công nghệ thông tin",
+    "score": 0.95,
+    "reason": [
+      "Điểm Toán cao",
+      "Quan tâm lập trình/công nghệ"
+    ],
+    "family": "it"
+  },
+  {
+    "id": "R002",
+    "conditions": {
+      "math": ">=7",
+      "english": ">=6",
+      "interest": [
+        "dữ liệu",
+        "phân tích"
+      ]
+    },
+    "major": "Khoa học dữ liệu",
+    "score": 0.92,
+    "reason": [
+      "Toán tốt và tiếng Anh đủ dùng",
+      "Có hứng thú với dữ liệu và phân tích"
+    ],
+    "family": "it"
+  },
+  {
+    "id": "R003",
+    "conditions": {
+      "math": ">=7",
+      "interest": [
+        "phần mềm",
+        "lập trình"
+      ]
+    },
+    "major": "Kỹ thuật phần mềm",
+    "score": 0.9,
+    "reason": [
+      "Nền tảng Toán tốt",
+      "Hứng thú phát triển phần mềm"
+    ],
+    "family": "it"
+  },
+  {
+    "id": "R004",
+    "conditions": {
+      "english": ">=7",
+      "interest": [
+        "giao tiếp",
+        "quản lý"
+      ]
+    },
+    "major": "Quản trị kinh doanh",
+    "score": 0.85,
+    "reason": [
+      "Tiếng Anh tốt giúp trao đổi quốc tế",
+      "Có kỹ năng giao tiếp/quan sát"
+    ],
+    "family": "econ"
+  },
+  {
+    "id": "R005",
+    "conditions": {
+      "math": ">=7",
+      "interest": [
+        "điện",
+        "kỹ thuật"
+      ]
+    },
+    "major": "Kỹ thuật điện tử viễn thông",
+    "score": 0.88,
+    "reason": [
+      "Toán tốt phù hợp kỹ thuật",
+      "Quan tâm điện tử/kỹ thuật"
+    ],
+    "family": "engineering"
+  },
+  {
+    "id": "R006",
+    "conditions": {
+      "biology": ">=8",
+      "interest": [
+        "y tế",
+        "chăm sóc sức khỏe"
+      ]
+    },
+    "major": "Y khoa",
+    "score": 0.98,
+    "reason": [
+      "Sinh học cao",
+      "Đam mê chăm sóc sức khỏe và y tế"
+    ],
+    "family": "health"
+  },
+  {
+    "id": "R007",
+    "conditions": {
+      "creativity": ">=7",
+      "interest": [
+        "thiết kế",
+        "nghệ thuật"
+      ]
+    },
+    "major": "Thiết kế đồ họa",
+    "score": 0.86,
+    "reason": [
+      "Khả năng sáng tạo cao",
+      "Yêu thích thiết kế và mỹ thuật"
+    ],
+    "family": "art"
+  },
+  {
+    "id": "R008",
+    "conditions": {
+      "creativity": ">=8",
+      "interest": [
+        "mỹ thuật"
+      ]
+    },
+    "major": "Mỹ thuật",
+    "score": 0.9,
+    "reason": [
+      "Rất sáng tạo",
+      "Đam mê mỹ thuật truyền thống/đương đại"
+    ],
+    "family": "art"
+  },
+  {
+    "id": "R009",
+    "conditions": {
+      "language": ">=8",
+      "interest": [
+        "giáo dục",
+        "truyền đạt"
+      ]
+    },
+    "major": "Sư phạm Toán",
+    "score": 0.87,
+    "reason": [
+      "Kỹ năng ngôn ngữ tốt",
+      "Thích truyền đạt và dạy học"
+    ],
+    "family": "education"
+  },
+  {
+    "id": "R010",
+    "conditions": {
+      "science": ">=7",
+      "interest": [
+        "môi trường",
+        "tự nhiên"
+      ]
+    },
+    "major": "Hóa học",
+    "score": 0.83,
+    "reason": [
+      "Yêu thích khoa học và thiên nhiên",
+      "Quan tâm vấn đề môi trường"
+    ],
+    "family": "science"
+  },
+  {
+    "id": "R011",
+    "conditions": {
+      "math": ">=8",
+      "interest": [
+        "ai",
+        "trí tuệ nhân tạo"
+      ]
+    },
+    "major": "Trí tuệ nhân tạo",
+    "score": 0.94,
+    "reason": [
+      "Toán và tư duy logic mạnh",
+      "Đam mê AI/trí tuệ nhân tạo"
+    ],
+    "family": "it"
+  },
+  {
+    "id": "R012",
+    "conditions": {
+      "math": ">=7",
+      "interest": [
+        "thống kê",
+        "dữ liệu"
+      ]
+    },
+    "major": "Thống kê",
+    "score": 0.86,
+    "reason": [
+      "Giỏi Toán và phân tích dữ liệu",
+      "Thích làm việc với thống kê"
+    ],
+    "family": "science"
+  },
+  {
+    "id": "R013",
+    "conditions": {
+      "interest": [
+        "an toàn thông tin",
+        "bảo mật"
+      ],
+      "english": ">=6"
+    },
+    "major": "An toàn thông tin",
+    "score": 0.84,
+    "reason": [
+      "Quan tâm bảo mật và an ninh mạng",
+      "Tiếng Anh đủ đọc tài liệu chuyên ngành"
+    ],
+    "family": "it"
+  },
+  {
+    "id": "R014",
+    "conditions": {
+      "english": ">=7",
+      "interest": [
+        "ngoại thương",
+        "thương mại quốc tế"
+      ]
+    },
+    "major": "Thương mại quốc tế",
+    "score": 0.9,
+    "reason": [
+      "Tiếng Anh tốt",
+      "Quan tâm thương mại quốc tế"
+    ],
+    "family": "econ"
+  },
+  {
+    "id": "R015",
+    "conditions": {
+      "interest": [
+        "marketing",
+        "quảng cáo"
+      ],
+      "creativity": ">=6"
+    },
+    "major": "Marketing",
+    "score": 0.8,
+    "reason": [
+      "Có óc sáng tạo",
+      "Thích làm marketing và quảng cáo"
+    ],
+    "family": "econ"
+  },
+  {
+    "id": "R016",
+    "conditions": {
+      "english": ">=7",
+      "interest": [
+        "luật",
+        "công lý"
+      ]
+    },
+    "major": "Luật",
+    "score": 0.82,
+    "reason": [
+      "Kỹ năng ngôn ngữ tốt",
+      "Quan tâm pháp luật và lập luận"
+    ],
+    "family": "law"
+  },
+  {
+    "id": "R017",
+    "conditions": {
+      "science": ">=7",
+      "interest": [
+        "sinh học",
+        "nghiên cứu"
+      ]
+    },
+    "major": "Sinh học",
+    "score": 0.79,
+    "reason": [
+      "Yêu thích khoa học đời sống",
+      "Có nền tảng môn Sinh tốt"
+    ],
+    "family": "science"
+  },
+  {
+    "id": "R018",
+    "conditions": {
+      "chemistry": ">=7",
+      "interest": [
+        "hóa học",
+        "phân tích"
+      ]
+    },
+    "major": "Hóa học",
+    "score": 0.78,
+    "reason": [
+      "Nền tảng Hóa tốt",
+      "Thích phân tích hóa học"
+    ],
+    "family": "science"
+  },
+  {
+    "id": "R019",
+    "conditions": {
+      "math": ">=7",
+      "interest": [
+        "cơ khí",
+        "chế tạo"
+      ]
+    },
+    "major": "Kỹ thuật cơ khí",
+    "score": 0.82,
+    "reason": [
+      "Toán tốt và tư duy kỹ thuật",
+      "Thích cơ khí và chế tạo"
+    ],
+    "family": "engineering"
+  },
+  {
+    "id": "R020",
+    "conditions": {
+      "math": ">=6",
+      "interest": [
+        "tự động hóa",
+        "robot"
+      ]
+    },
+    "major": "Kỹ thuật điều khiển và tự động hóa",
+    "score": 0.8,
+    "reason": [
+      "Nền tảng kỹ thuật và toán cơ bản",
+      "Yêu thích robot và hệ điều khiển"
+    ],
+    "family": "engineering"
+  },
+  {
+    "id": "R021",
+    "conditions": {
+      "english": ">=6",
+      "interest": [
+        "nhà hàng",
+        "khách sạn"
+      ]
+    },
+    "major": "Quản trị nhà hàng",
+    "score": 0.75,
+    "reason": [
+      "Tiếng Anh phục vụ ngành dịch vụ",
+      "Quan tâm đến lĩnh vực nhà hàng/khách sạn"
+    ],
+    "family": "tourism"
+  },
+  {
+    "id": "R022",
+    "conditions": {
+      "math": ">=7",
+      "interest": [
+        "xây dựng",
+        "kiến trúc"
+      ]
+    },
+    "major": "Kiến trúc",
+    "score": 0.81,
+    "reason": [
+      "Toán tốt",
+      "Thích thiết kế và xây dựng công trình"
+    ],
+    "family": "art"
+  },
+  {
+    "id": "R023",
+    "conditions": {
+      "english": ">=7",
+      "interest": [
+        "tài chính",
+        "đầu tư"
+      ]
+    },
+    "major": "Tài chính ngân hàng",
+    "score": 0.86,
+    "reason": [
+      "Tiếng Anh tốt hỗ trợ đọc báo cáo",
+      "Quan tâm đến tài chính và đầu tư"
+    ],
+    "family": "econ"
+  },
+  {
+    "id": "R024",
+    "conditions": {
+      "creativity": ">=7",
+      "interest": [
+        "thiết kế sản phẩm",
+        "công nghiệp"
+      ]
+    },
+    "major": "Thiết kế công nghiệp",
+    "score": 0.82,
+    "reason": [
+      "Sáng tạo và tư duy sản phẩm",
+      "Yêu thích thiết kế công nghiệp"
+    ],
+    "family": "art"
+  },
+  {
+    "id": "R025",
+    "conditions": {
+      "math": ">=6",
+      "interest": [
+        "điện lực",
+        "năng lượng"
+      ]
+    },
+    "major": "Kỹ thuật điện",
+    "score": 0.78,
+    "reason": [
+      "Nền tảng toán và điện cơ bản",
+      "Quan tâm năng lượng và lưới điện"
+    ],
+    "family": "engineering"
+  },
+  {
+    "id": "R026",
+    "conditions": {
+      "interest": [
+        "nghiên cứu",
+        "học thuật"
+      ],
+      "science": ">=7"
+    },
+    "major": "Hóa học",
+    "score": 0.8,
+    "reason": [
+      "Thích nghiên cứu học thuật",
+      "Năng lực khoa học tốt"
+    ],
+    "family": "science"
+  },
+  {
+    "id": "R027",
+    "conditions": {
+      "language": ">=7",
+      "interest": [
+        "truyền thông",
+        "báo chí"
+      ]
+    },
+    "major": "Báo chí",
+    "score": 0.77,
+    "reason": [
+      "Kỹ năng ngôn ngữ và viết tốt",
+      "Quan tâm báo chí và truyền thông"
+    ],
+    "family": "media"
+  },
+  {
+    "id": "R028",
+    "conditions": {
+      "interest": [
+        "tâm lý",
+        "con người"
+      ],
+      "language": ">=6"
+    },
+    "major": "Tâm lý học",
+    "score": 0.74,
+    "reason": [
+      "Quan tâm hành vi con người",
+      "Kỹ năng giao tiếp cơ bản"
+    ],
+    "family": "social"
+  },
+  {
+    "id": "R029",
+    "conditions": {
+      "interest": [
+        "nông nghiệp",
+        "môi trường"
+      ],
+      "science": ">=6"
+    },
+    "major": "Công nghệ nông nghiệp",
+    "score": 0.7,
+    "reason": [
+      "Yêu thích nông nghiệp và tự nhiên",
+      "Có nền tảng khoa học cơ bản"
+    ],
+    "family": "tech_applied"
+  },
+  {
+    "id": "R030",
+    "conditions": {
+      "math": ">=8",
+      "interest": [
+        "toán học",
+        "nghiên cứu toán"
+      ]
+    },
+    "major": "Toán học",
+    "score": 0.9,
+    "reason": [
+      "Toán xuất sắc",
+      "Thích nghiên cứu hoặc dạy Toán"
+    ],
+    "family": "science"
+  },
+  {
+    "id": "R031",
+    "conditions": {
+      "interest": [
+        "an toàn lao động",
+        "kỹ thuật an toàn"
+      ],
+      "math": ">=6"
+    },
+    "major": "Kỹ thuật môi trường",
+    "score": 0.68,
+    "reason": [
+      "Quan tâm an toàn kỹ thuật",
+      "Nền tảng toán cơ bản"
+    ],
+    "family": "environment"
+  },
+  {
+    "id": "R032",
+    "conditions": {
+      "interest": [
+        "thiết kế web",
+        "giao diện"
+      ],
+      "creativity": ">=6"
+    },
+    "major": "Thiết kế đồ họa",
+    "score": 0.8,
+    "reason": [
+      "Thẩm mỹ và kỹ năng thiết kế giao diện",
+      "Quan tâm UX/UI và web"
+    ],
+    "family": "art"
+  },
+  {
+    "id": "R033",
+    "conditions": {
+      "interest": [
+        "robot",
+        "cơ khí chính xác"
+      ],
+      "math": ">=7"
+    },
+    "major": "Robot và trí tuệ nhân tạo",
+    "score": 0.83,
+    "reason": [
+      "Toán và tư duy kỹ thuật tốt",
+      "Đam mê robot và hệ cơ khí"
+    ],
+    "family": "it"
+  },
+  {
+    "id": "R034",
+    "conditions": {
+      "interest": [
+        "logistics",
+        "vận tải"
+      ],
+      "english": ">=6"
+    },
+    "major": "Logistics và quản lý chuỗi cung ứng",
+    "score": 0.72,
+    "reason": [
+      "Tiếng Anh đủ giao tiếp quốc tế",
+      "Quan tâm quản lý chuỗi cung ứng"
+    ],
+    "family": "econ"
+  },
+  {
+    "id": "R035",
+    "conditions": {
+      "interest": [
+        "pháp luật",
+        "xã hội"
+      ],
+      "language": ">=6"
+    },
+    "major": "Công tác xã hội",
+    "score": 0.68,
+    "reason": [
+      "Quan tâm xã hội và pháp luật",
+      "Kỹ năng ngôn ngữ cơ bản"
+    ],
+    "family": "social"
+  },
+  {
+    "id": "R036",
+    "conditions": {
+      "interest": [
+        "kinh tế vĩ mô",
+        "chính sách"
+      ],
+      "math": ">=6"
+    },
+    "major": "Luật kinh tế",
+    "score": 0.76,
+    "reason": [
+      "Quan tâm kinh tế và chính sách",
+      "Nền tảng toán/logic đủ dùng"
+    ],
+    "family": "law"
+  },
+  {
+    "id": "R037",
+    "conditions": {
+      "interest": [
+        "dược phẩm",
+        "hóa dược"
+      ],
+      "chemistry": ">=7"
+    },
+    "major": "Công nghệ sinh học y dược",
+    "score": 0.85,
+    "reason": [
+      "Hóa học mạnh",
+      "Quan tâm ngành dược và chăm sóc sức khỏe"
+    ],
+    "family": "tech_applied"
+  },
+  {
+    "id": "R038",
+    "conditions": {
+      "interest": [
+        "điện tử tiêu dùng",
+        "thiết bị"
+      ],
+      "math": ">=6"
+    },
+    "major": "Kỹ thuật điện",
+    "score": 0.75,
+    "reason": [
+      "Thích thiết bị điện tử và ứng dụng",
+      "Nền tảng toán cơ bản"
+    ],
+    "family": "engineering"
+  },
+  {
+    "id": "R039",
+    "conditions": {
+      "interest": [
+        "quản trị nhân sự",
+        "lãnh đạo"
+      ],
+      "language": ">=6"
+    },
+    "major": "Quản trị nhân lực",
+    "score": 0.7,
+    "reason": [
+      "Kỹ năng giao tiếp và quản lý con người",
+      "Quan tâm phát triển nhân lực"
+    ],
+    "family": "econ"
+  },
+  {
+    "id": "R040",
+    "conditions": {
+      "interest": [
+        "kỹ thuật ô tô",
+        "động cơ"
+      ],
+      "math": ">=6"
+    },
+    "major": "Kỹ thuật ô tô",
+    "score": 0.74,
+    "reason": [
+      "Thích ô tô và động cơ",
+      "Nền tảng kỹ thuật cơ bản"
+    ],
+    "family": "engineering"
+  },
+  {
+    "id": "R041",
+    "conditions": {
+      "interest": [
+        "bảo tồn",
+        "du lịch sinh thái"
+      ],
+      "science": ">=6"
+    },
+    "major": "Du lịch",
+    "score": 0.66,
+    "reason": [
+      "Yêu thiên nhiên và bảo tồn",
+      "Quan tâm ngành du lịch bền vững"
+    ],
+    "family": "tourism"
+  },
+  {
+    "id": "R042",
+    "conditions": {
+      "interest": [
+        "ứng dụng phần mềm",
+        "dịch vụ phần mềm"
+      ],
+      "english": ">=6"
+    },
+    "major": "Kỹ thuật phần mềm",
+    "score": 0.82,
+    "reason": [
+      "Thích phát triển ứng dụng",
+      "Tiếng Anh đủ đọc tài liệu kỹ thuật"
+    ],
+    "family": "it"
+  },
+  {
+    "id": "R043",
+    "conditions": {
+      "interest": [
+        "khoa học máy tính",
+        "lập trình hệ thống"
+      ],
+      "math": ">=7"
+    },
+    "major": "Khoa học máy tính",
+    "score": 0.9,
+    "reason": [
+      "Toán và tư duy thuật toán mạnh",
+      "Quan tâm hệ thống và lập trình nâng cao"
+    ],
+    "family": "it"
+  },
+  {
+    "id": "R044",
+    "conditions": {
+      "interest": [
+        "thiết kế game",
+        "đồ họa máy tính"
+      ],
+      "creativity": ">=7"
+    },
+    "major": "Thiết kế game",
+    "score": 0.8,
+    "reason": [
+      "Kết hợp sáng tạo và kỹ thuật đồ họa",
+      "Thích làm game và mô phỏng"
+    ],
+    "family": "it"
+  },
+  {
+    "id": "R045",
+    "conditions": {
+      "interest": [
+        "phục hồi chức năng",
+        "vật lý trị liệu"
+      ],
+      "biology": ">=6"
+    },
+    "major": "Vật lý trị liệu",
+    "score": 0.7,
+    "reason": [
+      "Quan tâm sức khỏe và phục hồi",
+      "Nền tảng Sinh/Hóa cơ bản"
+    ],
+    "family": "health"
+  }
+]

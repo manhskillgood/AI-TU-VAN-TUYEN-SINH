@@ -1,0 +1,5665 @@
+{
+  "version": 2,
+  "updated": "auto",
+  "majors": [
+    {
+      "code": "7480201",
+      "name": "Công nghệ thông tin",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "D07"
+      ],
+      "reference_score": 21.0,
+      "core_skills": [
+        "lập trình",
+        "phân tích",
+        "hệ thống"
+      ],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "cntt",
+        "công",
+        "công nghệ",
+        "hệ thống",
+        "lập trình",
+        "máy tính",
+        "nghệ",
+        "phân tích",
+        "phần mềm",
+        "thông",
+        "tin"
+      ],
+      "description": "Nền tảng rộng về lý thuyết và ứng dụng CNTT.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7480103",
+      "name": "Kỹ thuật phần mềm",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01"
+      ],
+      "reference_score": 22.5,
+      "core_skills": [
+        "lập trình",
+        "thuật toán",
+        "tư duy logic"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "cntt",
+        "công nghệ",
+        "lập trình",
+        "máy tính",
+        "mềm",
+        "phần",
+        "phần mềm",
+        "thuật",
+        "thuật toán",
+        "tư duy logic"
+      ],
+      "description": "Thiết kế, phát triển và bảo trì phần mềm cho nhiều nền tảng.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7480101",
+      "name": "Khoa học máy tính",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02"
+      ],
+      "reference_score": 22.0,
+      "core_skills": [
+        "thuật toán",
+        "cấu trúc dữ liệu",
+        "lập trình"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "cntt",
+        "công nghệ",
+        "cấu trúc dữ liệu",
+        "học",
+        "khoa",
+        "lập trình",
+        "máy",
+        "máy tính",
+        "phần mềm",
+        "thuật toán",
+        "tính"
+      ],
+      "description": "Nghiên cứu nền tảng lý thuyết và hệ thống máy tính.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7340110",
+      "name": "Trí tuệ nhân tạo",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "D07"
+      ],
+      "reference_score": 24.0,
+      "core_skills": [
+        "machine learning",
+        "deep learning",
+        "python"
+      ],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "cntt",
+        "công nghệ",
+        "deep learning",
+        "lập trình",
+        "machine learning",
+        "máy tính",
+        "nhân",
+        "phần mềm",
+        "python",
+        "trí",
+        "tuệ",
+        "tạo"
+      ],
+      "description": "Phát triển hệ thống thông minh và AI.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7340121",
+      "name": "Khoa học dữ liệu",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "D07"
+      ],
+      "reference_score": 23.0,
+      "core_skills": [
+        "thống kê",
+        "phân tích dữ liệu",
+        "machine learning"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "cntt",
+        "công nghệ",
+        "học",
+        "khoa",
+        "liệu",
+        "lập trình",
+        "machine learning",
+        "máy tính",
+        "phân tích dữ liệu",
+        "phần mềm",
+        "thống kê"
+      ],
+      "description": "Phân tích và khai thác dữ liệu để hỗ trợ quyết định.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7480202",
+      "name": "An toàn thông tin",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01"
+      ],
+      "reference_score": 20.0,
+      "core_skills": [
+        "bảo mật",
+        "mạng",
+        "mã hóa"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "bảo mật",
+        "cntt",
+        "công nghệ",
+        "lập trình",
+        "máy tính",
+        "mã hóa",
+        "mạng",
+        "phần mềm",
+        "thông",
+        "tin",
+        "toàn"
+      ],
+      "description": "Bảo vệ hệ thống và dữ liệu khỏi tấn công mạng.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7480104",
+      "name": "Hệ thống thông tin",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "D07"
+      ],
+      "reference_score": 22.5,
+      "core_skills": [
+        "lập trình",
+        "tư duy logic",
+        "phân tích"
+      ],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "cntt",
+        "công nghệ",
+        "lập trình",
+        "máy tính",
+        "phân tích",
+        "phần mềm",
+        "thông",
+        "thống",
+        "tin",
+        "tư duy logic"
+      ],
+      "description": "Quản trị hạ tầng CNTT, ERP, quy trình nghiệp vụ số và tích hợp hệ thống doanh nghiệp.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7480102",
+      "name": "Mạng máy tính và truyền thông dữ liệu",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01"
+      ],
+      "reference_score": 19.6,
+      "core_skills": [
+        "lập trình",
+        "tư duy logic",
+        "phân tích"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "cntt",
+        "công nghệ",
+        "liệu",
+        "lập trình",
+        "máy",
+        "máy tính",
+        "mạng",
+        "phân tích",
+        "phần mềm",
+        "thông",
+        "truyền",
+        "tính",
+        "tư duy logic"
+      ],
+      "description": "Thiết kế mạng, truyền dẫn, cloud và vận hành hạ tầng viễn thông.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ",
+        "Truyền thông"
+      ]
+    },
+    {
+      "code": "7480106",
+      "name": "Kỹ thuật máy tính",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02",
+        "D07"
+      ],
+      "reference_score": 22.2,
+      "core_skills": [
+        "lập trình",
+        "tư duy logic",
+        "phân tích"
+      ],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "cntt",
+        "công nghệ",
+        "lập trình",
+        "máy",
+        "máy tính",
+        "phân tích",
+        "phần mềm",
+        "thuật",
+        "tính",
+        "tư duy logic"
+      ],
+      "description": "Phần cứng máy tính, nhúng và kiến trúc hệ thống; gần kỹ thuật điện–điện tử.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7520216",
+      "name": "Lập trình nhúng và IoT",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02",
+        "D07"
+      ],
+      "reference_score": 22.5,
+      "core_skills": [
+        "lập trình",
+        "tư duy logic",
+        "phân tích"
+      ],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "cntt",
+        "công nghệ",
+        "iot",
+        "lập",
+        "lập trình",
+        "máy tính",
+        "nhúng",
+        "phân tích",
+        "phần mềm",
+        "trình",
+        "tư duy logic"
+      ],
+      "description": "Lập trình firmware, cảm biến, IoT và hệ thống nhúng trong công nghiệp 4.0.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7480108",
+      "name": "Thiết kế game",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "reference_score": 18.6,
+      "core_skills": [
+        "lập trình",
+        "tư duy logic",
+        "phân tích"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "cntt",
+        "công nghệ",
+        "game",
+        "lập trình",
+        "máy tính",
+        "phân tích",
+        "phần mềm",
+        "thiết",
+        "tư duy logic"
+      ],
+      "description": "Kết hợp lập trình game, đồ họa và thiết kế trải nghiệm người chơi.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ",
+        "Nghệ thuật"
+      ]
+    },
+    {
+      "code": "7320106",
+      "name": "Công nghệ đa phương tiện",
+      "family": "tech_applied",
+      "exam_blocks": [
+        "A02",
+        "B00",
+        "B03",
+        "D07",
+        "H00"
+      ],
+      "reference_score": 22.2,
+      "core_skills": [],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "công",
+        "công nghệ ứng dụng",
+        "kỹ thuật",
+        "nghệ",
+        "phương",
+        "tiện"
+      ],
+      "description": "Công nghệ đa phương tiện: ứng dụng khoa học vào sản xuất và kiểm định (không phải lập trình CNTT). Khối thi thường: A02, B00, B03.",
+      "careers": [
+        "Kỹ sư sinh học",
+        "Kỹ sư môi trường",
+        "Nhà nghiên cứu"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7340122",
+      "name": "Thương mại điện tử",
+      "family": "engineering",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02"
+      ],
+      "reference_score": 16.0,
+      "core_skills": [
+        "digital marketing",
+        "phân tích",
+        "kinh doanh"
+      ],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "digital marketing",
+        "kinh doanh",
+        "mại",
+        "phân tích",
+        "thương",
+        "điện"
+      ],
+      "description": "Kinh doanh và vận hành nền tảng online.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật",
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7460101",
+      "name": "Toán học",
+      "family": "science",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.4,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "học",
+        "kinh doanh",
+        "phân tích",
+        "thống kê",
+        "toán"
+      ],
+      "description": "Toán thuần — đại số, giải tích, xác suất; nền cho nghiên cứu, tài chính định lượng và CNTT.",
+      "careers": [
+        "Kỹ sư",
+        "Lập trình viên",
+        "Nhà khoa học"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7460112",
+      "name": "Toán ứng dụng",
+      "family": "econ",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.8,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "dụng",
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích",
+        "toán",
+        "ứng"
+      ],
+      "description": "Ứng dụng toán vào mô hình kinh tế, tối ưu, thống kê và khoa học dữ liệu.",
+      "careers": [
+        "Kỹ sư",
+        "Lập trình viên",
+        "Nhà khoa học"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7460102",
+      "name": "Thống kê",
+      "family": "science",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.8,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích",
+        "thống",
+        "thống kê",
+        "toán"
+      ],
+      "description": "Thu thập dữ liệu, ước lượng và kiểm định giả thuyết; nền cho phân tích kinh tế–xã hội.",
+      "careers": [
+        "Kỹ sư",
+        "Lập trình viên",
+        "Nhà khoa học"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7340121",
+      "name": "Khoa học dữ liệu thống kê",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02",
+        "B00",
+        "D07"
+      ],
+      "reference_score": 22.6,
+      "core_skills": [
+        "lập trình",
+        "tư duy logic",
+        "phân tích"
+      ],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "cntt",
+        "công nghệ",
+        "học",
+        "khoa",
+        "liệu",
+        "lập trình",
+        "máy tính",
+        "phân tích",
+        "phần mềm",
+        "thống",
+        "tư duy logic"
+      ],
+      "description": "Kết hợp thống kê hiện đại và khoa học dữ liệu cho quyết định dựa trên số liệu.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7440101",
+      "name": "Vật lý học",
+      "family": "science",
+      "exam_blocks": [
+        "A00",
+        "B00",
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.6,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "hóa học",
+        "học",
+        "kinh doanh",
+        "phân tích",
+        "thí nghiệm",
+        "vật",
+        "vật lý"
+      ],
+      "description": "Nghiên cứu vật lý cơ bản; nền cho kỹ thuật, vật liệu và công nghệ cao.",
+      "careers": [
+        "Kỹ sư",
+        "Lập trình viên",
+        "Nhà khoa học"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7520401",
+      "name": "Kỹ thuật vật lý",
+      "family": "engineering",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02"
+      ],
+      "reference_score": 21.2,
+      "core_skills": [
+        "tư duy logic",
+        "kỹ thuật",
+        "giải quyết vấn đề"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giải quyết vấn đề",
+        "kỹ thuật",
+        "thuật",
+        "tư duy logic",
+        "vật"
+      ],
+      "description": "Ứng dụng vật lý trong thiết bị, đo lường và công nghiệp chính xác.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7510402",
+      "name": "Công nghệ vật liệu",
+      "family": "tech_applied",
+      "exam_blocks": [
+        "A02",
+        "B00",
+        "B03",
+        "D07",
+        "H00"
+      ],
+      "reference_score": 22.6,
+      "core_skills": [],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "công",
+        "công nghệ ứng dụng",
+        "kỹ thuật",
+        "liệu",
+        "nghệ",
+        "vật"
+      ],
+      "description": "Phát triển và kiểm định vật liệu mới trong cơ khí, điện tử và xây dựng.",
+      "careers": [
+        "Kỹ sư sinh học",
+        "Kỹ sư môi trường",
+        "Nhà nghiên cứu"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7510203",
+      "name": "Cơ điện tử",
+      "family": "engineering",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02"
+      ],
+      "reference_score": 20.2,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích",
+        "điện"
+      ],
+      "description": "Cơ điện tử: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: A00, A01, A02.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7520101",
+      "name": "Kỹ thuật cơ khí",
+      "family": "engineering",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02"
+      ],
+      "reference_score": 21.5,
+      "core_skills": [
+        "tư duy logic",
+        "kỹ thuật",
+        "giải quyết vấn đề"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giải quyết vấn đề",
+        "khí",
+        "kỹ thuật",
+        "thuật",
+        "tư duy logic"
+      ],
+      "description": "Thiết kế, chế tạo và bảo trì máy móc, ô tô, năng lượng và sản xuất.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7520114",
+      "name": "Kỹ thuật ô tô",
+      "family": "engineering",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02"
+      ],
+      "reference_score": 21.5,
+      "core_skills": [
+        "tư duy logic",
+        "kỹ thuật",
+        "giải quyết vấn đề"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giải quyết vấn đề",
+        "kỹ thuật",
+        "thuật",
+        "tư duy logic"
+      ],
+      "description": "Kỹ thuật động cơ, khung gầm và hệ thống điện–điều khiển trên ô tô.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7520120",
+      "name": "Kỹ thuật hàng không",
+      "family": "aviation",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "reference_score": 21.1,
+      "core_skills": [],
+      "job_trends": "Cao",
+      "keywords": [
+        "hàng",
+        "không",
+        "thuật"
+      ],
+      "description": "Thiết kế, bảo dưỡng và vận hành kết cấu, động cơ hàng không.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Học viện Hàng không Việt Nam",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM"
+      ],
+      "wizard_interests": [
+        "Du lịch"
+      ]
+    },
+    {
+      "code": "7520201",
+      "name": "Kỹ thuật điện",
+      "family": "engineering",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02"
+      ],
+      "reference_score": 21.9,
+      "core_skills": [
+        "tư duy logic",
+        "kỹ thuật",
+        "giải quyết vấn đề"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giải quyết vấn đề",
+        "kỹ thuật",
+        "thuật",
+        "tư duy logic",
+        "điện"
+      ],
+      "description": "Kỹ thuật điện: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7520201",
+      "name": "Kỹ thuật điện tử viễn thông",
+      "family": "engineering",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02"
+      ],
+      "reference_score": 21.1,
+      "core_skills": [
+        "tư duy logic",
+        "kỹ thuật",
+        "giải quyết vấn đề"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giải quyết vấn đề",
+        "kỹ thuật",
+        "thuật",
+        "thông",
+        "tư duy logic",
+        "viễn",
+        "điện"
+      ],
+      "description": "Kỹ thuật điện tử viễn thông: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7520216",
+      "name": "Kỹ thuật điều khiển và tự động hóa",
+      "family": "engineering",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02"
+      ],
+      "reference_score": 21.6,
+      "core_skills": [
+        "tư duy logic",
+        "kỹ thuật",
+        "giải quyết vấn đề"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giải quyết vấn đề",
+        "hóa",
+        "khiển",
+        "kỹ thuật",
+        "thuật",
+        "tư duy logic",
+        "điều",
+        "động"
+      ],
+      "description": "Kỹ thuật điều khiển và tự động hóa: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7480107",
+      "name": "Robot và trí tuệ nhân tạo",
+      "family": "it",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02",
+        "D07"
+      ],
+      "reference_score": 22.1,
+      "core_skills": [
+        "lập trình",
+        "tư duy logic",
+        "phân tích"
+      ],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "cntt",
+        "công nghệ",
+        "lập trình",
+        "máy tính",
+        "nhân",
+        "phân tích",
+        "phần mềm",
+        "robot",
+        "trí",
+        "tuệ",
+        "tư duy logic",
+        "tạo"
+      ],
+      "description": "Robot học, thị giác máy tính và AI cho tự động hóa thông minh.",
+      "careers": [
+        "Lập trình viên",
+        "Kỹ sư phần mềm",
+        "Kỹ sư hệ thống",
+        "Chuyên viên dữ liệu"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Công nghệ"
+      ]
+    },
+    {
+      "code": "7440112",
+      "name": "Hóa học",
+      "family": "science",
+      "exam_blocks": [
+        "A00",
+        "B00",
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.8,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "hóa",
+        "hóa học",
+        "học",
+        "kinh doanh",
+        "phân tích",
+        "thí nghiệm",
+        "vật lý"
+      ],
+      "description": "Hóa lý, hóa hữu cơ và phân tích; nền cho dược, vật liệu và môi trường.",
+      "careers": [
+        "Kỹ sư",
+        "Lập trình viên",
+        "Nhà khoa học"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7440112",
+      "name": "Công nghệ hóa học",
+      "family": "tech_applied",
+      "exam_blocks": [
+        "A00",
+        "B00",
+        "B03",
+        "D07"
+      ],
+      "reference_score": 22.4,
+      "core_skills": [],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "công",
+        "công nghệ ứng dụng",
+        "hóa",
+        "học",
+        "kỹ thuật",
+        "nghệ"
+      ],
+      "description": "Ứng dụng hóa học trong sản xuất công nghiệp, dược phẩm và năng lượng.",
+      "careers": [
+        "Kỹ sư",
+        "Lập trình viên",
+        "Nhà khoa học"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7540101",
+      "name": "Công nghệ thực phẩm",
+      "family": "tech_applied",
+      "exam_blocks": [
+        "B00",
+        "B03",
+        "D07",
+        "H00"
+      ],
+      "reference_score": 22.2,
+      "core_skills": [
+        "an toàn thực phẩm",
+        "hóa học",
+        "kiểm định"
+      ],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "an toàn thực phẩm",
+        "chế biến",
+        "công",
+        "hóa học",
+        "kiểm định",
+        "nghệ",
+        "phẩm",
+        "thực",
+        "thực phẩm"
+      ],
+      "description": "Kiểm soát chất lượng, chế biến và an toàn vệ sinh thực phẩm — không phải lập trình CNTT.",
+      "careers": [
+        "Kỹ sư công nghệ thực phẩm",
+        "Chuyên viên QA thực phẩm",
+        "Quản lý sản xuất chế biến"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Y tế"
+      ]
+    },
+    {
+      "code": "7420201",
+      "name": "Công nghệ sinh học",
+      "family": "tech_applied",
+      "exam_blocks": [
+        "A02",
+        "B00",
+        "B03",
+        "H00"
+      ],
+      "reference_score": 22.1,
+      "core_skills": [],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "công",
+        "công nghệ sinh học",
+        "học",
+        "lab",
+        "nghệ",
+        "sinh",
+        "sinh học"
+      ],
+      "description": "Ứng dụng sinh học phân tử trong lab, dược và công nghiệp sinh học.",
+      "careers": [
+        "Kỹ sư sinh học",
+        "Chuyên viên R&D",
+        "Kỹ thuật viên phòng lab"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7520801",
+      "name": "Kỹ thuật môi trường",
+      "family": "environment",
+      "exam_blocks": [
+        "A00",
+        "A02",
+        "B00"
+      ],
+      "reference_score": 17.6,
+      "core_skills": [],
+      "job_trends": "Trung bình",
+      "keywords": [
+        "môi",
+        "thuật",
+        "trường"
+      ],
+      "description": "Xử lý nước thải, khí thải và công nghệ xanh trong sản xuất.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Nông nghiệp Hà Nội",
+        "Đại học Thủy lợi",
+        "Học viện Nông nghiệp Việt Nam",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Nông Lâm TP.HCM",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Quy Nhơn",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7850101",
+      "name": "Quản lý tài nguyên môi trường",
+      "family": "environment",
+      "exam_blocks": [
+        "A02",
+        "B00",
+        "C00"
+      ],
+      "reference_score": 17.7,
+      "core_skills": [],
+      "job_trends": "Trung bình",
+      "keywords": [
+        "môi",
+        "nguyên",
+        "quản",
+        "trường",
+        "tài"
+      ],
+      "description": "Quy hoạch, giám sát tài nguyên và chính sách môi trường bền vững.",
+      "careers": [
+        "Kỹ sư nông nghiệp",
+        "Chuyên viên môi trường",
+        "Quản lý trang trại"
+      ],
+      "universities": [
+        "Đại học Nông nghiệp Hà Nội",
+        "Đại học Thủy lợi",
+        "Học viện Nông nghiệp Việt Nam",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Nông Lâm TP.HCM",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Quy Nhơn",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7420101",
+      "name": "Sinh học",
+      "family": "science",
+      "exam_blocks": [
+        "A02",
+        "B00"
+      ],
+      "reference_score": 20.8,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "học",
+        "kinh doanh",
+        "lab",
+        "nghiên cứu",
+        "phân tích",
+        "sinh",
+        "sinh học"
+      ],
+      "description": "Nghiên cứu sự sống ở tế bào–quần thể; nền cho y sinh, môi trường và R&D.",
+      "careers": [
+        "Kỹ sư sinh học",
+        "Chuyên viên R&D",
+        "Kỹ thuật viên phòng lab"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7420201",
+      "name": "Công nghệ sinh học y dược",
+      "family": "tech_applied",
+      "exam_blocks": [
+        "B00",
+        "B03",
+        "D07",
+        "H00"
+      ],
+      "reference_score": 24.0,
+      "core_skills": [],
+      "job_trends": "Cao",
+      "keywords": [
+        "công",
+        "công nghệ sinh học",
+        "dược",
+        "học",
+        "lab",
+        "nghệ",
+        "sinh",
+        "sinh học"
+      ],
+      "description": "Sinh học phục vụ dược phẩm, xét nghiệm và sản xuất sinh phẩm y tế.",
+      "careers": [
+        "Kỹ sư sinh học",
+        "Chuyên viên R&D",
+        "Kỹ thuật viên phòng lab"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Y tế"
+      ]
+    },
+    {
+      "code": "7720601",
+      "name": "Công nghệ xét nghiệm",
+      "family": "tech_applied",
+      "exam_blocks": [
+        "B00",
+        "B03",
+        "H00"
+      ],
+      "reference_score": 22.8,
+      "core_skills": [],
+      "job_trends": "Rất cao",
+      "keywords": [
+        "công",
+        "công nghệ ứng dụng",
+        "kỹ thuật",
+        "nghiệm",
+        "nghệ",
+        "xét"
+      ],
+      "description": "Kỹ thuật xét nghiệm lâm sàng, thiết bị lab và quy trình chẩn đoán.",
+      "careers": [
+        "Bác sĩ",
+        "Dược sĩ",
+        "Kỹ sư nông nghiệp"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7440112",
+      "name": "Khoa học sự sống",
+      "family": "science",
+      "exam_blocks": [
+        "A00",
+        "B00",
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.2,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "học",
+        "khoa",
+        "kinh doanh",
+        "lab",
+        "nghiên cứu",
+        "phân tích",
+        "sinh học",
+        "sống"
+      ],
+      "description": "Tổng hợp sinh học, hóa sinh và phương pháp nghiên cứu đa ngành.",
+      "careers": [
+        "Kỹ sư",
+        "Lập trình viên",
+        "Nhà khoa học"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7720101",
+      "name": "Y khoa",
+      "family": "health",
+      "exam_blocks": [
+        "B00",
+        "B03",
+        "H00"
+      ],
+      "reference_score": 24.4,
+      "core_skills": [
+        "chăm sóc",
+        "sinh học",
+        "giao tiếp"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "chăm sóc",
+        "giao tiếp",
+        "khoa",
+        "sinh học",
+        "sức khỏe",
+        "y tế"
+      ],
+      "description": "Chăm sóc sức khỏe, điều trị và nghiên cứu y sinh; yêu cầu cam kết học tập lâu dài.",
+      "careers": [
+        "Bác sĩ",
+        "Dược sĩ",
+        "Điều dưỡng viên",
+        "Kỹ thuật viên y tế"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Y tế"
+      ]
+    },
+    {
+      "code": "7720501",
+      "name": "Răng hàm mặt",
+      "family": "health",
+      "exam_blocks": [
+        "B00",
+        "B03",
+        "H00"
+      ],
+      "reference_score": 23.7,
+      "core_skills": [
+        "chăm sóc",
+        "sinh học",
+        "giao tiếp"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "chăm sóc",
+        "giao tiếp",
+        "hàm",
+        "mặt",
+        "răng",
+        "sinh học"
+      ],
+      "description": "Nha khoa lâm sàng, phục hình và điều trị răng–hàm–mặt.",
+      "careers": [
+        "Bác sĩ",
+        "Dược sĩ",
+        "Điều dưỡng viên",
+        "Kỹ thuật viên y tế"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Y tế"
+      ]
+    },
+    {
+      "code": "7720201",
+      "name": "Dược học",
+      "family": "health",
+      "exam_blocks": [
+        "B00",
+        "B03",
+        "H00"
+      ],
+      "reference_score": 23.6,
+      "core_skills": [
+        "chăm sóc",
+        "sinh học",
+        "giao tiếp"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "chăm sóc",
+        "dược",
+        "giao tiếp",
+        "học",
+        "sinh học",
+        "sức khỏe",
+        "y tế"
+      ],
+      "description": "Dược lý, bào chế và tư vấn sử dụng thuốc an toàn.",
+      "careers": [
+        "Bác sĩ",
+        "Dược sĩ",
+        "Điều dưỡng viên",
+        "Kỹ thuật viên y tế"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Y tế"
+      ]
+    },
+    {
+      "code": "7720301",
+      "name": "Điều dưỡng",
+      "family": "health",
+      "exam_blocks": [
+        "B00",
+        "B03",
+        "H00"
+      ],
+      "reference_score": 20.4,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "dưỡng",
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích",
+        "điều"
+      ],
+      "description": "Điều dưỡng: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: B00, B03, H00.",
+      "careers": [
+        "Bác sĩ",
+        "Dược sĩ",
+        "Điều dưỡng viên",
+        "Kỹ thuật viên y tế"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Y tế"
+      ]
+    },
+    {
+      "code": "7720601",
+      "name": "Kỹ thuật xét nghiệm y học",
+      "family": "engineering",
+      "exam_blocks": [
+        "B00",
+        "B03",
+        "H00"
+      ],
+      "reference_score": 21.6,
+      "core_skills": [
+        "tư duy logic",
+        "kỹ thuật",
+        "giải quyết vấn đề"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giải quyết vấn đề",
+        "học",
+        "kỹ thuật",
+        "nghiệm",
+        "thuật",
+        "tư duy logic",
+        "xét"
+      ],
+      "description": "Vận hành máy xét nghiệm và quy trình kiểm tra mẫu bệnh phẩm.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7720602",
+      "name": "Kỹ thuật hình ảnh y học",
+      "family": "health",
+      "exam_blocks": [
+        "B00",
+        "B03",
+        "H00"
+      ],
+      "reference_score": 23.6,
+      "core_skills": [
+        "chăm sóc",
+        "sinh học",
+        "giao tiếp"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "chăm sóc",
+        "giao tiếp",
+        "hình",
+        "học",
+        "sinh học",
+        "thuật",
+        "ảnh"
+      ],
+      "description": "Chụp X-quang, CT, MRI và kỹ thuật chẩn đoán hình ảnh.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Y tế"
+      ]
+    },
+    {
+      "code": "7720701",
+      "name": "Y tế công cộng",
+      "family": "econ",
+      "exam_blocks": [
+        "B00",
+        "B03",
+        "H00"
+      ],
+      "reference_score": 23.9,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "công",
+        "cộng",
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích"
+      ],
+      "description": "Epidemiology, phòng chống dịch và quản lý sức khỏe cộng đồng.",
+      "careers": [
+        "Bác sĩ",
+        "Dược sĩ",
+        "Điều dưỡng viên",
+        "Kỹ thuật viên y tế"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7720401",
+      "name": "Dinh dưỡng",
+      "family": "econ",
+      "exam_blocks": [
+        "H00"
+      ],
+      "reference_score": 20.1,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "dinh",
+        "dưỡng",
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích"
+      ],
+      "description": "Tư vấn dinh dưỡng lâm sàng và chế độ ăn phòng bệnh.",
+      "careers": [
+        "Dược sĩ",
+        "Kỹ thuật viên y tế",
+        "Chuyên viên phòng lab"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7720603",
+      "name": "Vật lý trị liệu",
+      "family": "health",
+      "exam_blocks": [
+        "B00",
+        "B03",
+        "H00"
+      ],
+      "reference_score": 24.0,
+      "core_skills": [
+        "chăm sóc",
+        "sinh học",
+        "giao tiếp"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "chăm sóc",
+        "giao tiếp",
+        "liệu",
+        "sinh học",
+        "trị",
+        "vật"
+      ],
+      "description": "Phục hồi chức năng vận động bằng vật lý trị liệu và kỹ thuật y sinh.",
+      "careers": [
+        "Bác sĩ",
+        "Dược sĩ",
+        "Kỹ sư nông nghiệp"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Y tế"
+      ]
+    },
+    {
+      "code": "7720302",
+      "name": "Hộ sinh",
+      "family": "health",
+      "exam_blocks": [
+        "B00"
+      ],
+      "reference_score": 24.1,
+      "core_skills": [
+        "chăm sóc",
+        "sinh học",
+        "giao tiếp"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "chăm sóc",
+        "giao tiếp",
+        "sinh",
+        "sinh học"
+      ],
+      "description": "Hỗ trợ sinh sản an toàn trong đẻ và chăm sóc sơ sinh.",
+      "careers": [
+        "Bác sĩ",
+        "Dược sĩ",
+        "Điều dưỡng viên",
+        "Kỹ thuật viên y tế"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Y tế"
+      ]
+    },
+    {
+      "code": "7380101",
+      "name": "Luật",
+      "family": "law",
+      "exam_blocks": [
+        "C00",
+        "C14",
+        "D14"
+      ],
+      "reference_score": 21.0,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "luật",
+        "pháp luật"
+      ],
+      "description": "Hệ thống pháp luật Việt Nam, tố tụng và tư vấn pháp lý.",
+      "careers": [
+        "Luật sư",
+        "Chuyên viên pháp chế",
+        "Cán bộ tư pháp"
+      ],
+      "universities": [
+        "Đại học Luật Hà Nội",
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Luật TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Huế",
+        "Đại học Đà Nẵng",
+        "Đại học Tây Nguyên",
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất"
+      ],
+      "wizard_interests": [
+        "Luật & Xã hội"
+      ]
+    },
+    {
+      "code": "7380107",
+      "name": "Luật kinh tế",
+      "family": "law",
+      "exam_blocks": [
+        "C00",
+        "D01",
+        "D14"
+      ],
+      "reference_score": 20.6,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "kinh",
+        "luật",
+        "pháp luật"
+      ],
+      "description": "Pháp luật doanh nghiệp, hợp đồng thương mại và tranh chấp kinh tế.",
+      "careers": [
+        "Chuyên viên phân tích",
+        "Nhân viên kinh doanh",
+        "Kế toán viên",
+        "Chuyên viên tài chính"
+      ],
+      "universities": [
+        "Đại học Luật Hà Nội",
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Luật TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Huế",
+        "Đại học Đà Nẵng",
+        "Đại học Tây Nguyên",
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất"
+      ],
+      "wizard_interests": [
+        "Kinh tế",
+        "Luật & Xã hội"
+      ]
+    },
+    {
+      "code": "7380108",
+      "name": "Luật quốc tế",
+      "family": "law",
+      "exam_blocks": [
+        "C00",
+        "C14",
+        "D01",
+        "D14"
+      ],
+      "reference_score": 20.9,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "luật",
+        "pháp luật",
+        "quốc"
+      ],
+      "description": "Luật quốc tế, thương mại xuyên biên giới và tổ chức quốc tế.",
+      "careers": [
+        "Luật sư",
+        "Chuyên viên pháp chế",
+        "Cán bộ tư pháp"
+      ],
+      "universities": [
+        "Đại học Luật Hà Nội",
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Luật TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Huế",
+        "Đại học Đà Nẵng",
+        "Đại học Tây Nguyên",
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất"
+      ],
+      "wizard_interests": [
+        "Luật & Xã hội"
+      ]
+    },
+    {
+      "code": "7310101",
+      "name": "Kinh tế học",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.5,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "học",
+        "kinh",
+        "kinh doanh",
+        "phân tích"
+      ],
+      "description": "Lý thuyết kinh tế vĩ mô–vi mô và phân tích chính sách.",
+      "careers": [
+        "Chuyên viên phân tích",
+        "Nhân viên kinh doanh",
+        "Kế toán viên",
+        "Chuyên viên tài chính"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7310106",
+      "name": "Kinh tế quốc tế",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.8,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "kinh",
+        "kinh doanh",
+        "phân tích",
+        "quốc"
+      ],
+      "description": "Thương mại, FDI và kinh tế toàn cầu.",
+      "careers": [
+        "Chuyên viên phân tích",
+        "Nhân viên kinh doanh",
+        "Kế toán viên",
+        "Chuyên viên tài chính"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340204",
+      "name": "Kinh doanh quốc tế",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.1,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "doanh",
+        "giao tiếp",
+        "kinh",
+        "kinh doanh",
+        "phân tích",
+        "quốc"
+      ],
+      "description": "Phân tích thị trường, quản trị doanh nghiệp và tài chính.",
+      "careers": [
+        "Chuyên viên phân tích",
+        "Nhân viên kinh doanh",
+        "Kế toán viên",
+        "Chuyên viên tài chính"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340101",
+      "name": "Quản trị kinh doanh",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 17.5,
+      "core_skills": [
+        "lãnh đạo",
+        "quản lý",
+        "phân tích"
+      ],
+      "job_trends": "Ổn định",
+      "keywords": [
+        "doanh",
+        "kinh",
+        "lãnh đạo",
+        "phân tích",
+        "quản",
+        "quản lý",
+        "trị"
+      ],
+      "description": "Quản lý và vận hành doanh nghiệp.",
+      "careers": [
+        "Chuyên viên phân tích",
+        "Nhân viên kinh doanh",
+        "Kế toán viên",
+        "Chuyên viên tài chính"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340404",
+      "name": "Quản trị nhân lực",
+      "family": "econ",
+      "exam_blocks": [
+        "C00",
+        "D01"
+      ],
+      "reference_score": 20.8,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "kinh doanh",
+        "lực",
+        "nhân",
+        "phân tích",
+        "quản",
+        "trị"
+      ],
+      "description": "Tuyển dụng, đào tạo và phát triển nguồn nhân lực.",
+      "careers": [
+        "Nhà báo",
+        "Luật sư",
+        "Giáo viên",
+        "Chuyên viên xã hội"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340115",
+      "name": "Marketing",
+      "family": "econ",
+      "exam_blocks": [
+        "C14",
+        "D01",
+        "D07"
+      ],
+      "reference_score": 18.0,
+      "core_skills": [
+        "sáng tạo",
+        "giao tiếp",
+        "phân tích thị trường"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "marketing",
+        "phân tích thị trường",
+        "quảng cáo",
+        "sáng tạo"
+      ],
+      "description": "Xây dựng chiến lược tiếp thị và thương hiệu.",
+      "careers": [
+        "Nhà báo",
+        "Biên tập viên",
+        "Chuyên viên Marketing",
+        "Content creator"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340115",
+      "name": "Digital Marketing",
+      "family": "econ",
+      "exam_blocks": [
+        "C14",
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.2,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "digital",
+        "giao tiếp",
+        "kinh doanh",
+        "marketing",
+        "phân tích",
+        "quảng cáo"
+      ],
+      "description": "Sáng tạo nội dung, truyền thông và chiến lược tiếp thị.",
+      "careers": [
+        "Nhà báo",
+        "Biên tập viên",
+        "Chuyên viên Marketing",
+        "Content creator"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340201",
+      "name": "Tài chính ngân hàng",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.9,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "chính",
+        "giao tiếp",
+        "hàng",
+        "kinh doanh",
+        "ngân",
+        "phân tích",
+        "tài"
+      ],
+      "description": "Tín dụng, đầu tư và quản trị rủi ro tài chính.",
+      "careers": [
+        "Chuyên viên phân tích",
+        "Nhân viên kinh doanh",
+        "Kế toán viên",
+        "Chuyên viên tài chính"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340301",
+      "name": "Kế toán",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.5,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích",
+        "toán"
+      ],
+      "description": "Ghi chép, báo cáo tài chính và tuân thủ kế toán–thuế.",
+      "careers": [
+        "Chuyên viên phân tích",
+        "Nhân viên kinh doanh",
+        "Kế toán viên",
+        "Chuyên viên tài chính"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340302",
+      "name": "Kiểm toán",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.4,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "kinh doanh",
+        "kiểm",
+        "phân tích",
+        "toán"
+      ],
+      "description": "Kiểm toán độc lập, nội bộ và đánh giá minh bạch tài chính.",
+      "careers": [
+        "Chuyên viên kinh doanh",
+        "Kế toán",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7310104",
+      "name": "Phân tích đầu tư tài chính",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.6,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "chính",
+        "giao tiếp",
+        "kinh doanh",
+        "phân",
+        "phân tích",
+        "tài",
+        "tích",
+        "đầu"
+      ],
+      "description": "Phân tích đầu tư tài chính: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: D01, D07.",
+      "careers": [
+        "Chuyên viên phân tích",
+        "Nhân viên kinh doanh",
+        "Kế toán viên",
+        "Chuyên viên tài chính"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340201",
+      "name": "Chứng khoán",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.1,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "chứng",
+        "giao tiếp",
+        "khoán",
+        "kinh doanh",
+        "phân tích"
+      ],
+      "description": "Môi giới, phân tích thị trường và dịch vụ chứng khoán.",
+      "careers": [
+        "Chuyên viên kinh doanh",
+        "Kế toán",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340204",
+      "name": "Bảo hiểm",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.1,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "bảo",
+        "giao tiếp",
+        "hiểm",
+        "kinh doanh",
+        "phân tích"
+      ],
+      "description": "Sản phẩm bảo hiểm, bồi thường và quản trị rủi ro.",
+      "careers": [
+        "Chuyên viên kinh doanh",
+        "Kế toán",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7840104",
+      "name": "Logistics và quản lý chuỗi cung ứng",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.5,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "chuỗi",
+        "cung",
+        "giao tiếp",
+        "kinh doanh",
+        "logistics",
+        "phân tích",
+        "quản",
+        "ứng"
+      ],
+      "description": "Vận tải, kho bãi và tối ưu chuỗi cung ứng.",
+      "careers": [
+        "Chuyên viên phân tích",
+        "Nhân viên kinh doanh",
+        "Kế toán viên",
+        "Chuyên viên tài chính"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7510605",
+      "name": "Quản trị logistics",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.6,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "kinh doanh",
+        "logistics",
+        "phân tích",
+        "quản",
+        "trị"
+      ],
+      "description": "Điều phối vận hành logistics và hợp đồng vận chuyển.",
+      "careers": [
+        "Chuyên viên phân tích",
+        "Nhân viên kinh doanh",
+        "Kế toán viên",
+        "Chuyên viên tài chính"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340121",
+      "name": "Thương mại quốc tế",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.4,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "kinh doanh",
+        "mại",
+        "phân tích",
+        "quốc",
+        "thương"
+      ],
+      "description": "Xuất nhập khẩu, Incoterms và thương lượng hợp đồng.",
+      "careers": [
+        "Chuyên viên kinh doanh",
+        "Kế toán",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340116",
+      "name": "Bất động sản",
+      "family": "econ",
+      "exam_blocks": [
+        "C00",
+        "D01"
+      ],
+      "reference_score": 20.2,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "bất",
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích",
+        "sản",
+        "động"
+      ],
+      "description": "Bất động sản: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: C00, D01.",
+      "careers": [
+        "Nhà báo",
+        "Luật sư",
+        "Giáo viên",
+        "Chuyên viên xã hội"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340409",
+      "name": "Quản lý dự án",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.2,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích",
+        "quản"
+      ],
+      "description": "Lập kế hoạch, giám sát tiến độ và quản trị dự án.",
+      "careers": [
+        "Chuyên viên kinh doanh",
+        "Kế toán",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7340406",
+      "name": "Quản trị văn phòng",
+      "family": "econ",
+      "exam_blocks": [
+        "D01",
+        "D07"
+      ],
+      "reference_score": 20.1,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích",
+        "phòng",
+        "quản",
+        "trị",
+        "văn"
+      ],
+      "description": "Hành chính, thư ký điều hành và quy trình văn phòng.",
+      "careers": [
+        "Chuyên viên kinh doanh",
+        "Kế toán",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7810101",
+      "name": "Du lịch",
+      "family": "tourism",
+      "exam_blocks": [
+        "C00",
+        "C15",
+        "D15"
+      ],
+      "reference_score": 19.8,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "lịch"
+      ],
+      "description": "Lữ hành, điểm đến và phát triển sản phẩm du lịch.",
+      "careers": [
+        "Hướng dẫn viên du lịch",
+        "Quản lý khách sạn",
+        "Chuyên viên sự kiện"
+      ],
+      "universities": [
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Văn Lang",
+        "Đại học Nha Trang",
+        "Đại học Đà Lạt",
+        "Đại học Duy Tân",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Du lịch"
+      ]
+    },
+    {
+      "code": "7810201",
+      "name": "Quản trị khách sạn",
+      "family": "tourism",
+      "exam_blocks": [
+        "C15",
+        "D01",
+        "D15"
+      ],
+      "reference_score": 19.1,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "khách",
+        "quản",
+        "sạn",
+        "trị"
+      ],
+      "description": "Vận hành khách sạn, lễ tân và trải nghiệm lưu trú.",
+      "careers": [
+        "Hướng dẫn viên du lịch",
+        "Quản lý khách sạn",
+        "Chuyên viên sự kiện"
+      ],
+      "universities": [
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Văn Lang",
+        "Đại học Nha Trang",
+        "Đại học Đà Lạt",
+        "Đại học Duy Tân",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Kinh tế",
+        "Du lịch"
+      ]
+    },
+    {
+      "code": "7810202",
+      "name": "Quản trị nhà hàng",
+      "family": "tourism",
+      "exam_blocks": [
+        "C00",
+        "C15",
+        "D01",
+        "D15"
+      ],
+      "reference_score": 19.2,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "hàng",
+        "nhà",
+        "quản",
+        "trị"
+      ],
+      "description": "Ẩm thực, F&B và quản lý nhà hàng–dịch vụ ăn uống.",
+      "careers": [
+        "Hướng dẫn viên du lịch",
+        "Quản lý khách sạn",
+        "Chuyên viên sự kiện"
+      ],
+      "universities": [
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Văn Lang",
+        "Đại học Nha Trang",
+        "Đại học Đà Lạt",
+        "Đại học Duy Tân",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Kinh tế",
+        "Du lịch"
+      ]
+    },
+    {
+      "code": "7810102",
+      "name": "Hướng dẫn du lịch",
+      "family": "tourism",
+      "exam_blocks": [
+        "C00",
+        "C15",
+        "D15"
+      ],
+      "reference_score": 19.8,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "dẫn",
+        "hướng",
+        "lịch"
+      ],
+      "description": "Thuyết minh, tour và dịch vụ hướng dẫn viên chuyên nghiệp.",
+      "careers": [
+        "Hướng dẫn viên du lịch",
+        "Quản lý khách sạn",
+        "Chuyên viên sự kiện"
+      ],
+      "universities": [
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Văn Lang",
+        "Đại học Nha Trang",
+        "Đại học Đà Lạt",
+        "Đại học Duy Tân",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Du lịch"
+      ]
+    },
+    {
+      "code": "7810103",
+      "name": "Dịch vụ hàng không",
+      "family": "aviation",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "reference_score": 21.9,
+      "core_skills": [],
+      "job_trends": "Cao",
+      "keywords": [
+        "dịch",
+        "hàng",
+        "không"
+      ],
+      "description": "Tiếp viên, dịch vụ sân bay và vận hành hàng không thương mại.",
+      "careers": [
+        "Kỹ sư",
+        "Lập trình viên",
+        "Nhà khoa học"
+      ],
+      "universities": [
+        "Học viện Hàng không Việt Nam",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM"
+      ],
+      "wizard_interests": [
+        "Du lịch"
+      ]
+    },
+    {
+      "code": "7220201",
+      "name": "Ngôn ngữ Anh",
+      "family": "lang",
+      "exam_blocks": [
+        "C14",
+        "D01",
+        "D14"
+      ],
+      "reference_score": 20.3,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "anh",
+        "ngôn",
+        "ngữ"
+      ],
+      "description": "Tiếng Anh học thuật, giao tiếp và biên phiên dịch.",
+      "careers": [
+        "Biên dịch viên",
+        "Phiên dịch viên",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học Thương mại",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Quốc tế TP.HCM",
+        "Đại học Quốc tế Hồng Bàng",
+        "Đại học Đà Nẵng",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Ngoại ngữ"
+      ]
+    },
+    {
+      "code": "7220204",
+      "name": "Ngôn ngữ Trung",
+      "family": "lang",
+      "exam_blocks": [
+        "C14",
+        "D01",
+        "D14",
+        "D15"
+      ],
+      "reference_score": 19.9,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "ngôn",
+        "ngữ",
+        "trung"
+      ],
+      "description": "Tiếng Trung thương mại và văn hóa Trung Hoa.",
+      "careers": [
+        "Biên dịch viên",
+        "Phiên dịch viên",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học Thương mại",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Quốc tế TP.HCM",
+        "Đại học Quốc tế Hồng Bàng",
+        "Đại học Đà Nẵng",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Ngoại ngữ"
+      ]
+    },
+    {
+      "code": "7220209",
+      "name": "Ngôn ngữ Nhật",
+      "family": "lang",
+      "exam_blocks": [
+        "C14",
+        "D01",
+        "D14",
+        "D15"
+      ],
+      "reference_score": 20.0,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "ngôn",
+        "ngữ",
+        "nhật"
+      ],
+      "description": "Tiếng Nhật cho doanh nghiệp và du học.",
+      "careers": [
+        "Biên dịch viên",
+        "Phiên dịch viên",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học Thương mại",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Quốc tế TP.HCM",
+        "Đại học Quốc tế Hồng Bàng",
+        "Đại học Đà Nẵng",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Ngoại ngữ"
+      ]
+    },
+    {
+      "code": "7220210",
+      "name": "Ngôn ngữ Hàn",
+      "family": "lang",
+      "exam_blocks": [
+        "C14",
+        "D01",
+        "D14",
+        "D15"
+      ],
+      "reference_score": 19.6,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "hàn",
+        "ngôn",
+        "ngữ"
+      ],
+      "description": "Tiếng Hàn cho giao tiếp và làm việc với doanh nghiệp Hàn Quốc.",
+      "careers": [
+        "Biên dịch viên",
+        "Phiên dịch viên",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học Thương mại",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Quốc tế TP.HCM",
+        "Đại học Quốc tế Hồng Bàng",
+        "Đại học Đà Nẵng",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Ngoại ngữ"
+      ]
+    },
+    {
+      "code": "7220203",
+      "name": "Ngôn ngữ Pháp",
+      "family": "lang",
+      "exam_blocks": [
+        "C14",
+        "D01",
+        "D14",
+        "D15"
+      ],
+      "reference_score": 19.7,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "ngôn",
+        "ngữ",
+        "pháp"
+      ],
+      "description": "Tiếng Pháp và văn hóa Pháp ngữ.",
+      "careers": [
+        "Biên dịch viên",
+        "Phiên dịch viên",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học Thương mại",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Quốc tế TP.HCM",
+        "Đại học Quốc tế Hồng Bàng",
+        "Đại học Đà Nẵng",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Ngoại ngữ"
+      ]
+    },
+    {
+      "code": "7220205",
+      "name": "Ngôn ngữ Đức",
+      "family": "lang",
+      "exam_blocks": [
+        "C14",
+        "D01",
+        "D14",
+        "D15"
+      ],
+      "reference_score": 19.6,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "ngôn",
+        "ngữ",
+        "đức"
+      ],
+      "description": "Ngôn ngữ Đức: ngoại ngữ, biên phiên dịch và giao tiếp quốc tế. Khối thi thường: C14, D01, D14.",
+      "careers": [
+        "Biên dịch viên",
+        "Phiên dịch viên",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học Thương mại",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Quốc tế TP.HCM",
+        "Đại học Quốc tế Hồng Bàng",
+        "Đại học Đà Nẵng",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Ngoại ngữ"
+      ]
+    },
+    {
+      "code": "7229040",
+      "name": "Biên - phiên dịch",
+      "family": "lang",
+      "exam_blocks": [
+        "C14",
+        "D01",
+        "D14"
+      ],
+      "reference_score": 20.3,
+      "core_skills": [
+        "ngoại ngữ",
+        "giao tiếp"
+      ],
+      "job_trends": "Ổn định",
+      "keywords": [
+        "biên",
+        "dịch",
+        "giao tiếp",
+        "ngoại ngữ",
+        "phiên"
+      ],
+      "description": "Đào tạo kỹ năng biên dịch và phiên dịch; phù hợp khối D và người giỏi ngoại ngữ.",
+      "careers": [
+        "Biên dịch viên",
+        "Phiên dịch viên",
+        "Giảng viên ngoại ngữ"
+      ],
+      "universities": [
+        "Đại học Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học Thương mại",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Quốc tế TP.HCM",
+        "Đại học Quốc tế Hồng Bàng",
+        "Đại học Đà Nẵng",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Ngoại ngữ"
+      ]
+    },
+    {
+      "code": "7320101",
+      "name": "Báo chí",
+      "family": "media",
+      "exam_blocks": [
+        "C00",
+        "C14",
+        "D14"
+      ],
+      "reference_score": 20.4,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "báo",
+        "chí"
+      ],
+      "description": "Tìm tin, viết bài và sản xuất nội dung báo chí.",
+      "careers": [
+        "Nhà báo",
+        "Biên tập viên",
+        "Chuyên viên Marketing",
+        "Content creator"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Truyền thông"
+      ]
+    },
+    {
+      "code": "7320104",
+      "name": "Truyền thông đa phương tiện",
+      "family": "media",
+      "exam_blocks": [
+        "C00",
+        "C14",
+        "D01"
+      ],
+      "reference_score": 20.1,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "phương",
+        "thông",
+        "tiện",
+        "truyền"
+      ],
+      "description": "Truyền thông đa phương tiện: truyền thông, báo chí và quan hệ công chúng. Khối thi thường: C00, C14, D01.",
+      "careers": [
+        "Nhà báo",
+        "Biên tập viên",
+        "Chuyên viên Marketing",
+        "Content creator"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Truyền thông"
+      ]
+    },
+    {
+      "code": "7320104",
+      "name": "Quan hệ công chúng",
+      "family": "media",
+      "exam_blocks": [
+        "C00",
+        "C01",
+        "C14",
+        "D14"
+      ],
+      "reference_score": 19.9,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "chúng",
+        "công",
+        "quan"
+      ],
+      "description": "PR, quản trị khủng hoảng và hình ảnh thương hiệu.",
+      "careers": [
+        "Nhà báo",
+        "Luật sư",
+        "Giáo viên",
+        "Chuyên viên xã hội"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Truyền thông"
+      ]
+    },
+    {
+      "code": "7320105",
+      "name": "Quảng cáo",
+      "family": "media",
+      "exam_blocks": [
+        "C00",
+        "C14",
+        "D01"
+      ],
+      "reference_score": 19.9,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "cáo",
+        "quảng"
+      ],
+      "description": "Sáng tạo quảng cáo, media planning và truyền thông thương hiệu.",
+      "careers": [
+        "Nhà báo",
+        "Biên tập viên",
+        "Chuyên viên Marketing",
+        "Content creator"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Truyền thông"
+      ]
+    },
+    {
+      "code": "7320401",
+      "name": "Xuất bản",
+      "family": "econ",
+      "exam_blocks": [
+        "C00",
+        "C14"
+      ],
+      "reference_score": 20.9,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "bản",
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích",
+        "xuất"
+      ],
+      "description": "Biên tập, xuất bản sách và quản lý bản quyền.",
+      "careers": [
+        "Nhà báo",
+        "Luật sư",
+        "Giáo viên",
+        "Chuyên viên xã hội"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7210403",
+      "name": "Thiết kế đồ họa",
+      "family": "art",
+      "exam_blocks": [
+        "C15",
+        "D01",
+        "K00",
+        "K01"
+      ],
+      "reference_score": 19.4,
+      "core_skills": [
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "họa",
+        "sáng tạo",
+        "thiết",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "description": "Thiết kế đồ họa: thiết kế, mỹ thuật và sáng tạo thẩm mỹ. Khối thi thường: C15, D01, K00.",
+      "careers": [
+        "Kiến trúc sư",
+        "Thiết kế đồ họa",
+        "Designer sản phẩm"
+      ],
+      "universities": [
+        "Đại học Mỹ Thuật Việt Nam",
+        "Đại học Kiến Trúc Hà Nội",
+        "Đại học Mỹ Thuật Công Nghiệp",
+        "Đại học Sân khấu - Điện ảnh Hà Nội",
+        "Đại học Mỹ thuật TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Nha Trang",
+        "Đại học Đông Á",
+        "Đại học Duy Tân",
+        "Đại học Đà Lạt"
+      ],
+      "wizard_interests": [
+        "Nghệ thuật"
+      ]
+    },
+    {
+      "code": "7210404",
+      "name": "Thiết kế thời trang",
+      "family": "art",
+      "exam_blocks": [
+        "D01",
+        "K00",
+        "K01"
+      ],
+      "reference_score": 19.1,
+      "core_skills": [
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "sáng tạo",
+        "thiết",
+        "thiết kế",
+        "thẩm mỹ",
+        "thời",
+        "trang"
+      ],
+      "description": "Phác thảo, may mẫu và xu hướng thời trang.",
+      "careers": [
+        "Kiến trúc sư",
+        "Thiết kế đồ họa",
+        "Designer sản phẩm"
+      ],
+      "universities": [
+        "Đại học Mỹ Thuật Việt Nam",
+        "Đại học Kiến Trúc Hà Nội",
+        "Đại học Mỹ Thuật Công Nghiệp",
+        "Đại học Sân khấu - Điện ảnh Hà Nội",
+        "Đại học Mỹ thuật TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Nha Trang",
+        "Đại học Đông Á",
+        "Đại học Duy Tân",
+        "Đại học Đà Lạt"
+      ],
+      "wizard_interests": [
+        "Nghệ thuật"
+      ]
+    },
+    {
+      "code": "7580108",
+      "name": "Thiết kế nội thất",
+      "family": "art",
+      "exam_blocks": [
+        "D01",
+        "D15",
+        "K00",
+        "K01"
+      ],
+      "reference_score": 18.7,
+      "core_skills": [
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "nội",
+        "sáng tạo",
+        "thiết",
+        "thiết kế",
+        "thất",
+        "thẩm mỹ"
+      ],
+      "description": "Không gian nội thất, vật liệu và trải nghiệm sống.",
+      "careers": [
+        "Kiến trúc sư",
+        "Thiết kế đồ họa",
+        "Designer sản phẩm"
+      ],
+      "universities": [
+        "Đại học Mỹ Thuật Việt Nam",
+        "Đại học Kiến Trúc Hà Nội",
+        "Đại học Mỹ Thuật Công Nghiệp",
+        "Đại học Sân khấu - Điện ảnh Hà Nội",
+        "Đại học Mỹ thuật TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Nha Trang",
+        "Đại học Đông Á",
+        "Đại học Duy Tân",
+        "Đại học Đà Lạt"
+      ],
+      "wizard_interests": [
+        "Nghệ thuật"
+      ]
+    },
+    {
+      "code": "7210402",
+      "name": "Thiết kế công nghiệp",
+      "family": "art",
+      "exam_blocks": [
+        "A00",
+        "D01",
+        "K00",
+        "K01"
+      ],
+      "reference_score": 19.0,
+      "core_skills": [
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "công",
+        "nghiệp",
+        "sáng tạo",
+        "thiết",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "description": "Thiết kế sản phẩm công nghiệp và ergonomics.",
+      "careers": [
+        "Kiến trúc sư",
+        "Thiết kế đồ họa",
+        "Designer sản phẩm"
+      ],
+      "universities": [
+        "Đại học Mỹ Thuật Việt Nam",
+        "Đại học Kiến Trúc Hà Nội",
+        "Đại học Mỹ Thuật Công Nghiệp",
+        "Đại học Sân khấu - Điện ảnh Hà Nội",
+        "Đại học Mỹ thuật TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Nha Trang",
+        "Đại học Đông Á",
+        "Đại học Duy Tân",
+        "Đại học Đà Lạt"
+      ],
+      "wizard_interests": [
+        "Nghệ thuật"
+      ]
+    },
+    {
+      "code": "7210101",
+      "name": "Mỹ thuật ứng dụng",
+      "family": "art",
+      "exam_blocks": [
+        "C00",
+        "K00",
+        "K01"
+      ],
+      "reference_score": 19.0,
+      "core_skills": [
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "dụng",
+        "sáng tạo",
+        "thiết kế",
+        "thuật",
+        "thẩm mỹ",
+        "ứng"
+      ],
+      "description": "Mỹ thuật ứng dụng trong in ấn, trang trí và sản phẩm.",
+      "careers": [
+        "Kiến trúc sư",
+        "Thiết kế đồ họa",
+        "Designer sản phẩm"
+      ],
+      "universities": [
+        "Đại học Mỹ Thuật Việt Nam",
+        "Đại học Kiến Trúc Hà Nội",
+        "Đại học Mỹ Thuật Công Nghiệp",
+        "Đại học Sân khấu - Điện ảnh Hà Nội",
+        "Đại học Mỹ thuật TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Nha Trang",
+        "Đại học Đông Á",
+        "Đại học Duy Tân",
+        "Đại học Đà Lạt"
+      ],
+      "wizard_interests": [
+        "Nghệ thuật"
+      ]
+    },
+    {
+      "code": "7580101",
+      "name": "Kiến trúc",
+      "family": "art",
+      "exam_blocks": [
+        "A00",
+        "D01",
+        "K00"
+      ],
+      "reference_score": 19.1,
+      "core_skills": [
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "kiến",
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ",
+        "trúc"
+      ],
+      "description": "Thiết kế công trình, quy hoạch công trình và giám sát thi công.",
+      "careers": [
+        "Kiến trúc sư",
+        "Thiết kế đồ họa",
+        "Designer sản phẩm"
+      ],
+      "universities": [
+        "Đại học Mỹ Thuật Việt Nam",
+        "Đại học Kiến Trúc Hà Nội",
+        "Đại học Mỹ Thuật Công Nghiệp",
+        "Đại học Sân khấu - Điện ảnh Hà Nội",
+        "Đại học Mỹ thuật TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Nha Trang",
+        "Đại học Đông Á",
+        "Đại học Duy Tân",
+        "Đại học Đà Lạt"
+      ],
+      "wizard_interests": [
+        "Nghệ thuật"
+      ]
+    },
+    {
+      "code": "7580105",
+      "name": "Quy hoạch đô thị",
+      "family": "econ",
+      "exam_blocks": [
+        "A00",
+        "C00"
+      ],
+      "reference_score": 20.5,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "hoạch",
+        "kinh doanh",
+        "phân tích",
+        "quy",
+        "thị"
+      ],
+      "description": "Quy hoạch đô thị: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: A00, C00.",
+      "careers": [
+        "Kỹ sư",
+        "Lập trình viên",
+        "Nhà khoa học"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7140209",
+      "name": "Sư phạm Toán",
+      "family": "education",
+      "exam_blocks": [
+        "A00",
+        "A01"
+      ],
+      "reference_score": 19.9,
+      "core_skills": [
+        "giảng dạy",
+        "giao tiếp",
+        "kiên nhẫn"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "giao tiếp",
+        "giáo dục",
+        "giảng dạy",
+        "kiên nhẫn",
+        "phạm",
+        "toán"
+      ],
+      "description": "Đào tạo giáo viên Toán THPT và phương pháp giảng dạy.",
+      "careers": [
+        "Giáo viên",
+        "Giảng viên",
+        "Chuyên viên giáo dục"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Giáo dục"
+      ]
+    },
+    {
+      "code": "7140217",
+      "name": "Sư phạm Văn",
+      "family": "education",
+      "exam_blocks": [
+        "C00",
+        "C01",
+        "C14"
+      ],
+      "reference_score": 19.4,
+      "core_skills": [
+        "giảng dạy",
+        "giao tiếp",
+        "kiên nhẫn"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "giao tiếp",
+        "giáo dục",
+        "giảng dạy",
+        "kiên nhẫn",
+        "phạm",
+        "văn"
+      ],
+      "description": "Đào tạo giáo viên Ngữ văn và kỹ năng soạn giảng.",
+      "careers": [
+        "Giáo viên",
+        "Giảng viên",
+        "Chuyên viên giáo dục"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Giáo dục"
+      ]
+    },
+    {
+      "code": "7140231",
+      "name": "Sư phạm Anh",
+      "family": "education",
+      "exam_blocks": [
+        "C14",
+        "D01",
+        "D14"
+      ],
+      "reference_score": 19.9,
+      "core_skills": [
+        "giảng dạy",
+        "giao tiếp",
+        "kiên nhẫn"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "anh",
+        "giao tiếp",
+        "giáo dục",
+        "giảng dạy",
+        "kiên nhẫn",
+        "phạm"
+      ],
+      "description": "Đào tạo giáo viên Tiếng Anh và sư phạm ngoại ngữ.",
+      "careers": [
+        "Giáo viên",
+        "Giảng viên",
+        "Chuyên viên giáo dục"
+      ],
+      "universities": [
+        "Đại học Hà Nội",
+        "Đại học Ngoại Thương",
+        "Đại học Thương mại",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Quốc tế TP.HCM",
+        "Đại học Quốc tế Hồng Bàng",
+        "Đại học Đà Nẵng",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Giáo dục"
+      ]
+    },
+    {
+      "code": "7140210",
+      "name": "Sư phạm Tin học",
+      "family": "education",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "reference_score": 19.8,
+      "core_skills": [
+        "giảng dạy",
+        "giao tiếp",
+        "kiên nhẫn"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "giao tiếp",
+        "giáo dục",
+        "giảng dạy",
+        "học",
+        "kiên nhẫn",
+        "phạm",
+        "tin"
+      ],
+      "description": "Đào tạo giáo viên Tin học và STEM trong nhà trường.",
+      "careers": [
+        "Giáo viên",
+        "Giảng viên",
+        "Chuyên viên giáo dục"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Công Nghệ - ĐHQG HN",
+        "Đại học FPT",
+        "Học viện Công nghệ Bưu chính Viễn thông",
+        "Đại học Phenikaa",
+        "Đại học Công nghiệp Hà Nội",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Công nghệ TP.HCM",
+        "Đại học Công nghệ Thông tin TP.HCM",
+        "Đại học Hutech",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Bách khoa Đà Nẵng"
+      ],
+      "wizard_interests": [
+        "Giáo dục"
+      ]
+    },
+    {
+      "code": "7140202",
+      "name": "Giáo dục tiểu học",
+      "family": "education",
+      "exam_blocks": [
+        "C00",
+        "C01",
+        "D01"
+      ],
+      "reference_score": 19.9,
+      "core_skills": [
+        "giảng dạy",
+        "giao tiếp",
+        "kiên nhẫn"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "dục",
+        "giao tiếp",
+        "giáo",
+        "giáo dục",
+        "giảng dạy",
+        "học",
+        "kiên nhẫn",
+        "tiểu"
+      ],
+      "description": "Sư phạm tiểu học và tâm lý lứa tuổi.",
+      "careers": [
+        "Giáo viên",
+        "Giảng viên",
+        "Chuyên viên giáo dục"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Giáo dục"
+      ]
+    },
+    {
+      "code": "7140201",
+      "name": "Giáo dục mầm non",
+      "family": "education",
+      "exam_blocks": [
+        "C00",
+        "C01"
+      ],
+      "reference_score": 19.5,
+      "core_skills": [
+        "giảng dạy",
+        "giao tiếp",
+        "kiên nhẫn"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "dục",
+        "giao tiếp",
+        "giáo",
+        "giáo dục",
+        "giảng dạy",
+        "kiên nhẫn",
+        "mầm",
+        "non"
+      ],
+      "description": "Chăm sóc và giáo dục trẻ mầm non.",
+      "careers": [
+        "Giáo viên",
+        "Giảng viên",
+        "Chuyên viên giáo dục"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Giáo dục"
+      ]
+    },
+    {
+      "code": "7310403",
+      "name": "Tâm lý học giáo dục",
+      "family": "education",
+      "exam_blocks": [
+        "C00",
+        "C01",
+        "C14",
+        "D14"
+      ],
+      "reference_score": 19.9,
+      "core_skills": [
+        "giảng dạy",
+        "giao tiếp",
+        "kiên nhẫn"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "dục",
+        "giao tiếp",
+        "giáo",
+        "giáo dục",
+        "giảng dạy",
+        "học",
+        "kiên nhẫn",
+        "tâm"
+      ],
+      "description": "Tâm lý học đường và tư vấn học sinh.",
+      "careers": [
+        "Giáo viên",
+        "Giảng viên",
+        "Chuyên viên giáo dục"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Giáo dục",
+        "Luật & Xã hội"
+      ]
+    },
+    {
+      "code": "7310601",
+      "name": "Tâm lý học",
+      "family": "social",
+      "exam_blocks": [
+        "C00",
+        "C01",
+        "C14",
+        "D14"
+      ],
+      "reference_score": 20.0,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "học",
+        "tâm"
+      ],
+      "description": "Tư vấn tâm lý, đánh giá hành vi và nghiên cứu tâm lý.",
+      "careers": [
+        "Tư vấn viên",
+        "Chuyên viên công tác xã hội"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Luật & Xã hội"
+      ]
+    },
+    {
+      "code": "7310301",
+      "name": "Xã hội học",
+      "family": "social",
+      "exam_blocks": [
+        "C00",
+        "C01",
+        "C14",
+        "D14"
+      ],
+      "reference_score": 19.9,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "học",
+        "hội"
+      ],
+      "description": "Nghiên cứu xã hội, khảo sát và chính sách cộng đồng.",
+      "careers": [
+        "Tư vấn viên",
+        "Chuyên viên công tác xã hội"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Luật & Xã hội"
+      ]
+    },
+    {
+      "code": "7760101",
+      "name": "Công tác xã hội",
+      "family": "social",
+      "exam_blocks": [
+        "C00",
+        "C01",
+        "C14",
+        "D14"
+      ],
+      "reference_score": 20.0,
+      "core_skills": [],
+      "job_trends": "Tăng",
+      "keywords": [
+        "công",
+        "hội",
+        "tác"
+      ],
+      "description": "Hỗ trợ nhóm yếu thế và can thiệp xã hội.",
+      "careers": [
+        "Tư vấn viên",
+        "Chuyên viên công tác xã hội"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Luật & Xã hội"
+      ]
+    },
+    {
+      "code": "7310206",
+      "name": "Quan hệ quốc tế",
+      "family": "econ",
+      "exam_blocks": [
+        "C00",
+        "C14",
+        "D01",
+        "D14"
+      ],
+      "reference_score": 20.5,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "kinh doanh",
+        "phân tích",
+        "quan",
+        "quốc"
+      ],
+      "description": "Ngoại giao, quan hệ quốc tế và tổ chức phi chính phủ.",
+      "careers": [
+        "Nhà báo",
+        "Luật sư",
+        "Giáo viên",
+        "Chuyên viên xã hội"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Kinh tế"
+      ]
+    },
+    {
+      "code": "7310608",
+      "name": "Đông phương học",
+      "family": "education",
+      "exam_blocks": [
+        "C00",
+        "C01",
+        "C14",
+        "D14"
+      ],
+      "reference_score": 20.9,
+      "core_skills": [
+        "phân tích",
+        "giao tiếp",
+        "kinh doanh"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "giao tiếp",
+        "học",
+        "kinh doanh",
+        "phân tích",
+        "phương",
+        "đông"
+      ],
+      "description": "Đông phương học: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: D01, D07.",
+      "careers": [
+        "Nhà báo",
+        "Luật sư",
+        "Giáo viên",
+        "Chuyên viên xã hội"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Giáo dục"
+      ]
+    },
+    {
+      "code": "7310630",
+      "name": "Việt Nam học",
+      "family": "education",
+      "exam_blocks": [
+        "C00",
+        "C01",
+        "C14",
+        "D14"
+      ],
+      "reference_score": 19.4,
+      "core_skills": [
+        "giảng dạy",
+        "giao tiếp",
+        "kiên nhẫn"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "giao tiếp",
+        "giảng dạy",
+        "học",
+        "kiên nhẫn",
+        "nam",
+        "việt"
+      ],
+      "description": "Lịch sử, văn hóa và nghiên cứu Việt Nam.",
+      "careers": [
+        "Nhà báo",
+        "Luật sư",
+        "Giáo viên",
+        "Chuyên viên xã hội"
+      ],
+      "universities": [
+        "Đại học Kinh Tế Quốc Dân",
+        "Đại học Ngoại Thương",
+        "Học viện Ngân hàng",
+        "Đại học Thương mại",
+        "Học viện Tài chính",
+        "Đại học Tài chính - Kế toán",
+        "Đại học Kinh Tế TP.HCM",
+        "Đại học Kinh tế - Luật TP.HCM",
+        "Đại học Tài chính - Marketing TP.HCM",
+        "Đại học Tôn Đức Thắng",
+        "Đại học Cần Thơ",
+        "Đại học Hoa Sen"
+      ],
+      "wizard_interests": [
+        "Giáo dục",
+        "Luật & Xã hội"
+      ]
+    },
+    {
+      "code": "7140218",
+      "name": "Sư phạm Lịch sử",
+      "family": "education",
+      "exam_blocks": [
+        "C00",
+        "C01",
+        "C14"
+      ],
+      "reference_score": 19.6,
+      "core_skills": [
+        "giảng dạy",
+        "nghiên cứu",
+        "giao tiếp"
+      ],
+      "job_trends": "Ổn định",
+      "keywords": [
+        "giao tiếp",
+        "giáo dục",
+        "giảng dạy",
+        "lịch",
+        "nghiên cứu",
+        "phạm"
+      ],
+      "description": "Đào tạo giáo viên Lịch sử; phù hợp người yêu thích lịch sử, khối C và định hướng giáo dục.",
+      "careers": [
+        "Giáo viên",
+        "Giảng viên",
+        "Chuyên viên giáo dục"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Học viện Báo chí và Tuyên truyền",
+        "Đại học Luật Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Lao động - Xã hội",
+        "Đại học Hà Nội - Khoa học Xã hội và Nhân văn",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Luật TP.HCM",
+        "Đại học Văn Lang",
+        "Đại học Hoa Sen",
+        "Đại học Huế"
+      ],
+      "wizard_interests": [
+        "Giáo dục"
+      ]
+    },
+    {
+      "code": "7620101",
+      "name": "Nông nghiệp",
+      "family": "agri",
+      "exam_blocks": [
+        "A02",
+        "B00"
+      ],
+      "reference_score": 17.6,
+      "core_skills": [],
+      "job_trends": "Trung bình",
+      "keywords": [
+        "nghiệp",
+        "nông"
+      ],
+      "description": "Sản xuất cây trồng, đất đai và quản lý trang trại.",
+      "careers": [
+        "Kỹ sư nông nghiệp",
+        "Chuyên viên môi trường",
+        "Quản lý trang trại"
+      ],
+      "universities": [
+        "Đại học Nông nghiệp Hà Nội",
+        "Đại học Thủy lợi",
+        "Học viện Nông nghiệp Việt Nam",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Nông Lâm TP.HCM",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Quy Nhơn",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7620101",
+      "name": "Công nghệ nông nghiệp",
+      "family": "tech_applied",
+      "exam_blocks": [
+        "A02",
+        "B00",
+        "B03"
+      ],
+      "reference_score": 18.1,
+      "core_skills": [],
+      "job_trends": "Trung bình",
+      "keywords": [
+        "công",
+        "công nghệ ứng dụng",
+        "kỹ thuật",
+        "nghiệp",
+        "nghệ",
+        "nông"
+      ],
+      "description": "Cơ giới hóa, IoT nông nghiệp và chế biến nông sản.",
+      "careers": [
+        "Kỹ sư nông nghiệp",
+        "Chuyên viên môi trường",
+        "Quản lý trang trại"
+      ],
+      "universities": [
+        "Đại học Y Hà Nội",
+        "Học viện Quân y",
+        "Đại học Y Dược TP.HCM",
+        "Đại học Y khoa Phạm Ngọc Thạch",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Y Dược - Đại học Huế",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7640101",
+      "name": "Thú y",
+      "family": "agri",
+      "exam_blocks": [
+        "B00"
+      ],
+      "reference_score": 18.1,
+      "core_skills": [],
+      "job_trends": "Trung bình",
+      "keywords": [
+        "thú"
+      ],
+      "description": "Thú y lâm sàng, dịch tễ và an toàn thực phẩm động vật.",
+      "careers": [
+        "Kỹ sư nông nghiệp",
+        "Chuyên viên môi trường",
+        "Quản lý trang trại"
+      ],
+      "universities": [
+        "Đại học Nông nghiệp Hà Nội",
+        "Đại học Thủy lợi",
+        "Học viện Nông nghiệp Việt Nam",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Nông Lâm TP.HCM",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Quy Nhơn",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7620105",
+      "name": "Chăn nuôi",
+      "family": "agri",
+      "exam_blocks": [
+        "A02",
+        "B00",
+        "B03"
+      ],
+      "reference_score": 18.3,
+      "core_skills": [],
+      "job_trends": "Trung bình",
+      "keywords": [
+        "chăn",
+        "nuôi"
+      ],
+      "description": "Chăn nuôi gia súc, thức ăn và quản lý trại.",
+      "careers": [
+        "Kỹ sư sinh học",
+        "Kỹ sư môi trường",
+        "Nhà nghiên cứu"
+      ],
+      "universities": [
+        "Đại học Nông nghiệp Hà Nội",
+        "Đại học Thủy lợi",
+        "Học viện Nông nghiệp Việt Nam",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Nông Lâm TP.HCM",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Quy Nhơn",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7620202",
+      "name": "Lâm nghiệp",
+      "family": "agri",
+      "exam_blocks": [
+        "A02",
+        "B00",
+        "B03"
+      ],
+      "reference_score": 17.6,
+      "core_skills": [],
+      "job_trends": "Trung bình",
+      "keywords": [
+        "lâm",
+        "nghiệp"
+      ],
+      "description": "Lâm sinh, quản lý rừng và bảo tồn.",
+      "careers": [
+        "Kỹ sư sinh học",
+        "Kỹ sư môi trường",
+        "Nhà nghiên cứu"
+      ],
+      "universities": [
+        "Đại học Nông nghiệp Hà Nội",
+        "Đại học Thủy lợi",
+        "Học viện Nông nghiệp Việt Nam",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Nông Lâm TP.HCM",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Quy Nhơn",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7620301",
+      "name": "Nuôi trồng thủy sản",
+      "family": "agri",
+      "exam_blocks": [
+        "A02",
+        "B00",
+        "B03"
+      ],
+      "reference_score": 18.1,
+      "core_skills": [],
+      "job_trends": "Trung bình",
+      "keywords": [
+        "nuôi",
+        "sản",
+        "thủy",
+        "trồng"
+      ],
+      "description": "Nuôi trồng thủy sản, chế biến và quản lý ao hồ–biển.",
+      "careers": [
+        "Kỹ sư nông nghiệp",
+        "Chuyên viên môi trường",
+        "Quản lý trang trại"
+      ],
+      "universities": [
+        "Đại học Nông nghiệp Hà Nội",
+        "Đại học Thủy lợi",
+        "Học viện Nông nghiệp Việt Nam",
+        "Đại học Cần Thơ",
+        "Đại học An Giang",
+        "Đại học Nông Lâm TP.HCM",
+        "Đại học Huế",
+        "Đại học Nha Trang",
+        "Đại học Quy Nhơn",
+        "Đại học Tây Nguyên"
+      ],
+      "wizard_interests": [
+        "Môi trường"
+      ]
+    },
+    {
+      "code": "7729001",
+      "name": "Thể dục thể thao",
+      "family": "sport",
+      "exam_blocks": [
+        "B00",
+        "C00"
+      ],
+      "reference_score": 18.9,
+      "core_skills": [],
+      "job_trends": "Trung bình",
+      "keywords": [
+        "dục",
+        "thao",
+        "thể"
+      ],
+      "description": "Huấn luyện thể thao, quản lý thi đấu và giáo dục thể chất.",
+      "careers": [
+        "Bác sĩ",
+        "Dược sĩ",
+        "Kỹ sư nông nghiệp"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Sư phạm Thể dục thể thao TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên",
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi"
+      ],
+      "wizard_interests": [
+        "Thể thao"
+      ]
+    },
+    {
+      "code": "7140207",
+      "name": "Huấn luyện thể thao",
+      "family": "sport",
+      "exam_blocks": [
+        "B00",
+        "C00"
+      ],
+      "reference_score": 18.1,
+      "core_skills": [],
+      "job_trends": "Trung bình",
+      "keywords": [
+        "huấn",
+        "luyện",
+        "thao",
+        "thể"
+      ],
+      "description": "Huấn luyện viên chuyên môn và khoa học thể thao.",
+      "careers": [
+        "Bác sĩ",
+        "Dược sĩ",
+        "Kỹ sư nông nghiệp"
+      ],
+      "universities": [
+        "Đại học Sư phạm Hà Nội",
+        "Đại học Văn hóa Hà Nội",
+        "Đại học Sư phạm Thể dục thể thao TP.HCM",
+        "Đại học Sư phạm TP.HCM",
+        "Đại học Nha Trang",
+        "Đại học Tây Nguyên",
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi"
+      ],
+      "wizard_interests": [
+        "Thể thao"
+      ]
+    },
+    {
+      "code": "7140221",
+      "name": "Âm nhạc",
+      "family": "art",
+      "exam_blocks": [
+        "C14",
+        "D01",
+        "K01"
+      ],
+      "reference_score": 18.6,
+      "core_skills": [
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "nhạc",
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "description": "Thanh nhạc, nhạc cụ và biểu diễn âm nhạc.",
+      "careers": [
+        "Biên tập viên",
+        "Phiên dịch viên",
+        "Chuyên viên truyền thông"
+      ],
+      "universities": [
+        "Đại học Mỹ Thuật Việt Nam",
+        "Đại học Kiến Trúc Hà Nội",
+        "Đại học Mỹ Thuật Công Nghiệp",
+        "Đại học Sân khấu - Điện ảnh Hà Nội",
+        "Đại học Mỹ thuật TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Nha Trang",
+        "Đại học Đông Á",
+        "Đại học Duy Tân",
+        "Đại học Đà Lạt"
+      ],
+      "wizard_interests": [
+        "Nghệ thuật"
+      ]
+    },
+    {
+      "code": "7210234",
+      "name": "Diễn viên sân khấu điện ảnh",
+      "family": "art",
+      "exam_blocks": [
+        "D01",
+        "K00",
+        "K01"
+      ],
+      "reference_score": 21.1,
+      "core_skills": [
+        "tư duy logic",
+        "kỹ thuật",
+        "giải quyết vấn đề"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "diễn",
+        "giải quyết vấn đề",
+        "khấu",
+        "kỹ thuật",
+        "sân",
+        "tư duy logic",
+        "viên",
+        "điện",
+        "ảnh"
+      ],
+      "description": "Diễn viên sân khấu điện ảnh: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Mỹ Thuật Việt Nam",
+        "Đại học Kiến Trúc Hà Nội",
+        "Đại học Mỹ Thuật Công Nghiệp",
+        "Đại học Sân khấu - Điện ảnh Hà Nội",
+        "Đại học Mỹ thuật TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Nha Trang",
+        "Đại học Đông Á",
+        "Đại học Duy Tân",
+        "Đại học Đà Lạt"
+      ],
+      "wizard_interests": [
+        "Nghệ thuật"
+      ]
+    },
+    {
+      "code": "7210227",
+      "name": "Đạo diễn",
+      "family": "engineering",
+      "exam_blocks": [
+        "A00",
+        "A01",
+        "A02"
+      ],
+      "reference_score": 21.5,
+      "core_skills": [
+        "tư duy logic",
+        "kỹ thuật",
+        "giải quyết vấn đề"
+      ],
+      "job_trends": "Cao",
+      "keywords": [
+        "diễn",
+        "giải quyết vấn đề",
+        "kỹ thuật",
+        "tư duy logic",
+        "đạo"
+      ],
+      "description": "Đạo diễn: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02.",
+      "careers": [
+        "Kỹ sư cơ khí",
+        "Kỹ sư điện",
+        "Kỹ sư tự động hóa"
+      ],
+      "universities": [
+        "Đại học Bách Khoa Hà Nội",
+        "Đại học Giao thông Vận tải",
+        "Đại học Xây dựng Hà Nội",
+        "Đại học Điện lực",
+        "Đại học Mỏ - Địa chất",
+        "Đại học Thủy lợi",
+        "Đại học Bách Khoa TP.HCM",
+        "Đại học Sư phạm Kỹ thuật TP.HCM",
+        "Đại học Công Thương TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học Bách khoa Đà Nẵng",
+        "Đại học Kỹ thuật Xây dựng Miền Trung"
+      ],
+      "wizard_interests": [
+        "Kỹ thuật"
+      ]
+    },
+    {
+      "code": "7210225",
+      "name": "Biên kịch",
+      "family": "art",
+      "exam_blocks": [
+        "C00",
+        "C14"
+      ],
+      "reference_score": 18.9,
+      "core_skills": [
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "biên",
+        "kịch",
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "description": "Viết kịch bản phim, phim truyền hình và sân khấu.",
+      "careers": [
+        "Nhà báo",
+        "Luật sư",
+        "Giáo viên",
+        "Chuyên viên xã hội"
+      ],
+      "universities": [
+        "Đại học Mỹ Thuật Việt Nam",
+        "Đại học Kiến Trúc Hà Nội",
+        "Đại học Mỹ Thuật Công Nghiệp",
+        "Đại học Sân khấu - Điện ảnh Hà Nội",
+        "Đại học Mỹ thuật TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Nha Trang",
+        "Đại học Đông Á",
+        "Đại học Duy Tân",
+        "Đại học Đà Lạt"
+      ],
+      "wizard_interests": [
+        "Nghệ thuật"
+      ]
+    },
+    {
+      "code": "7210301",
+      "name": "Nhiếp ảnh",
+      "family": "art",
+      "exam_blocks": [
+        "C00",
+        "C15",
+        "D01"
+      ],
+      "reference_score": 19.0,
+      "core_skills": [
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "nhiếp",
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ",
+        "ảnh"
+      ],
+      "description": "Nhiếp ảnh nghệ thuật, thương mại và post-production.",
+      "careers": [
+        "Nhà báo",
+        "Luật sư",
+        "Giáo viên",
+        "Chuyên viên xã hội"
+      ],
+      "universities": [
+        "Đại học Mỹ Thuật Việt Nam",
+        "Đại học Kiến Trúc Hà Nội",
+        "Đại học Mỹ Thuật Công Nghiệp",
+        "Đại học Sân khấu - Điện ảnh Hà Nội",
+        "Đại học Mỹ thuật TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Nha Trang",
+        "Đại học Đông Á",
+        "Đại học Duy Tân",
+        "Đại học Đà Lạt"
+      ],
+      "wizard_interests": [
+        "Nghệ thuật"
+      ]
+    },
+    {
+      "code": "7210101",
+      "name": "Mỹ thuật",
+      "family": "art",
+      "exam_blocks": [
+        "C00",
+        "K01"
+      ],
+      "reference_score": 19.0,
+      "core_skills": [
+        "sáng tạo",
+        "thiết kế",
+        "thẩm mỹ"
+      ],
+      "job_trends": "Tăng",
+      "keywords": [
+        "sáng tạo",
+        "thiết kế",
+        "thuật",
+        "thẩm mỹ"
+      ],
+      "description": "Hội họa, điêu khắc và triển lãm mỹ thuật.",
+      "careers": [
+        "Kiến trúc sư",
+        "Thiết kế đồ họa",
+        "Designer sản phẩm"
+      ],
+      "universities": [
+        "Đại học Mỹ Thuật Việt Nam",
+        "Đại học Kiến Trúc Hà Nội",
+        "Đại học Mỹ Thuật Công Nghiệp",
+        "Đại học Sân khấu - Điện ảnh Hà Nội",
+        "Đại học Mỹ thuật TP.HCM",
+        "Đại học Kiến trúc TP.HCM",
+        "Đại học KHXH&NV TP.HCM",
+        "Đại học Hoa Sen",
+        "Đại học Nha Trang",
+        "Đại học Đông Á",
+        "Đại học Duy Tân",
+        "Đại học Đà Lạt"
+      ],
+      "wizard_interests": [
+        "Nghệ thuật"
+      ]
+    }
+  ]
+}

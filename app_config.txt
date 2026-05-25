@@ -1,0 +1,23 @@
+# Flutter App Configuration
+
+## App Name
+app_name = "Tư vấn ngành học"
+
+## Version
+version = "1.0.0"
+build_number = "1"
+
+## Supported Platforms
+platforms = ["android", "ios", "web"]
+
+## Minimum Flutter Version
+min_flutter = "3.0.0"
+
+## Dart Version
+dart_sdk = ">=3.0.0 <4.0.0"
+
+## Supported Languages
+languages = ["vi", "en"]
+
+## Target Devices
+target_devices = ["phone", "tablet"]

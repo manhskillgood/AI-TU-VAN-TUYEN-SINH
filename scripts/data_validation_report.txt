@@ -1,0 +1,13 @@
+Issues: 12
+DUP_CODE: 7340121 -> Khoa học dữ liệu, Khoa học dữ liệu thống kê, Thương mại quốc tế
+DUP_CODE: 7520216 -> Lập trình nhúng và IoT, Kỹ thuật điều khiển và tự động hóa
+DUP_CODE: 7520201 -> Kỹ thuật điện, Kỹ thuật điện tử viễn thông
+DUP_CODE: 7440112 -> Hóa học, Công nghệ hóa học, Khoa học sự sống
+DUP_CODE: 7420201 -> Công nghệ sinh học, Công nghệ sinh học y dược
+DUP_CODE: 7720601 -> Công nghệ xét nghiệm, Kỹ thuật xét nghiệm y học
+DUP_CODE: 7340204 -> Kinh doanh quốc tế, Bảo hiểm
+DUP_CODE: 7340115 -> Marketing, Digital Marketing
+DUP_CODE: 7340201 -> Tài chính ngân hàng, Chứng khoán
+DUP_CODE: 7320104 -> Truyền thông đa phương tiện, Quan hệ công chúng
+DUP_CODE: 7210101 -> Mỹ thuật ứng dụng, Mỹ thuật
+DUP_CODE: 7620101 -> Nông nghiệp, Công nghệ nông nghiệp

@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="DO_AN_TN">
+  <diagram id="usecase" name="Hinh 2.1 Use Case">
+    <mxGraphModel dx="1030" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys" parent="1" style="swimlane;startSize=30;rounded=1;strokeColor=#1E3A8A;fillColor=#E8EEF7;fontStyle=1;" value="&lt;&lt;Hệ thống tư vấn tuyển sinh và ngành học&gt;&gt;" vertex="1">
+          <mxGeometry height="460" width="640" x="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_login" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Đăng nhập / Đăng ký" vertex="1">
+          <mxGeometry height="50" width="130" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_wizard" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="Gợi ý ngành học&#xa;(Wizard)" vertex="1">
+          <mxGeometry height="55" width="150" x="200" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_result" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Xem kết quả gợi ý" vertex="1">
+          <mxGeometry height="50" width="140" x="390" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_rule" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="Áp dụng&#xa;Rule Engine" vertex="1">
+          <mxGeometry height="45" width="110" x="180" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_ml" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="Gọi ML&#xa;(SBERT)" vertex="1">
+          <mxGeometry height="45" width="100" x="320" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_chat" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Chatbot tư vấn" vertex="1">
+          <mxGeometry height="50" width="120" x="30" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_chart" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Xem biểu đồ" vertex="1">
+          <mxGeometry height="50" width="120" x="180" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_forum" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Diễn đàn" vertex="1">
+          <mxGeometry height="50" width="100" x="330" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_profile" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Quản lý hồ sơ" vertex="1">
+          <mxGeometry height="50" width="120" x="460" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dash" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Bảng điều khiển" vertex="1">
+          <mxGeometry height="50" width="120" x="30" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_users" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Quản lý&#xa;người dùng" vertex="1">
+          <mxGeometry height="50" width="110" x="180" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_rules" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Quản lý&#xa;quy tắc AI" vertex="1">
+          <mxGeometry height="50" width="110" x="320" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_mod" parent="sys" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Kiểm duyệt&#xa;diễn đàn" vertex="1">
+          <mxGeometry height="50" width="110" x="460" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="user" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Người học&#xa;(User)" vertex="1">
+          <mxGeometry height="80" width="40" x="80" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Quản trị viên&#xa;(Admin)" vertex="1">
+          <mxGeometry height="80" width="40" x="960" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="eu1" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" target="uc_login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eu2" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_wizard">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eu3" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_chat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eu4" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_chart">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eu5" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_forum">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eu6" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_profile">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea1" edge="1" parent="1" source="admin" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_dash">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea2" edge="1" parent="1" source="admin" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea3" edge="1" parent="1" source="admin" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_rules">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea4" edge="1" parent="1" source="admin" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_mod">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc1" edge="1" parent="1" source="uc_wizard" style="endArrow=open;dashed=1;html=1;strokeColor=#CC0000;strokeWidth=2;fontColor=#CC0000;" target="uc_result" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc2" edge="1" parent="1" source="uc_wizard" style="endArrow=open;dashed=1;html=1;strokeColor=#CC0000;strokeWidth=2;fontColor=#CC0000;" target="uc_rule" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc3" edge="1" parent="1" source="uc_wizard" style="endArrow=open;dashed=1;html=1;strokeColor=#CC0000;strokeWidth=2;fontColor=#CC0000;" target="uc_ml" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cap" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=2;fontSize=11;" value="Hình 2.1. Sơ đồ Use Case tổng quát hệ thống" vertex="1">
+          <mxGeometry height="25" width="360" x="320" y="580" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

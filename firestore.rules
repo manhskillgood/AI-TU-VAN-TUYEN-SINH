@@ -1,0 +1,243 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Guidance rules: admins only for writes, authenticated users can read
+    match /guidance_rules/{ruleId} {
+      function isAuthenticated() {
+        return request.auth != null;
+      }
+      function isAppAdminEmail() {
+        return request.auth != null
+          && request.auth.token.email != null
+          && (
+            request.auth.token.email == 'quynhtrang140405@gmail.com'
+            || request.auth.token.email == 'admin@school.edu'
+            || request.auth.token.email == 'tuyen_sinh@university.edu'
+          );
+      }
+      function isAdmin() {
+        return request.auth != null
+          && (request.auth.token.admin == true || isAppAdminEmail());
+      }
+
+      // Allow reads for authenticated users (app needs to show rules locally)
+      allow get, list: if isAuthenticated();
+
+      // Only admins may create, update or delete guidance rules
+      allow create, update, delete: if isAdmin() && validGuidanceRule();
+
+      // Basic shape validation to reduce accidental malformed rules
+      function validGuidanceRule() {
+        return request.resource.data.keys().hasAll(['id', 'conditions', 'boostMajors', 'confidence', 'reason', 'enabled'])
+          && request.resource.data.id is string
+          && request.resource.data.conditions is map
+          && request.resource.data.boostMajors is map
+          && request.resource.data.confidence is number
+          && request.resource.data.reason is string
+          && request.resource.data.enabled is bool;
+      }
+    }
+
+    // Forum posts: đọc công khai; ghi khi đã đăng nhập và đúng chủ bài.
+    match /forum_posts/{postId} {
+      function isAuthenticated() { return request.auth != null; }
+      function isAppAdminEmail() {
+        return request.auth != null
+          && request.auth.token.email != null
+          && (
+            request.auth.token.email == 'quynhtrang140405@gmail.com'
+            || request.auth.token.email == 'admin@school.edu'
+            || request.auth.token.email == 'tuyen_sinh@university.edu'
+          );
+      }
+      function isAdmin() {
+        return request.auth != null
+          && (request.auth.token.admin == true || isAppAdminEmail());
+      }
+      function isAuthor() {
+        return isAuthenticated()
+          && (resource.data.userId == request.auth.uid
+              || resource.data.authorUid == request.auth.uid);
+      }
+
+      allow get, list: if true;
+
+      allow create: if isAuthenticated()
+        && request.resource.data.userId == request.auth.uid
+        && validPost();
+
+      allow update, delete: if isAdmin() || isAuthor();
+
+      function validPost() {
+        return request.resource.data.keys().hasAll(['userId', 'title', 'content', 'createdAt'])
+          && request.resource.data.userId is string
+          && request.resource.data.title is string
+          && request.resource.data.content is string
+          && request.resource.data.createdAt is timestamp;
+      }
+
+      match /replies/{replyId} {
+        function isReplyAuthor() {
+          return isAuthenticated()
+            && (resource.data.userId == request.auth.uid
+                || resource.data.authorUid == request.auth.uid);
+        }
+
+        allow get, list: if true;
+        allow create: if isAuthenticated()
+          && request.resource.data.userId == request.auth.uid
+          && request.resource.data.keys().hasAll(['userId', 'content', 'createdAt']);
+        allow update, delete: if isAdmin() || isReplyAuthor();
+      }
+    }
+
+    // Lịch sử chat AI tư vấn (chỉ chủ tài khoản).
+    match /users/{userId}/advisor_chat_threads/{threadId}/messages/{messageId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Catalog majors (admin CRUD, user đọc khi đã đăng nhập)
+    match /majors/{majorId} {
+      function isAuthenticated() { return request.auth != null; }
+      function isAdmin() {
+        return request.auth != null
+          && (request.auth.token.admin == true || isAppAdminEmail());
+      }
+      function isAppAdminEmail() {
+        return request.auth != null
+          && request.auth.token.email != null
+          && (
+            request.auth.token.email == 'quynhtrang140405@gmail.com'
+            || request.auth.token.email == 'admin@school.edu'
+            || request.auth.token.email == 'tuyen_sinh@university.edu'
+          );
+      }
+      allow get, list: if isAuthenticated();
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /universities/{universityId} {
+      function isAuthenticated() { return request.auth != null; }
+      function isAdmin() {
+        return request.auth != null
+          && (request.auth.token.admin == true || isAppAdminEmail());
+      }
+      function isAppAdminEmail() {
+        return request.auth != null
+          && request.auth.token.email != null
+          && (
+            request.auth.token.email == 'quynhtrang140405@gmail.com'
+            || request.auth.token.email == 'admin@school.edu'
+            || request.auth.token.email == 'tuyen_sinh@university.edu'
+          );
+      }
+      allow get, list: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /admissions/{admissionId} {
+      function isAuthenticated() { return request.auth != null; }
+      function isAdmin() {
+        return request.auth != null
+          && (request.auth.token.admin == true || isAppAdminEmail());
+      }
+      function isAppAdminEmail() {
+        return request.auth != null
+          && request.auth.token.email != null
+          && (
+            request.auth.token.email == 'quynhtrang140405@gmail.com'
+            || request.auth.token.email == 'admin@school.edu'
+            || request.auth.token.email == 'tuyen_sinh@university.edu'
+          );
+      }
+      allow get, list: if isAuthenticated();
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /career_guidance/{docId} {
+      function isAuthenticated() { return request.auth != null; }
+      function isAdmin() {
+        return request.auth != null
+          && (request.auth.token.admin == true || isAppAdminEmail());
+      }
+      function isAppAdminEmail() {
+        return request.auth != null
+          && request.auth.token.email != null
+          && (
+            request.auth.token.email == 'quynhtrang140405@gmail.com'
+            || request.auth.token.email == 'admin@school.edu'
+            || request.auth.token.email == 'tuyen_sinh@university.edu'
+          );
+      }
+      allow get: if isAuthenticated()
+        && (resource.data.userId == request.auth.uid || isAdmin());
+      allow list: if isAdmin();
+      allow create: if isAuthenticated()
+        && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAuthenticated()
+        && (resource.data.userId == request.auth.uid || isAdmin());
+    }
+
+    // Users collection: allow owners to read/write their own profile; admins may manage all
+    match /users/{userId} {
+      function isAuthenticated() { return request.auth != null; }
+      // Custom claim admin HOẶC email admin trong app (đồng bộ AppConfig.adminEmails)
+      function isAppAdminEmail() {
+        return request.auth != null
+          && request.auth.token.email != null
+          && (
+            request.auth.token.email == 'quynhtrang140405@gmail.com'
+            || request.auth.token.email == 'admin@school.edu'
+            || request.auth.token.email == 'tuyen_sinh@university.edu'
+          );
+      }
+      function isAdmin() {
+        return request.auth != null
+          && (request.auth.token.admin == true || isAppAdminEmail());
+      }
+
+      // Admin: xem danh sách; user: chỉ đọc hồ sơ của mình
+      allow get: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      allow list: if isAdmin();
+
+      // Create: authenticated user may create their own document and basic shape validation
+      allow create: if isAuthenticated()
+        && request.resource.data.keys().hasAll(['id', 'email'])
+        && request.resource.data.id == request.auth.uid
+        && request.resource.data.id is string
+        && request.resource.data.email is string;
+
+      // Update/Delete: owner or admin. Ensure `id` field cannot be changed on update.
+      allow update: if isAuthenticated()
+        && (request.auth.uid == userId || isAdmin())
+        && request.resource.data.id == resource.data.id;
+      allow delete: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+    }
+
+    // Deny everything else by default (explicit allow only above)
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+
+/*
+Explanation (comments in-file):
+- guidance_rules: rules documents control local guidance behavior. Reads are allowed to authenticated users
+  so the app can load and display rules. Writes (create/update/delete) are restricted to users with
+  the custom claim `admin == true` so only trusted administrators change rule logic. A lightweight
+  validation function enforces expected fields and basic types.
+
+- forum_posts: forum posts are readable by everyone (public) so community content is visible inside the app.
+  Only authenticated users may create posts and the `authorUid` must match the creator's UID. Updates and
+  deletes are permitted only by the post author or an admin. Validation ensures required fields exist and
+  types are correct. Adjust `allow get, list: if true;` to `if isAuthenticated();` if you require sign-in to view.
+
+Notes & next steps:
+- To enforce admin-level operations, assign the `admin` custom claim to user accounts using an Admin
+  SDK script or Firebase Console. The app-side Firestore sync helpers already expect that claim when
+  performing upload/download of rules.
+- Consider adding stricter schema checks for nested `conditions` and `boostMajors` maps for production.
+*/

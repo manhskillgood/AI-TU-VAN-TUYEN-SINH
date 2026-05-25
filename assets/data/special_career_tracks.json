@@ -1,0 +1,65 @@
+{
+  "disclaimer": "Kết quả chỉ mang tính tham khảo sơ bộ theo chỉ số thể chất. Tuyển Công an, Quân đội, An ninh còn yêu cầu thi thể lực, khám sức khỏe, lý lịch và hồ sơ theo thông báo chính thức từng năm.",
+  "tracks": [
+    {
+      "id": "cong_an",
+      "name": "Công an nhân dân",
+      "summary": "Tuyển theo hồ sơ Bộ Công an: điểm học tập, thể lực, khám sức khỏe và lý lịch.",
+      "min_height_cm": { "male": 165, "female": 160 },
+      "bmi_min": 18.0,
+      "bmi_max": 30.0,
+      "extra_requirements": [
+        "Thi thể lực",
+        "Khám sức khỏe tổng quát",
+        "Lý lịch tư pháp"
+      ],
+      "portal_label": "Cổng tuyển sinh Công an",
+      "portal_url": "https://congan.edu.vn"
+    },
+    {
+      "id": "quan_doi",
+      "name": "Quân đội / Quân sự",
+      "summary": "Tuyển qua hệ thống Bộ Quốc phòng: thể lực, sức khỏe, độ tuổi và chỉ tiêu từng trường quân sự.",
+      "min_height_cm": { "male": 162, "female": 160 },
+      "bmi_min": 17.5,
+      "bmi_max": 29.5,
+      "extra_requirements": [
+        "Thi thể lực quân sự",
+        "Khám sơ tuyển",
+        "Phỏng vấn / chỉ tiêu"
+      ],
+      "portal_label": "Thông tin tuyển sinh Quốc phòng",
+      "portal_url": "https://tuyensinh.qdnd.vn"
+    },
+    {
+      "id": "an_ninh",
+      "name": "An ninh nhân dân",
+      "summary": "Tuyển theo quy chế Bộ Công an (hệ An ninh): tương tự tiêu chí thể chất và sức khỏe.",
+      "min_height_cm": { "male": 165, "female": 160 },
+      "bmi_min": 18.0,
+      "bmi_max": 30.0,
+      "extra_requirements": [
+        "Thể lực",
+        "Khám sức khỏe",
+        "Lý lịch"
+      ],
+      "portal_label": "Tuyển sinh An ninh",
+      "portal_url": "https://congan.edu.vn"
+    },
+    {
+      "id": "hang_khong",
+      "name": "Hàng không (phi công / tiếp viên)",
+      "summary": "Ngành dân sự (VD: Dịch vụ hàng không) và một số khối quân sự — yêu cầu thị lực, ngoại hình, tiếng Anh.",
+      "min_height_cm": { "male": 170, "female": 160 },
+      "bmi_min": 18.5,
+      "bmi_max": 27.0,
+      "extra_requirements": [
+        "Thị lực (theo tiêu chuẩn từng hãng/trường)",
+        "Tiếng Anh",
+        "Phỏng vấn"
+      ],
+      "portal_label": "Ngành Dịch vụ hàng không (trong app)",
+      "portal_url": ""
+    }
+  ]
+}

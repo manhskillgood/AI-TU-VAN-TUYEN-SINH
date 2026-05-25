@@ -1,0 +1,685 @@
+
+BỘ GIÁO DỤC ĐÀO TẠO
+TRƯỜNG ĐẠI HỌC ĐẠI NAM 
+---  ---
+LÊ ĐỨC MẠNH
+MSV: 1671020200
+
+
+ỨNG DỤNG AI TRONG HỆ THỐNG HỖ TRỢ TUYỂN SINH 
+VÀ TƯ VẤN NGÀNH HỌC
+
+
+
+
+
+BÁO CÁO ĐỒ ÁN TỐT NGHIỆP 
+NGÀNH CÔNG NGHỆ THÔNG TIN
+
+
+
+
+
+
+
+HÀ NỘI, NĂM 2026
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+TRƯỜNG ĐẠI HỌC ĐẠI NAM 
+------------------------------
+LÊ ĐỨC MẠNH
+MSV: 1671020200
+
+
+ỨNG DỤNG AI TRONG HỆ THỐNG HỖ TRỢ TUYỂN SINH 
+VÀ TƯ VẤN NGÀNH HỌC
+
+
+BÁO CÁO ĐỒ ÁN TỐT NGHIỆP
+NGÀNH: CÔNG NGHỆ THÔNG TINCHUYÊN NGÀNH: CÔNG NGHỆ THÔNG TIN
+
+
+GIẢNG VIÊN HƯỚNG DẪN: LÊ VĂN PHONG
+HÀ NỘI, NĂM 2026
+LỜI CAM ĐOAN
+Em xin cam đoan rằng đồ án tốt nghiệp với đề tài “ỨNG DỤNG AI TRONG HỆ THỐNG HỖ TRỢ TUYỂN SINH VÀ TƯ VẤN NGÀNH HỌC” là công trình nghiên cứu và thực hiện của riêng em dưới sự hướng dẫn của giảng viên hướng dẫn.
+Các nội dung, kết quả nghiên cứu, mã nguồn chương trình và dữ liệu được trình bày trong báo cáo là trung thực, được tổng hợp từ quá trình tìm hiểu, học tập và phát triển thực tế. Những tài liệu, thông tin và hình ảnh tham khảo từ các nguồn khác đều đã được trích dẫn rõ ràng theo đúng quy định.
+Em xin chịu hoàn toàn trách nhiệm trước nhà trường về tính trung thực và tính hợp pháp của nội dung trong đồ án này.
+
+
+Hà Nội, ngày 21 tháng 5 năm 2026
+       Tác giả
+    
+   Lê Đức Mạnh
+
+LỜI CẢM ƠN
+Trong suốt quá trình học tập và thực hiện đồ án tốt nghiệp với đề tài “ỨNG DỤNG AI TRONG HỆ THỐNG HỖ TRỢ TUYỂN SINH VÀ TƯ VẤN NGÀNH HỌC”, em đã nhận được rất nhiều sự giúp đỡ, hỗ trợ và động viên từ quý thầy cô, gia đình và bạn bè.
+Trước hết, em xin gửi lời cảm ơn chân thành đến Ban Giám hiệu cùng toàn thể quý thầy cô Trường Đại học Đại Nam, đặc biệt là các thầy cô Khoa Công nghệ Thông tin đã tận tình giảng dạy, truyền đạt kiến thức và tạo điều kiện thuận lợi cho em trong suốt quá trình học tập tại trường.
+Em xin bày tỏ lòng biết ơn sâu sắc đến giảng viên hướng dẫn đã tận tình hướng dẫn, góp ý và hỗ trợ em trong suốt quá trình thực hiện đồ án. Những ý kiến đóng góp quý báu của thầy/cô đã giúp em hoàn thiện đề tài một cách tốt hơn cả về nội dung lẫn kỹ năng thực hiện.
+Bên cạnh đó, em cũng xin cảm ơn gia đình, bạn bè và các anh/chị đã luôn động viên, hỗ trợ tinh thần cũng như chia sẻ kinh nghiệm trong quá trình học tập và thực hiện đề tài.
+Mặc dù đã cố gắng hoàn thiện đồ án với tất cả sự nỗ lực của bản thân, tuy nhiên do hạn chế về thời gian, kiến thức và kinh nghiệm thực tế nên báo cáo khó tránh khỏi những thiếu sót. Em rất mong nhận được những ý kiến đóng góp từ quý thầy cô để đề tài được hoàn thiện hơn.
+Em xin chân thành cảm ơn!
+
+Hà Nội, ngày 21 tháng 5 năm 2026
+       Tác giả
+    
+   Lê Đức Mạnh
+KÍ HIỆU CÁC CỤM TỪ VIẾT TẮT
+Từ viết tắt
+Tên đầy đủ của từ viết tắt
+
+
+
+
+
+
+LỜI NÓI ĐẦU
+Trong thời đại chuyển đổi số hiện nay, trí tuệ nhân tạo (AI) đang ngày càng được ứng dụng rộng rãi trong nhiều lĩnh vực của đời sống, đặc biệt là trong giáo dục và tư vấn hướng nghiệp. Việc lựa chọn ngành học phù hợp với năng lực, sở thích và định hướng nghề nghiệp là một trong những vấn đề quan trọng đối với học sinh, sinh viên. Tuy nhiên, nhiều người học vẫn gặp khó khăn trong việc xác định ngành nghề phù hợp do thiếu thông tin, thiếu định hướng hoặc chưa hiểu rõ năng lực của bản thân.
+Xuất phát từ thực tế đó, em đã lựa chọn thực hiện đề tài “ỨNG DỤNG AI TRONG HỆ THỐNG HỖ TRỢ TUYỂN SINH VÀ TƯ VẤN NGÀNH HỌC” với mong muốn xây dựng một hệ thống có khả năng hỗ trợ người dùng trong việc định hướng ngành học dựa trên các thông tin cá nhân, sở thích và năng lực học tập. Hệ thống sử dụng các công nghệ hiện đại như Flutter, FastAPI, Firebase và các kỹ thuật xử lý dữ liệu, từ đó đưa ra các gợi ý ngành học phù hợp cũng như lời khuyên hữu ích cho người dùng.
+Trong quá trình thực hiện đề tài, em đã cố gắng tìm hiểu, nghiên cứu và áp dụng các kiến thức đã học vào thực tế nhằm hoàn thiện hệ thống một cách tốt nhất. Tuy nhiên, do thời gian và kinh nghiệm còn hạn chế nên đồ án khó tránh khỏi những thiếu sót. Em rất mong nhận được những ý kiến đóng góp quý báu từ quý thầy cô để đề tài được hoàn thiện hơn.
+Em xin chân thành cảm ơn!
+
+
+
+NHẬN XÉT
+
+
+DANH MỤC HÌNH ẢNH
+
+DANH MỤC BẢNG BIỂU
+
+
+MỤC LỤC
+
+
+CHƯƠNG 1: TỔNG QUAN VỀ ĐỀ TÀI
+Giới thiệu chung
+Trong bối cảnh chuyển đổi số đang diễn ra mạnh mẽ trong giáo dục, các trường đại học, cao đẳng tại Việt Nam đang đẩy mạnh ứng dụng công nghệ thông tin để hiện đại hóa quy trình tuyển sinh, tư vấn và quản lý học tập. Một trong những lĩnh vực nổi bật là việc ứng dụng trí tuệ nhân tạo (AI) vào công tác hỗ trợ tuyển sinh và tư vấn chọn ngành học cho học sinh trung học phổ thông.
+Thực tế cho thấy, việc lựa chọn ngành học hiện nay vẫn còn mang tính cảm tính, phụ thuộc vào xu hướng xã hội hoặc ý kiến gia đình, thay vì dựa trên năng lực học tập, sở thích cá nhân và nhu cầu thị trường lao động. Nhiều sinh viên sau khi nhập học nhận ra mình không phù hợp với ngành đã chọn, dẫn đến chán nản, bỏ học hoặc chuyển ngành giữa chừng.
+Xuất phát từ thực tế đó, đề tài “Ứng dụng AI trong hệ thống hỗ trợ tuyển sinh và tư vấn ngành học” được thực hiện nhằm xây dựng một hệ thống thông minh có khả năng:
+Phân tích dữ liệu học tập và sở thích cá nhân
+Suy luận và gợi ý ngành học phù hợp
+Giải thích lý do gợi ý (Explainable AI)
+Hỗ trợ tư vấn trực tuyến thông qua chatbot AI
+Hệ thống hướng đến việc hỗ trợ người học ra quyết định có cơ sở, thay vì thay thế hoàn toàn vai trò của con người.
+Tính cấp thiết của đề tài
+Bối cảnh thực tiễn
+ Trong những năm gần đây, khối lượng dữ liệu tuyển sinh, điểm thi, và chỉ tiêu ngành học ngày càng lớn. Tuy nhiên, hầu hết học sinh và phụ huynh chưa có công cụ phân tích thông minh để hỗ trợ việc chọn ngành.
+ Công tác tư vấn tuyển sinh hiện nay chủ yếu được thực hiện thủ công: qua hội thảo, tờ rơi, hoặc các buổi giao lưu trực tiếp giữa trường đại học và học sinh, dẫn đến thiếu tính cá nhân hóa.
+ Trí tuệ nhân tạo (AI), đặc biệt là các hệ suy luận dựa trên luật (Rule-based AI), có khả năng phân tích dữ liệu đầu vào và đưa ra khuyến nghị có tính cá nhân hóa cao.
+Khác với các hệ thống tư vấn truyền thống chỉ dựa trên thống kê đơn giản hoặc gợi ý theo điểm chuẩn, hệ thống trong đề tài này sử dụng cơ chế suy luận dựa trên tập luật và khả năng giải thích kết quả, giúp tăng tính minh bạch và độ tin cậy của hệ thống.
+Tính cấp thiết khoa học và xã hội
+Đề tài góp phần ứng dụng công nghệ AI và học máy trong lĩnh vực giáo dục, một hướng nghiên cứu đang được khuyến khích trong các trường đại học hiện nay.
+Hệ thống sẽ mang lại giá trị xã hội rõ rệt: giúp học sinh chọn đúng ngành – đúng trường – đúng năng lực, từ đó tối ưu hóa quá trình đào tạo và giảm lãng phí nguồn nhân lực.
+Kết quả nghiên cứu có thể mở rộng thành công cụ tư vấn hướng nghiệp quốc gia trong tương lai.
+Đề tài ứng dụng AI theo hướng Rule-based Inference System trong lĩnh vực giáo dục.
+Áp dụng mô hình suy luận dựa trên tập luật (Knowledge Base + Inference Engine).
+Kết hợp mô hình ngôn ngữ lớn (LLM – Large Language Model) để xây dựng chatbot tư vấn.
+Đây là hướng nghiên cứu phù hợp với xu hướng AI giải thích được (Explainable AI), thay vì sử dụng mô hình “hộp đen” khó kiểm chứng.
+Mục tiêu của đề tài
+Mục tiêu tổng quát
+Phát triển một hệ thống ứng dụng trí tuệ nhân tạo (AI) có khả năng:
+Thu thập và xử lý dữ liệu tuyển sinh, hồ sơ học sinh.
+Phân tích điểm thi, sở thích, năng lực của người học.
+Gợi ý ngành học và trường đại học phù hợp nhất.
+Cung cấp công cụ tư vấn trực tuyến bằng Chatbot AI.
+Hỗ trợ nhà trường theo dõi xu hướng chọn ngành qua dashboard thống kê.
+Mục tiêu cụ thể
+STT
+Mục tiêu cụ thể
+Kết quả dự kiến
+1
+Xây dựng cơ sở dữ liệu tuyển sinh (trường, ngành, điểm chuẩn)
+Majors.json
+2
+Xây dựng hệ suy luận Rule-based AI
+GuidanceService
+3
+Thiết kế cơ chế Explainable AI
+Hiển thị lý do gợi ý
+4
+Phát triển ứng dụng Flutter (Web + Mobile)
+App chạy mobile
+5
+
+
+Đồng bộ dữ liệu cloud
+
+Firebase
+6
+Tích hợp cơ chế xác thực người dùng
+Tích hợp cơ chế xác thực người dùng
+Phạm vi và đối tượng nghiên cứu
+Phạm vi nghiên cứu
+Nghiên cứu tập trung vào việc ứng dụng AI trong lĩnh vực tư vấn tuyển sinh đại học.
+Dữ liệu khảo sát được thu thập từ các trường đại học trong khu vực miền Bắc, mô phỏng dữ liệu điểm chuẩn và ngành học.
+Hệ thống hướng đến việc gợi ý ngành học phù hợp, không thay thế hoàn toàn quyết định con người.
+Ứng dụng thử nghiệm ở quy mô nhỏ, phục vụ cho việc demo đồ án tốt nghiệp.
+Đối tượng nghiên cứu
+Học sinh THPT, sinh viên năm nhất chưa chọn chuyên ngành.
+Dữ liệu ngành học, trường đại học và điểm chuẩn.
+Hệ suy luận dựa trên luật (Rule-based AI), cơ chế tính điểm và giải thích kết quả
+Phương pháp nghiên cứu
+Phương pháp lý thuyết
+Nghiên cứu hệ chuyên gia (Expert System).
+Nghiên cứu mô hình Rule-based AI.
+Nghiên cứu Explainable AI.
+Nghiên cứu ứng dụng LLM trong chatbot.
+Phương pháp thực nghiệm
+Xây dựng tập luật tư vấn ngành học.
+Thiết kế cơ chế tính điểm dựa trên điều kiện.
+Kiểm thử hệ thống với nhiều hồ sơ giả lập.
+Đánh giá độ phù hợp của gợi ý.
+
+Ý nghĩa khoa học và thực tiễn
+Ý nghĩa khoa học
+Ứng dụng hệ suy luận dựa trên luật (Rule-based Inference System) vào lĩnh vực giáo dục.
+Đề xuất mô hình tư vấn ngành học có khả năng giải thích kết quả (Explainable AI).
+Làm cơ sở tham khảo cho các nghiên cứu tiếp theo trong lĩnh vực AI giáo dục.
+Ý nghĩa thực tiễn
+Giúp học sinh THPT hiểu rõ năng lực và định hướng ngành nghề phù hợp.
+Giúp trường đại học phân tích xu hướng chọn ngành để định hướng đào tạo.
+Có thể triển khai thử nghiệm như một ứng dụng thực tế trong công tác tuyển sinh tại các trường.
+Kết luận chương 1
+Chương 1 đã trình bày tổng quan về đề tài, bao gồm lý do chọn đề tài, mục tiêu, phạm vi, phương pháp nghiên cứu và ý nghĩa thực tiễn. 
+Như vậy, đề tài không chỉ mang ý nghĩa ứng dụng thực tiễn trong hỗ trợ tuyển sinh mà còn góp phần nghiên cứu và triển khai các mô hình AI giải thích được trong giáo dục. Đây là nền tảng quan trọng cho việc xây dựng hệ thống thông minh có tính minh bạch, cá nhân hóa và khả năng mở rộng trong tương lai.
+Nội dung của Chương 2 sẽ tập trung vào phân tích yêu cầu, thiết kế hệ thống, và mô hình cơ sở dữ liệu, làm nền tảng cho việc xây dựng hệ thống trong các phần tiếp theo.
+
+
+
+
+
+CHƯƠNG 2: THIẾT KẾ HỆ THỐNG
+2.1. Giới thiệu chương
+Trong chương này, đề tài trình bày quá trình phân tích yêu cầu, xác định chức năng, mô hình hoạt động và thiết kế kiến trúc hệ thống của ứng dụng “Ứng dụng AI trong hỗ trợ tuyển sinh và tư vấn ngành học”.
+Mục tiêu của chương là xây dựng nền tảng kỹ thuật và logic dữ liệu cho hệ thống, bao gồm việc phân tích yêu cầu người dùng, thiết kế mô hình dữ liệu, kiến trúc hệ thống và giao diện người dùng. Các nội dung này là cơ sở để triển khai và hiện thực hóa hệ thống trong chương 3.
+
+2.2. Phân tích yêu cầu hệ thống
+2.2.1. Phân tích yêu cầu chức năng
+Hệ thống được chia thành hai nhóm người dùng chính: Người học (Student) và Quản trị viên (Admin).
+Nhóm 1: Người học (Student)
+Mã chức năng
+Tên chức năng
+Mô tả
+F01
+Đăng ký / Đăng nhập
+Cho phép học sinh tạo tài khoản và đăng nhập vào hệ thống
+F02
+Nhập hồ sơ cá nhân
+Người học nhập điểm thi, sở thích, khu vực, kỹ năng
+F03
+Gợi ý ngành học phù hợp
+Hệ thống AI phân tích dữ liệu và gợi ý ngành học phù hợp
+F04
+Tra cứu thông tin ngành / trường
+Xem thông tin chi tiết các ngành học và trường đại học
+F05
+Tư vấn bằng Chatbot AI
+Chatbot trả lời các câu hỏi liên quan đến ngành học, học phí, cơ hội việc làm
+F06
+Xem lịch sử gợi ý
+Hiển thị các kết quả gợi ý ngành học trước đó
+
+Nhóm 2: Quản trị viên (Admin)
+Mã chức năng
+Tên chức năng
+Mô tả
+A01
+Quản lý tài khoản người dùng
+Quản lý danh sách tài khoản người dùng
+A02
+Quản lý danh sách ngành học
+Cập nhật thông tin ngành học
+A03
+Quản lý danh sách trường
+Cập nhật thông tin các trường đại học
+A04
+Quản lý dữ liệu tuyển sinh
+Cập nhật dữ liệu điểm chuẩn, học phí
+A05
+Xem thống kê và báo cáo
+Theo dõi xu hướng chọn ngành học
+
+2.2.2. Yêu cầu phi chức năng
+STT
+Loại yêu cầu
+Mô tả
+1
+Hiệu năng (Performance)
+Hệ thống phản hồi trong vòng dưới 3 giây
+2
+Bảo mật (Security)
+Sử dụng Firebase Authentication để xác thực người dùng
+3
+Khả năng mở rộng (Scalability)
+Hệ thống có thể mở rộng thêm dữ liệu ngành học và rule AI
+4
+Tính thân thiện (Usability)
+Giao diện Flutter trực quan, dễ sử dụng
+5
+Tính tương thích (Compatibility)
+Hoạt động trên Web và thiết bị di động
+6
+Tính ổn định (Reliability)
+Hệ thống hoạt động ổn định với nhiều người dùng
+
+2.3. Phân tích người dùng và mô hình Use Case
+2.3.1. Các tác nhân (Actors)
+Tác nhân
+Vai trò
+Student
+Nhập hồ sơ và nhận gợi ý ngành học
+Admin
+Quản lý dữ liệu ngành học và người dùng
+AI Engine
+Phân tích dữ liệu và đưa ra gợi ý ngành học
+
+2.3.2. Mô tả Use Case tổng quan
+Tác nhân
+Hành động
+Student
+Đăng nhập → nhập hồ sơ → nhận gợi ý ngành
+Admin
+Quản lý dữ liệu ngành học và thống kê
+AI Engine
+Phân tích dữ liệu hồ sơ và đưa ra gợi ý
+
+2.3.3. Sơ đồ Use Case
+(Chèn sơ đồ Use Case UML minh họa các chức năng chính của hệ thống.)
+
+2.4. Phân tích và thiết kế dữ liệu
+Hệ thống sử dụng mô hình lưu trữ kết hợp:
+Firebase Firestore (Cloud Database) để lưu trữ dữ liệu chính của hệ thống.
+SQLite (sqflite) để lưu trữ dữ liệu cục bộ và hỗ trợ chế độ offline.
+
+2.4.1. Các Collection dữ liệu chính (Firestore)
+Collection
+Mục đích
+Users
+Lưu thông tin tài khoản người dùng
+Universities
+Lưu danh sách các trường đại học
+Majors
+Lưu danh sách ngành học
+Admissions
+Lưu dữ liệu tuyển sinh như điểm chuẩn, học phí
+Predictions
+Lưu kết quả gợi ý ngành học
+ChatLogs
+Lưu lịch sử hội thoại chatbot
+
+2.4.2. Mô tả dữ liệu trong Firestore
+Collection: Users
+Trường
+Kiểu dữ liệu
+Mô tả
+uid
+String
+ID người dùng
+email
+String
+Email đăng nhập
+role
+String
+student hoặc admin
+createdAt
+Timestamp
+Thời gian tạo tài khoản
+
+Collection: Universities
+Trường
+Kiểu dữ liệu
+Mô tả
+universityId
+String
+Mã trường
+name
+String
+Tên trường
+location
+String
+Địa chỉ
+website
+String
+Trang web
+description
+String
+Giới thiệu
+
+Collection: Majors
+Trường
+Kiểu dữ liệu
+Mô tả
+majorId
+String
+Mã ngành
+name
+String
+Tên ngành
+field
+String
+Nhóm ngành
+description
+String
+Mô tả ngành
+
+Collection: Admissions
+Trường
+Kiểu dữ liệu
+Mô tả
+admissionId
+String
+ID dữ liệu tuyển sinh
+universityId
+String
+Mã trường
+majorId
+String
+Mã ngành
+year
+Number
+Năm tuyển sinh
+quota
+Number
+Chỉ tiêu
+minScore
+Number
+Điểm chuẩn
+tuition
+Number
+Học phí
+
+Collection: Predictions
+Trường
+Kiểu dữ liệu
+Mô tả
+predictionId
+String
+ID kết quả
+userId
+String
+Người dùng
+recommendedMajor
+String
+Ngành gợi ý
+confidenceScore
+Number
+Độ phù hợp
+createdAt
+Timestamp
+Thời gian dự đoán
+
+2.4.3. SQLite (Local Storage)
+SQLite được sử dụng để lưu trữ dữ liệu cục bộ như diễn đàn và cache dữ liệu.
+Ví dụ bảng:
+forum_posts
+Trường
+Mô tả
+id
+ID bài viết
+content
+Nội dung
+createdAt
+Thời gian tạo
+synced
+Trạng thái đồng bộ
+
+2.5. Thiết kế kiến trúc hệ thống
+Hệ thống được xây dựng theo mô hình Client–Cloud Architecture.
+Tầng
+Công nghệ
+Vai trò
+Presentation Layer
+Flutter
+Giao diện người dùng
+Application Logic Layer
+GuidanceService
+Xử lý logic và AI
+Local Data Layer
+SQLite
+Lưu dữ liệu cục bộ
+Cloud Data Layer
+Firebase Firestore
+Lưu trữ dữ liệu hệ thống
+Authentication
+Firebase Authentication
+Xác thực người dùng
+
+2.6. Thiết kế giao diện người dùng
+Màn hình
+Chức năng
+Trang đăng nhập
+Đăng nhập và đăng ký
+Trang hồ sơ học sinh
+Nhập điểm và sở thích
+Trang kết quả
+Hiển thị ngành gợi ý
+Trang chatbot
+Hỏi đáp với AI
+Trang quản trị
+Quản lý dữ liệu hệ thống
+Dashboard
+Thống kê xu hướng ngành học
+
+Luồng xử lý AI trong hệ thống
+Người học nhập hồ sơ cá nhân (điểm, sở thích, kỹ năng).
+Dữ liệu được gửi đến GuidanceService.
+Hệ thống duyệt qua tập guidance_rules.
+Áp dụng các luật suy luận để tính điểm phù hợp cho từng ngành.
+Sắp xếp các ngành theo confidenceScore.
+Trả về danh sách Top ngành phù hợp cho người học.
+
+2.7. Kết luận chương 2
+Chương 2 đã trình bày quá trình phân tích yêu cầu và thiết kế hệ thống bao gồm các chức năng, mô hình Use Case, thiết kế dữ liệu và kiến trúc tổng thể của hệ thống.
+Các nội dung này là cơ sở để xây dựng và triển khai hệ thống ứng dụng AI hỗ trợ tuyển sinh và tư vấn ngành học trong chương tiếp theo.
+
+CHƯƠNG 3: XÂY DỰNG HỆ THỐNG VÀ KẾT QUẢ ĐẠT ĐƯỢC
+3.1. Giới thiệu chương
+Chương này trình bày quá trình xây dựng và triển khai hệ thống “Ứng dụng AI trong hỗ trợ tuyển sinh và tư vấn ngành học”. Nội dung bao gồm việc cài đặt môi trường phát triển, triển khai các thành phần chính của hệ thống và kết quả chạy thử nghiệm của ứng dụng.
+Hệ thống được xây dựng dựa trên các công nghệ hiện đại như Flutter, Firebase Cloud, và Rule-based AI Engine nhằm tạo ra một nền tảng hỗ trợ học sinh lựa chọn ngành học phù hợp với năng lực và sở thích cá nhân.
+Các nội dung chính của chương bao gồm:
+Cài đặt môi trường phát triển và công nghệ sử dụng.
+Xây dựng kiến trúc hệ thống.
+Triển khai các thành phần chính của hệ thống.
+Kết quả chạy thử nghiệm và đánh giá hệ thống.
+3.2. Công nghệ và môi trường sử dụng
+Hệ thống được phát triển bởi các công nghệ sau:
+Thành phần
+Công nghệ sử dụng
+Ngôn ngữ lập trình
+Dart
+Framework
+Flutter
+Cloud Database
+Firebase Firestore
+Xác thực người dùng
+Firebase Authentication
+Lưu trữ cục bộ
+SQLite (sqflite)
+AI Engine
+Rule-based AI (GuidanceService)
+Chatbot
+Google Generative AI API
+Thư viện biểu đồ
+fl_chart
+Flutter được lựa chọn vì khả năng phát triển đa nền tảng (Web và Mobile), trong khi Firebase cung cấp hệ thống backend cloud mạnh mẽ và dễ triển khai.
+3.3. Thiết kế kiến trúc hệ thống
+3.3.1. Kiến trúc tổng thể
+Hệ thống được thiết kế theo mô hình Client–Cloud Architecture, trong đó ứng dụng Flutter đóng vai trò là client, kết nối trực tiếp với các dịch vụ cloud của Firebase.
+Kiến trúc hệ thống bao gồm các tầng chính:
+Tầng hệ thống
+Công nghệ
+Vai trò
+Presentation Layer
+Flutter
+Giao diện người dùng
+Application Logic Layer
+GuidanceService
+Xử lý logic và AI
+Local Data Layer
+SQLite
+Lưu dữ liệu cục bộ
+Cloud Data Layer
+Firebase Firestore
+Lưu dữ liệu hệ thống
+Authentication Layer
+Firebase Authentication
+Quản lý đăng nhập
+Kiến trúc này giúp hệ thống hoạt động linh hoạt, dễ mở rộng và giảm thiểu việc quản lý máy chủ backend.
+3.4. Xây dựng các thành phần của hệ thống
+3.4.1. Cơ sở dữ liệu Cloud (Firebase Firestore)
+Firebase Firestore được sử dụng để lưu trữ dữ liệu chính của hệ thống dưới dạng NoSQL document database.
+Các collection chính bao gồm:
+Collection
+Mục đích
+Users
+Lưu thông tin người dùng
+Universities
+Lưu danh sách trường đại học
+Majors
+Lưu danh sách ngành học
+Admissions
+Lưu thông tin tuyển sinh
+Predictions
+Lưu kết quả gợi ý ngành học
+ChatLogs
+Lưu lịch sử chatbot
+Ví dụ cấu trúc dữ liệu trong Firestore:
+Users
+{ uid: "user_001", email: "student@gmail.com", role: "student", createdAt: Timestamp}
+Majors
+{ majorId: "IT01", name: "Công nghệ thông tin", field: "CNTT", description: "Ngành học về lập trình và hệ thống phần mềm"}
+3.4.2. AI Engine – GuidanceService (Rule-based AI)
+Hệ thống AI trong đề tài được xây dựng theo mô hình Rule-based AI, trong đó các luật suy luận được định nghĩa sẵn để đánh giá mức độ phù hợp giữa hồ sơ học sinh và ngành học.
+Các rule được lưu trong file JSON hoặc Firebase:
+Ví dụ:
+{ "field": "CNTT", "conditions": {   "math": ">7",   "english": ">6",   "skills": ["logic", "programming"] }, "confidence": 0.85}
+Quy trình xử lý của AI:
+Nhận dữ liệu hồ sơ học sinh.
+Duyệt qua các rule trong hệ thống.
+Tính điểm phù hợp cho từng ngành.
+Sắp xếp theo mức độ phù hợp.
+Trả về danh sách ngành gợi ý.
+Phương pháp này giúp hệ thống giải thích được kết quả gợi ý, phù hợp với các hệ thống tư vấn hướng nghiệp.
+3.4.3. Ứng dụng Flutter
+Ứng dụng được xây dựng bằng Flutter với cấu trúc thư mục như sau:
+lib/ ├── main.dart ├── screens/ │    ├── login_screen.dart │    ├── profile_form.dart │    ├── result_screen.dart │    ├── chatbot_screen.dart │    ├── admin_dashboard.dart ├── services/ │    ├── guidance_service.dart │    ├── firebase_service.dart ├── models/ │    ├── profile.dart │    ├── prediction.dart
+Các chức năng chính của ứng dụng:
+Đăng ký và đăng nhập người dùng.
+Nhập hồ sơ cá nhân (điểm thi, sở thích).
+Nhận kết quả gợi ý ngành học.
+Chatbot tư vấn ngành học.
+Dashboard thống kê xu hướng ngành học.
+3.4.4. Chatbot tư vấn ngành học
+Hệ thống chatbot được tích hợp thông qua Google Generative AI API nhằm hỗ trợ trả lời các câu hỏi của học sinh về ngành học, chương trình đào tạo và cơ hội nghề nghiệp.
+Ví dụ câu hỏi:
+Người dùng:“Ngành công nghệ thông tin học những gì?”
+Chatbot trả lời:“Ngành công nghệ thông tin đào tạo về lập trình, hệ thống phần mềm, trí tuệ nhân tạo và quản trị mạng…”
+3.5. Kết quả triển khai và chạy thử
+3.5.1. Kết quả AI gợi ý ngành học
+Sau khi triển khai hệ thống, AI Engine có thể đưa ra danh sách ngành học phù hợp dựa trên dữ liệu hồ sơ học sinh.
+Ví dụ:
+Hồ sơ học sinh
+Ngành gợi ý
+Độ phù hợp
+Toán 8.5 – Anh 7 – thích lập trình
+Công nghệ thông tin
+0.88
+Toán 7 – Văn 8 – thích kinh doanh
+Quản trị kinh doanh
+0.82
+
+3.5.2. Kết quả giao diện (Demo)
+Các màn hình chính của hệ thống:
+Màn hình đăng nhập.
+Form nhập hồ sơ học sinh.
+Trang hiển thị kết quả gợi ý ngành học.
+Chatbot tư vấn hướng nghiệp.
+Dashboard thống kê xu hướng ngành.
+Các giao diện được thiết kế theo phong cách hiện đại, tối ưu cho cả web và thiết bị di động.
+3.6. Đánh giá kết quả
+Tiêu chí
+Đánh giá
+Hiệu năng hệ thống
+Thời gian phản hồi nhanh (<2 giây)
+Khả năng tư vấn
+Gợi ý ngành học hợp lý
+Giao diện người dùng
+Thân thiện và dễ sử dụng
+Khả năng mở rộng
+Có thể thêm ngành và rule AI
+Khả năng ứng dụng
+Có thể áp dụng cho tư vấn tuyển sinh
+
+3.7. Kết luận chương 3
+Trong chương 3, hệ thống Ứng dụng AI hỗ trợ tuyển sinh và tư vấn ngành học đã được xây dựng và triển khai hoàn chỉnh với các thành phần chính:
+Ứng dụng Flutter làm giao diện người dùng.
+Firebase Firestore lưu trữ dữ liệu hệ thống.
+Firebase Authentication quản lý đăng nhập và phân quyền.
+Rule-based AI Engine (GuidanceService) thực hiện chức năng tư vấn ngành học.
+Chatbot AI hỗ trợ trả lời câu hỏi của người dùng.
+Kết quả thử nghiệm cho thấy hệ thống hoạt động ổn định, có khả năng hỗ trợ học sinh lựa chọn ngành học phù hợp và có tiềm năng phát triển thành một công cụ tư vấn hướng nghiệp thực tế.
+
+
+
+
+
+
+KẾT LUẬN 
+1. Ưu điểm
+Ứng dụng AI tăng độ chính xác tư vấn: Hệ thống sử dụng mô hình AI để phân tích nhu cầu, sở thích và năng lực học sinh, từ đó đưa ra gợi ý ngành học có tính cá nhân hóa cao, giúp giảm tình trạng chọn ngành theo cảm tính.
+Giao diện đa nền tảng nhờ Flutter: Một mã nguồn chạy được trên Android, iOS và Web giúp tối ưu chi phí phát triển, tăng khả năng tiếp cận người dùng.
+Trải nghiệm người dùng tốt: Quy trình tra cứu thông tin trường – ngành – điểm chuẩn được thiết kế trực quan, tốc độ phản hồi nhanh, đảm bảo tính thân thiện đối với học sinh, phụ huynh.
+Tự động hóa quy trình tuyển sinh: Hỗ trợ lọc hồ sơ, trả lời câu hỏi thường gặp và gợi ý ngành học, từ đó giảm tải công việc cho cán bộ tuyển sinh tại các trường.
+Dễ mở rộng và tích hợp: Kiến trúc tách biệt giữa AI, backend và frontend giúp hệ thống dễ nâng cấp, dễ bổ sung các mô-đun mới như chatbot, thống kê hay phân tích dữ liệu.
+2. Nhược điểm
+Độ chính xác phụ thuộc chất lượng dữ liệu: Nếu dữ liệu đầu vào về ngành học, điểm chuẩn hoặc profile thí sinh không đầy đủ, kết quả tư vấn có thể bị sai lệch.
+Giới hạn mô hình AI: Mô hình gợi ý ngành học chưa thể mô phỏng hoàn toàn yếu tố tâm lý, hoàn cảnh cá nhân hay mục tiêu dài hạn của từng thí sinh.
+Cơ sở dữ liệu cần cập nhật thường xuyên: Thông tin tuyển sinh thay đổi mỗi năm; nếu không duy trì cập nhật liên tục, ứng dụng dễ trở nên lỗi thời.
+Khả năng mở rộng hệ thống backend còn hạn chế nếu triển khai trên hạ tầng nhỏ, dễ ảnh hưởng đến hiệu năng khi số lượng người dùng tăng cao.
+Một số tính năng nâng cao chưa được triển khai do hạn chế thời gian như tư vấn nghề nghiệp 5–10 năm, dự đoán xu hướng thị trường lao động.
+3. Hướng phát triển đề tài
+Nâng cấp mô hình AI:
+Áp dụng các mô hình ngôn ngữ lớn (LLM) để cải thiện khả năng tư vấn, phân tích sâu hơn về mục tiêu nghề nghiệp.
+Kết hợp học máy (Machine Learning) với dữ liệu điểm thi, năng lực học tập để dự đoán tỉ lệ đỗ ngành/trường.
+Tích hợp Chatbot tuyển sinh thông minh: Cho phép giải đáp tự động mọi câu hỏi về trường, ngành, phương thức xét tuyển, học phí.
+Xây dựng hệ thống quản trị cho nhà trường: Dashboard thống kê dữ liệu, quản lý hồ sơ, phân tích xu hướng đăng ký giúp trường tối ưu chiến lược tuyển sinh.
+Mở rộng sang tư vấn nghề nghiệp: Gợi ý lộ trình nghề nghiệp, kỹ năng cần học, khóa học phù hợp từng ngành.
+Tối ưu UX/UI và khả năng truy cập: Cải thiện hiệu năng Flutter, bổ sung chế độ ngoại tuyến, thêm đa ngôn ngữ.
+Tích hợp API của Bộ GD&ĐT để cập nhật dữ liệu điểm chuẩn, chỉ tiêu tuyển sinh tự động hàng năm.
+Đưa ứng dụng lên Store (Android/iOS) và tiến hành thử nghiệm người dùng thực để tinh chỉnh theo phản hồi.
+
+
+
+
+
+
+
+
+
+
+
+DANH MỤC TÀI LIỆU THAM KHẢO
+[1]. Nguyễn Văn Cường, Giáo trình Trí tuệ nhân tạo, 2021, Nhà xuất bản Bách Khoa Hà Nội.
+[2]. Phạm Đức Thành, Học máy cơ bản với Python, 2022, Nhà xuất bản Thông tin và Truyền thông.
+[3]. Nguyễn Hữu Dũng, Phát triển ứng dụng đa nền tảng với Flutter, 2023, Nhà xuất bản Đại học Quốc gia TP. Hồ Chí Minh.
+[4]. Lê Văn Phong, Giáo trình Phát triển ứng dụng Web với ASP.NET Core, 2022, Nhà xuất bản Đại học Đại Nam.
+[5]. Nguyễn Minh Tuấn, Hệ quản trị cơ sở dữ liệu MySQL và ứng dụng, 2020, Nhà xuất bản Khoa học và Kỹ thuật.
+
+
+
+
+
+
+TÀI LIỆU THAM KHẢO
+Tiếng Việt:
+[1] Bạch Đức Hiển, Thị trường chứng khoán, Nhà xuất bản Tài chính, Hà Nội, 2009.
+[2] Nguyễn Đình Kiệm, Tài chính doanh nghiệp trong thời kỳ hội nhập, Tạp chí Ngân hàng, Số 314(514), trang 33 (kỳ 1, 10/2007).
+[3] ……………….
+Tiếng Anh:
+[1] Bounding K.E (1995), Economics Analysis, Hamish Hamilton, London.
+[2] Andeson, JE (1985), The Relative Inefficiency of Quota, The Cheese case, American Economic review, 74 (1), pp 78-90.
+[3] ………………..
+Danh mục các Website tham khảo:
+[1] http://vnexpress.net/gl/kinh-doanh/chung-khoan/2011/07/giao-dich-chung-khoan-thap-ky-luc
+[2] http://vietstock.vn/ChannelID/761/Tin-tuc/196004-tiep-tuc-kiem-soat-tin-dung-doi-voi-bat-dong-san.aspx
+[3] ……………….

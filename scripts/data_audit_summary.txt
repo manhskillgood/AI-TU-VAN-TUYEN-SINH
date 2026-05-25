@@ -1,0 +1,6 @@
+majors=122
+no_wizard_interests=41
+orphan_families={'tech_applied': 4, 'engineering': 10, 'aviation': 2, 'health': 4, 'law': 2, 'tourism': 4, 'lang': 7, 'social': 3, 'agri': 3, 'sport': 2}
+universities_in_catalog=69
+universities_in_registry=90
+missing_from_registry=0

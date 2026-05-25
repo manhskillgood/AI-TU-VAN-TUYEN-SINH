@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="DO_AN_TN">
+  <diagram id="er" name="Hinh 2.2 ER">
+    <mxGraphModel dx="1030" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="user" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;fontStyle=1" value="USER&#xa;─────&#xa;id (PK)&#xa;email&#xa;fullName&#xa;role&#xa;region" vertex="1">
+          <mxGeometry height="110" width="140" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cg" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;fontStyle=1" value="CAREER_GUIDANCE&#xa;─────&#xa;id (PK)&#xa;userId (FK)&#xa;recommendedMajors&#xa;majorSuitability" vertex="1">
+          <mxGeometry height="110" width="170" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="post" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;fontStyle=1" value="FORUM_POST&#xa;─────&#xa;id (PK)&#xa;userId (FK)&#xa;title, content&#xa;createdAt" vertex="1">
+          <mxGeometry height="100" width="150" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="reply" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;fontStyle=1" value="FORUM_REPLY&#xa;─────&#xa;id (PK)&#xa;postId (FK)&#xa;userId (FK)&#xa;content" vertex="1">
+          <mxGeometry height="100" width="140" x="560" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="chat" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;fontStyle=1" value="CHAT_MESSAGE&#xa;─────&#xa;id (PK)&#xa;text, isAi&#xa;threadId / userId" vertex="1">
+          <mxGeometry height="90" width="160" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;fontStyle=1" value="GUIDANCE_RULE&#xa;─────&#xa;id (PK)&#xa;conditions&#xa;boostMajors&#xa;reason, enabled" vertex="1">
+          <mxGeometry height="100" width="150" x="560" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="catalog" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;dashed=1;align=left;spacingLeft=8;fontStyle=2" value="MAJORS_CATALOG&#xa;(assets JSON)&#xa;─────&#xa;code, name&#xa;exam_blocks" vertex="1">
+          <mxGeometry height="90" width="150" x="560" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="user" style="endArrow=ERone;startArrow=ERmany;endFill=0;startFill=0;html=1;rounded=0;strokeWidth=2;" target="cg" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl1" connectable="0" parent="r1" style="edgeLabel;html=1;align=center;verticalAlign=middle;" value="n" vertex="1">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2" edge="1" parent="1" source="user" style="endArrow=ERone;startArrow=ERmany;endFill=0;startFill=0;html=1;rounded=0;strokeWidth=2;" target="post" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" edge="1" parent="1" source="post" style="endArrow=ERone;startArrow=ERmany;endFill=0;startFill=0;html=1;rounded=0;strokeWidth=2;" target="reply">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" edge="1" parent="1" source="user" style="endArrow=ERone;startArrow=ERmany;endFill=0;startFill=0;html=1;rounded=0;strokeWidth=2;" target="chat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" edge="1" parent="1" source="catalog" style="endArrow=open;dashed=1;html=1;strokeColor=#666666;" target="cg" value="tham chiếu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=1;strokeColor=#999999;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="Firestore: users, career_guidance, forum_posts, guidance_rules, chat threads&#xa;SQLite: posts, replies (forum local)" vertex="1">
+          <mxGeometry height="50" width="420" x="70" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cap" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=2;fontSize=11;" value="Hình 2.2. Sơ đồ quan hệ dữ liệu logic" vertex="1">
+          <mxGeometry height="30" width="360" x="308" y="564" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

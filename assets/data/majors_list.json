@@ -1,0 +1,2942 @@
+[
+  {
+    "name": "Công nghệ thông tin",
+    "description": "Nền tảng rộng về lý thuyết và ứng dụng CNTT.",
+    "keywords": [
+      "cntt",
+      "công",
+      "công nghệ",
+      "hệ thống",
+      "lập trình",
+      "máy tính",
+      "nghệ",
+      "phân tích",
+      "phần mềm",
+      "thông",
+      "tin"
+    ],
+    "code": "7480201",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Kỹ thuật phần mềm",
+    "description": "Thiết kế, phát triển và bảo trì phần mềm cho nhiều nền tảng.",
+    "keywords": [
+      "cntt",
+      "công nghệ",
+      "lập trình",
+      "máy tính",
+      "mềm",
+      "phần",
+      "phần mềm",
+      "thuật",
+      "thuật toán",
+      "tư duy logic"
+    ],
+    "code": "7480103",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01"
+    ]
+  },
+  {
+    "name": "Khoa học máy tính",
+    "description": "Nghiên cứu nền tảng lý thuyết và hệ thống máy tính.",
+    "keywords": [
+      "cntt",
+      "công nghệ",
+      "cấu trúc dữ liệu",
+      "học",
+      "khoa",
+      "lập trình",
+      "máy",
+      "máy tính",
+      "phần mềm",
+      "thuật toán",
+      "tính"
+    ],
+    "code": "7480101",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ]
+  },
+  {
+    "name": "Trí tuệ nhân tạo",
+    "description": "Phát triển hệ thống thông minh và AI.",
+    "keywords": [
+      "cntt",
+      "công nghệ",
+      "deep learning",
+      "lập trình",
+      "machine learning",
+      "máy tính",
+      "nhân",
+      "phần mềm",
+      "python",
+      "trí",
+      "tuệ",
+      "tạo"
+    ],
+    "code": "7340110",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Khoa học dữ liệu",
+    "description": "Phân tích và khai thác dữ liệu để hỗ trợ quyết định.",
+    "keywords": [
+      "cntt",
+      "công nghệ",
+      "học",
+      "khoa",
+      "liệu",
+      "lập trình",
+      "machine learning",
+      "máy tính",
+      "phân tích dữ liệu",
+      "phần mềm",
+      "thống kê"
+    ],
+    "code": "7340121",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D07"
+    ]
+  },
+  {
+    "name": "An toàn thông tin",
+    "description": "Bảo vệ hệ thống và dữ liệu khỏi tấn công mạng.",
+    "keywords": [
+      "bảo mật",
+      "cntt",
+      "công nghệ",
+      "lập trình",
+      "máy tính",
+      "mã hóa",
+      "mạng",
+      "phần mềm",
+      "thông",
+      "tin",
+      "toàn"
+    ],
+    "code": "7480202",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01"
+    ]
+  },
+  {
+    "name": "Hệ thống thông tin",
+    "description": "Quản trị hạ tầng CNTT, ERP, quy trình nghiệp vụ số và tích hợp hệ thống doanh nghiệp.",
+    "keywords": [
+      "cntt",
+      "công nghệ",
+      "lập trình",
+      "máy tính",
+      "phân tích",
+      "phần mềm",
+      "thông",
+      "thống",
+      "tin",
+      "tư duy logic"
+    ],
+    "code": "7480104",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Mạng máy tính và truyền thông dữ liệu",
+    "description": "Thiết kế mạng, truyền dẫn, cloud và vận hành hạ tầng viễn thông.",
+    "keywords": [
+      "cntt",
+      "công nghệ",
+      "liệu",
+      "lập trình",
+      "máy",
+      "máy tính",
+      "mạng",
+      "phân tích",
+      "phần mềm",
+      "thông",
+      "truyền",
+      "tính",
+      "tư duy logic"
+    ],
+    "code": "7480102",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01"
+    ]
+  },
+  {
+    "name": "Kỹ thuật máy tính",
+    "description": "Phần cứng máy tính, nhúng và kiến trúc hệ thống; gần kỹ thuật điện–điện tử.",
+    "keywords": [
+      "cntt",
+      "công nghệ",
+      "lập trình",
+      "máy",
+      "máy tính",
+      "phân tích",
+      "phần mềm",
+      "thuật",
+      "tính",
+      "tư duy logic"
+    ],
+    "code": "7480106",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02",
+      "D07"
+    ]
+  },
+  {
+    "name": "Lập trình nhúng và IoT",
+    "description": "Lập trình firmware, cảm biến, IoT và hệ thống nhúng trong công nghiệp 4.0.",
+    "keywords": [
+      "cntt",
+      "công nghệ",
+      "iot",
+      "lập",
+      "lập trình",
+      "máy tính",
+      "nhúng",
+      "phân tích",
+      "phần mềm",
+      "trình",
+      "tư duy logic"
+    ],
+    "code": "7520216",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02",
+      "D07"
+    ]
+  },
+  {
+    "name": "Thiết kế game",
+    "description": "Kết hợp lập trình game, đồ họa và thiết kế trải nghiệm người chơi.",
+    "keywords": [
+      "cntt",
+      "công nghệ",
+      "game",
+      "lập trình",
+      "máy tính",
+      "phân tích",
+      "phần mềm",
+      "thiết",
+      "tư duy logic"
+    ],
+    "code": "7480108",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01"
+    ]
+  },
+  {
+    "name": "Công nghệ đa phương tiện",
+    "description": "Công nghệ đa phương tiện: ứng dụng khoa học vào sản xuất và kiểm định (không phải lập trình CNTT). Khối thi thường: A02, B00, B03.",
+    "keywords": [
+      "công",
+      "công nghệ ứng dụng",
+      "kỹ thuật",
+      "nghệ",
+      "phương",
+      "tiện"
+    ],
+    "code": "7320106",
+    "careers": [
+      "Kỹ sư sinh học",
+      "Kỹ sư môi trường",
+      "Nhà nghiên cứu"
+    ],
+    "family": "tech_applied",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03",
+      "D07",
+      "H00"
+    ]
+  },
+  {
+    "name": "Thương mại điện tử",
+    "description": "Kinh doanh và vận hành nền tảng online.",
+    "keywords": [
+      "digital marketing",
+      "kinh doanh",
+      "mại",
+      "phân tích",
+      "thương",
+      "điện"
+    ],
+    "code": "7340122",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "engineering",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ]
+  },
+  {
+    "name": "Toán học",
+    "description": "Toán thuần — đại số, giải tích, xác suất; nền cho nghiên cứu, tài chính định lượng và CNTT.",
+    "keywords": [
+      "giao tiếp",
+      "học",
+      "kinh doanh",
+      "phân tích",
+      "thống kê",
+      "toán"
+    ],
+    "code": "7460101",
+    "careers": [
+      "Kỹ sư",
+      "Lập trình viên",
+      "Nhà khoa học"
+    ],
+    "family": "science",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Toán ứng dụng",
+    "description": "Ứng dụng toán vào mô hình kinh tế, tối ưu, thống kê và khoa học dữ liệu.",
+    "keywords": [
+      "dụng",
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích",
+      "toán",
+      "ứng"
+    ],
+    "code": "7460112",
+    "careers": [
+      "Kỹ sư",
+      "Lập trình viên",
+      "Nhà khoa học"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Thống kê",
+    "description": "Thu thập dữ liệu, ước lượng và kiểm định giả thuyết; nền cho phân tích kinh tế–xã hội.",
+    "keywords": [
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích",
+      "thống",
+      "thống kê",
+      "toán"
+    ],
+    "code": "7460102",
+    "careers": [
+      "Kỹ sư",
+      "Lập trình viên",
+      "Nhà khoa học"
+    ],
+    "family": "science",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Khoa học dữ liệu thống kê",
+    "description": "Kết hợp thống kê hiện đại và khoa học dữ liệu cho quyết định dựa trên số liệu.",
+    "keywords": [
+      "cntt",
+      "công nghệ",
+      "học",
+      "khoa",
+      "liệu",
+      "lập trình",
+      "máy tính",
+      "phân tích",
+      "phần mềm",
+      "thống",
+      "tư duy logic"
+    ],
+    "code": "7340121",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02",
+      "B00",
+      "D07"
+    ]
+  },
+  {
+    "name": "Vật lý học",
+    "description": "Nghiên cứu vật lý cơ bản; nền cho kỹ thuật, vật liệu và công nghệ cao.",
+    "keywords": [
+      "giao tiếp",
+      "hóa học",
+      "học",
+      "kinh doanh",
+      "phân tích",
+      "thí nghiệm",
+      "vật",
+      "vật lý"
+    ],
+    "code": "7440101",
+    "careers": [
+      "Kỹ sư",
+      "Lập trình viên",
+      "Nhà khoa học"
+    ],
+    "family": "science",
+    "exam_blocks": [
+      "A00",
+      "B00",
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Kỹ thuật vật lý",
+    "description": "Ứng dụng vật lý trong thiết bị, đo lường và công nghiệp chính xác.",
+    "keywords": [
+      "giải quyết vấn đề",
+      "kỹ thuật",
+      "thuật",
+      "tư duy logic",
+      "vật"
+    ],
+    "code": "7520401",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "engineering",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ]
+  },
+  {
+    "name": "Công nghệ vật liệu",
+    "description": "Phát triển và kiểm định vật liệu mới trong cơ khí, điện tử và xây dựng.",
+    "keywords": [
+      "công",
+      "công nghệ ứng dụng",
+      "kỹ thuật",
+      "liệu",
+      "nghệ",
+      "vật"
+    ],
+    "code": "7510402",
+    "careers": [
+      "Kỹ sư sinh học",
+      "Kỹ sư môi trường",
+      "Nhà nghiên cứu"
+    ],
+    "family": "tech_applied",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03",
+      "D07",
+      "H00"
+    ]
+  },
+  {
+    "name": "Cơ điện tử",
+    "description": "Cơ điện tử: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: A00, A01, A02.",
+    "keywords": [
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích",
+      "điện"
+    ],
+    "code": "7510203",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "engineering",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ]
+  },
+  {
+    "name": "Kỹ thuật cơ khí",
+    "description": "Thiết kế, chế tạo và bảo trì máy móc, ô tô, năng lượng và sản xuất.",
+    "keywords": [
+      "giải quyết vấn đề",
+      "khí",
+      "kỹ thuật",
+      "thuật",
+      "tư duy logic"
+    ],
+    "code": "7520101",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "engineering",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ]
+  },
+  {
+    "name": "Kỹ thuật ô tô",
+    "description": "Kỹ thuật động cơ, khung gầm và hệ thống điện–điều khiển trên ô tô.",
+    "keywords": [
+      "giải quyết vấn đề",
+      "kỹ thuật",
+      "thuật",
+      "tư duy logic"
+    ],
+    "code": "7520114",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "engineering",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ]
+  },
+  {
+    "name": "Kỹ thuật hàng không",
+    "description": "Thiết kế, bảo dưỡng và vận hành kết cấu, động cơ hàng không.",
+    "keywords": [
+      "hàng",
+      "không",
+      "thuật"
+    ],
+    "code": "7520120",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "aviation",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01"
+    ]
+  },
+  {
+    "name": "Kỹ thuật điện",
+    "description": "Kỹ thuật điện: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02.",
+    "keywords": [
+      "giải quyết vấn đề",
+      "kỹ thuật",
+      "thuật",
+      "tư duy logic",
+      "điện"
+    ],
+    "code": "7520201",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "engineering",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ]
+  },
+  {
+    "name": "Kỹ thuật điện tử viễn thông",
+    "description": "Kỹ thuật điện tử viễn thông: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02.",
+    "keywords": [
+      "giải quyết vấn đề",
+      "kỹ thuật",
+      "thuật",
+      "thông",
+      "tư duy logic",
+      "viễn",
+      "điện"
+    ],
+    "code": "7520201",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "engineering",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ]
+  },
+  {
+    "name": "Kỹ thuật điều khiển và tự động hóa",
+    "description": "Kỹ thuật điều khiển và tự động hóa: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02.",
+    "keywords": [
+      "giải quyết vấn đề",
+      "hóa",
+      "khiển",
+      "kỹ thuật",
+      "thuật",
+      "tư duy logic",
+      "điều",
+      "động"
+    ],
+    "code": "7520216",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "engineering",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ]
+  },
+  {
+    "name": "Robot và trí tuệ nhân tạo",
+    "description": "Robot học, thị giác máy tính và AI cho tự động hóa thông minh.",
+    "keywords": [
+      "cntt",
+      "công nghệ",
+      "lập trình",
+      "máy tính",
+      "nhân",
+      "phân tích",
+      "phần mềm",
+      "robot",
+      "trí",
+      "tuệ",
+      "tư duy logic",
+      "tạo"
+    ],
+    "code": "7480107",
+    "careers": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Chuyên viên dữ liệu"
+    ],
+    "family": "it",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02",
+      "D07"
+    ]
+  },
+  {
+    "name": "Hóa học",
+    "description": "Hóa lý, hóa hữu cơ và phân tích; nền cho dược, vật liệu và môi trường.",
+    "keywords": [
+      "giao tiếp",
+      "hóa",
+      "hóa học",
+      "học",
+      "kinh doanh",
+      "phân tích",
+      "thí nghiệm",
+      "vật lý"
+    ],
+    "code": "7440112",
+    "careers": [
+      "Kỹ sư",
+      "Lập trình viên",
+      "Nhà khoa học"
+    ],
+    "family": "science",
+    "exam_blocks": [
+      "A00",
+      "B00",
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Công nghệ hóa học",
+    "description": "Ứng dụng hóa học trong sản xuất công nghiệp, dược phẩm và năng lượng.",
+    "keywords": [
+      "công",
+      "công nghệ ứng dụng",
+      "hóa",
+      "học",
+      "kỹ thuật",
+      "nghệ"
+    ],
+    "code": "7440112",
+    "careers": [
+      "Kỹ sư",
+      "Lập trình viên",
+      "Nhà khoa học"
+    ],
+    "family": "tech_applied",
+    "exam_blocks": [
+      "A00",
+      "B00",
+      "B03",
+      "D07"
+    ]
+  },
+  {
+    "name": "Công nghệ thực phẩm",
+    "description": "Kiểm soát chất lượng, chế biến và an toàn vệ sinh thực phẩm — không phải lập trình CNTT.",
+    "keywords": [
+      "an toàn thực phẩm",
+      "chế biến",
+      "công",
+      "hóa học",
+      "kiểm định",
+      "nghệ",
+      "phẩm",
+      "thực",
+      "thực phẩm"
+    ],
+    "code": "7540101",
+    "careers": [
+      "Kỹ sư công nghệ thực phẩm",
+      "Chuyên viên QA thực phẩm",
+      "Quản lý sản xuất chế biến"
+    ],
+    "family": "tech_applied",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "D07",
+      "H00"
+    ]
+  },
+  {
+    "name": "Công nghệ sinh học",
+    "description": "Ứng dụng sinh học phân tử trong lab, dược và công nghiệp sinh học.",
+    "keywords": [
+      "công",
+      "công nghệ sinh học",
+      "học",
+      "lab",
+      "nghệ",
+      "sinh",
+      "sinh học"
+    ],
+    "code": "7420201",
+    "careers": [
+      "Kỹ sư sinh học",
+      "Chuyên viên R&D",
+      "Kỹ thuật viên phòng lab"
+    ],
+    "family": "tech_applied",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03",
+      "H00"
+    ]
+  },
+  {
+    "name": "Kỹ thuật môi trường",
+    "description": "Xử lý nước thải, khí thải và công nghệ xanh trong sản xuất.",
+    "keywords": [
+      "môi",
+      "thuật",
+      "trường"
+    ],
+    "code": "7520801",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "environment",
+    "exam_blocks": [
+      "A00",
+      "A02",
+      "B00"
+    ]
+  },
+  {
+    "name": "Quản lý tài nguyên môi trường",
+    "description": "Quy hoạch, giám sát tài nguyên và chính sách môi trường bền vững.",
+    "keywords": [
+      "môi",
+      "nguyên",
+      "quản",
+      "trường",
+      "tài"
+    ],
+    "code": "7850101",
+    "careers": [
+      "Kỹ sư nông nghiệp",
+      "Chuyên viên môi trường",
+      "Quản lý trang trại"
+    ],
+    "family": "environment",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "C00"
+    ]
+  },
+  {
+    "name": "Sinh học",
+    "description": "Nghiên cứu sự sống ở tế bào–quần thể; nền cho y sinh, môi trường và R&D.",
+    "keywords": [
+      "giao tiếp",
+      "học",
+      "kinh doanh",
+      "lab",
+      "nghiên cứu",
+      "phân tích",
+      "sinh",
+      "sinh học"
+    ],
+    "code": "7420101",
+    "careers": [
+      "Kỹ sư sinh học",
+      "Chuyên viên R&D",
+      "Kỹ thuật viên phòng lab"
+    ],
+    "family": "science",
+    "exam_blocks": [
+      "A02",
+      "B00"
+    ]
+  },
+  {
+    "name": "Công nghệ sinh học y dược",
+    "description": "Sinh học phục vụ dược phẩm, xét nghiệm và sản xuất sinh phẩm y tế.",
+    "keywords": [
+      "công",
+      "công nghệ sinh học",
+      "dược",
+      "học",
+      "lab",
+      "nghệ",
+      "sinh",
+      "sinh học"
+    ],
+    "code": "7420201",
+    "careers": [
+      "Kỹ sư sinh học",
+      "Chuyên viên R&D",
+      "Kỹ thuật viên phòng lab"
+    ],
+    "family": "tech_applied",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "D07",
+      "H00"
+    ]
+  },
+  {
+    "name": "Công nghệ xét nghiệm",
+    "description": "Kỹ thuật xét nghiệm lâm sàng, thiết bị lab và quy trình chẩn đoán.",
+    "keywords": [
+      "công",
+      "công nghệ ứng dụng",
+      "kỹ thuật",
+      "nghiệm",
+      "nghệ",
+      "xét"
+    ],
+    "code": "7720601",
+    "careers": [
+      "Bác sĩ",
+      "Dược sĩ",
+      "Kỹ sư nông nghiệp"
+    ],
+    "family": "tech_applied",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ]
+  },
+  {
+    "name": "Khoa học sự sống",
+    "description": "Tổng hợp sinh học, hóa sinh và phương pháp nghiên cứu đa ngành.",
+    "keywords": [
+      "giao tiếp",
+      "học",
+      "khoa",
+      "kinh doanh",
+      "lab",
+      "nghiên cứu",
+      "phân tích",
+      "sinh học",
+      "sống"
+    ],
+    "code": "7440112",
+    "careers": [
+      "Kỹ sư",
+      "Lập trình viên",
+      "Nhà khoa học"
+    ],
+    "family": "science",
+    "exam_blocks": [
+      "A00",
+      "B00",
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Y khoa",
+    "description": "Chăm sóc sức khỏe, điều trị và nghiên cứu y sinh; yêu cầu cam kết học tập lâu dài.",
+    "keywords": [
+      "chăm sóc",
+      "giao tiếp",
+      "khoa",
+      "sinh học",
+      "sức khỏe",
+      "y tế"
+    ],
+    "code": "7720101",
+    "careers": [
+      "Bác sĩ",
+      "Dược sĩ",
+      "Điều dưỡng viên",
+      "Kỹ thuật viên y tế"
+    ],
+    "family": "health",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ]
+  },
+  {
+    "name": "Răng hàm mặt",
+    "description": "Nha khoa lâm sàng, phục hình và điều trị răng–hàm–mặt.",
+    "keywords": [
+      "chăm sóc",
+      "giao tiếp",
+      "hàm",
+      "mặt",
+      "răng",
+      "sinh học"
+    ],
+    "code": "7720501",
+    "careers": [
+      "Bác sĩ",
+      "Dược sĩ",
+      "Điều dưỡng viên",
+      "Kỹ thuật viên y tế"
+    ],
+    "family": "health",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ]
+  },
+  {
+    "name": "Dược học",
+    "description": "Dược lý, bào chế và tư vấn sử dụng thuốc an toàn.",
+    "keywords": [
+      "chăm sóc",
+      "dược",
+      "giao tiếp",
+      "học",
+      "sinh học",
+      "sức khỏe",
+      "y tế"
+    ],
+    "code": "7720201",
+    "careers": [
+      "Bác sĩ",
+      "Dược sĩ",
+      "Điều dưỡng viên",
+      "Kỹ thuật viên y tế"
+    ],
+    "family": "health",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ]
+  },
+  {
+    "name": "Điều dưỡng",
+    "description": "Điều dưỡng: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: B00, B03, H00.",
+    "keywords": [
+      "dưỡng",
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích",
+      "điều"
+    ],
+    "code": "7720301",
+    "careers": [
+      "Bác sĩ",
+      "Dược sĩ",
+      "Điều dưỡng viên",
+      "Kỹ thuật viên y tế"
+    ],
+    "family": "health",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ]
+  },
+  {
+    "name": "Kỹ thuật xét nghiệm y học",
+    "description": "Vận hành máy xét nghiệm và quy trình kiểm tra mẫu bệnh phẩm.",
+    "keywords": [
+      "giải quyết vấn đề",
+      "học",
+      "kỹ thuật",
+      "nghiệm",
+      "thuật",
+      "tư duy logic",
+      "xét"
+    ],
+    "code": "7720601",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "engineering",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ]
+  },
+  {
+    "name": "Kỹ thuật hình ảnh y học",
+    "description": "Chụp X-quang, CT, MRI và kỹ thuật chẩn đoán hình ảnh.",
+    "keywords": [
+      "chăm sóc",
+      "giao tiếp",
+      "hình",
+      "học",
+      "sinh học",
+      "thuật",
+      "ảnh"
+    ],
+    "code": "7720602",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "health",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ]
+  },
+  {
+    "name": "Y tế công cộng",
+    "description": "Epidemiology, phòng chống dịch và quản lý sức khỏe cộng đồng.",
+    "keywords": [
+      "công",
+      "cộng",
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích"
+    ],
+    "code": "7720701",
+    "careers": [
+      "Bác sĩ",
+      "Dược sĩ",
+      "Điều dưỡng viên",
+      "Kỹ thuật viên y tế"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ]
+  },
+  {
+    "name": "Dinh dưỡng",
+    "description": "Tư vấn dinh dưỡng lâm sàng và chế độ ăn phòng bệnh.",
+    "keywords": [
+      "dinh",
+      "dưỡng",
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích"
+    ],
+    "code": "7720401",
+    "careers": [
+      "Dược sĩ",
+      "Kỹ thuật viên y tế",
+      "Chuyên viên phòng lab"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "H00"
+    ]
+  },
+  {
+    "name": "Vật lý trị liệu",
+    "description": "Phục hồi chức năng vận động bằng vật lý trị liệu và kỹ thuật y sinh.",
+    "keywords": [
+      "chăm sóc",
+      "giao tiếp",
+      "liệu",
+      "sinh học",
+      "trị",
+      "vật"
+    ],
+    "code": "7720603",
+    "careers": [
+      "Bác sĩ",
+      "Dược sĩ",
+      "Kỹ sư nông nghiệp"
+    ],
+    "family": "health",
+    "exam_blocks": [
+      "B00",
+      "B03",
+      "H00"
+    ]
+  },
+  {
+    "name": "Hộ sinh",
+    "description": "Hỗ trợ sinh sản an toàn trong đẻ và chăm sóc sơ sinh.",
+    "keywords": [
+      "chăm sóc",
+      "giao tiếp",
+      "sinh",
+      "sinh học"
+    ],
+    "code": "7720302",
+    "careers": [
+      "Bác sĩ",
+      "Dược sĩ",
+      "Điều dưỡng viên",
+      "Kỹ thuật viên y tế"
+    ],
+    "family": "health",
+    "exam_blocks": [
+      "B00"
+    ]
+  },
+  {
+    "name": "Luật",
+    "description": "Hệ thống pháp luật Việt Nam, tố tụng và tư vấn pháp lý.",
+    "keywords": [
+      "luật",
+      "pháp luật"
+    ],
+    "code": "7380101",
+    "careers": [
+      "Luật sư",
+      "Chuyên viên pháp chế",
+      "Cán bộ tư pháp"
+    ],
+    "family": "law",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D14"
+    ]
+  },
+  {
+    "name": "Luật kinh tế",
+    "description": "Pháp luật doanh nghiệp, hợp đồng thương mại và tranh chấp kinh tế.",
+    "keywords": [
+      "kinh",
+      "luật",
+      "pháp luật"
+    ],
+    "code": "7380107",
+    "careers": [
+      "Chuyên viên phân tích",
+      "Nhân viên kinh doanh",
+      "Kế toán viên",
+      "Chuyên viên tài chính"
+    ],
+    "family": "law",
+    "exam_blocks": [
+      "C00",
+      "D01",
+      "D14"
+    ]
+  },
+  {
+    "name": "Luật quốc tế",
+    "description": "Luật quốc tế, thương mại xuyên biên giới và tổ chức quốc tế.",
+    "keywords": [
+      "luật",
+      "pháp luật",
+      "quốc"
+    ],
+    "code": "7380108",
+    "careers": [
+      "Luật sư",
+      "Chuyên viên pháp chế",
+      "Cán bộ tư pháp"
+    ],
+    "family": "law",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D01",
+      "D14"
+    ]
+  },
+  {
+    "name": "Kinh tế học",
+    "description": "Lý thuyết kinh tế vĩ mô–vi mô và phân tích chính sách.",
+    "keywords": [
+      "giao tiếp",
+      "học",
+      "kinh",
+      "kinh doanh",
+      "phân tích"
+    ],
+    "code": "7310101",
+    "careers": [
+      "Chuyên viên phân tích",
+      "Nhân viên kinh doanh",
+      "Kế toán viên",
+      "Chuyên viên tài chính"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Kinh tế quốc tế",
+    "description": "Thương mại, FDI và kinh tế toàn cầu.",
+    "keywords": [
+      "giao tiếp",
+      "kinh",
+      "kinh doanh",
+      "phân tích",
+      "quốc"
+    ],
+    "code": "7310106",
+    "careers": [
+      "Chuyên viên phân tích",
+      "Nhân viên kinh doanh",
+      "Kế toán viên",
+      "Chuyên viên tài chính"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Kinh doanh quốc tế",
+    "description": "Phân tích thị trường, quản trị doanh nghiệp và tài chính.",
+    "keywords": [
+      "doanh",
+      "giao tiếp",
+      "kinh",
+      "kinh doanh",
+      "phân tích",
+      "quốc"
+    ],
+    "code": "7340204",
+    "careers": [
+      "Chuyên viên phân tích",
+      "Nhân viên kinh doanh",
+      "Kế toán viên",
+      "Chuyên viên tài chính"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Quản trị kinh doanh",
+    "description": "Quản lý và vận hành doanh nghiệp.",
+    "keywords": [
+      "doanh",
+      "kinh",
+      "lãnh đạo",
+      "phân tích",
+      "quản",
+      "quản lý",
+      "trị"
+    ],
+    "code": "7340101",
+    "careers": [
+      "Chuyên viên phân tích",
+      "Nhân viên kinh doanh",
+      "Kế toán viên",
+      "Chuyên viên tài chính"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Quản trị nhân lực",
+    "description": "Tuyển dụng, đào tạo và phát triển nguồn nhân lực.",
+    "keywords": [
+      "giao tiếp",
+      "kinh doanh",
+      "lực",
+      "nhân",
+      "phân tích",
+      "quản",
+      "trị"
+    ],
+    "code": "7340404",
+    "careers": [
+      "Nhà báo",
+      "Luật sư",
+      "Giáo viên",
+      "Chuyên viên xã hội"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "C00",
+      "D01"
+    ]
+  },
+  {
+    "name": "Marketing",
+    "description": "Xây dựng chiến lược tiếp thị và thương hiệu.",
+    "keywords": [
+      "giao tiếp",
+      "marketing",
+      "phân tích thị trường",
+      "quảng cáo",
+      "sáng tạo"
+    ],
+    "code": "7340115",
+    "careers": [
+      "Nhà báo",
+      "Biên tập viên",
+      "Chuyên viên Marketing",
+      "Content creator"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Digital Marketing",
+    "description": "Sáng tạo nội dung, truyền thông và chiến lược tiếp thị.",
+    "keywords": [
+      "digital",
+      "giao tiếp",
+      "kinh doanh",
+      "marketing",
+      "phân tích",
+      "quảng cáo"
+    ],
+    "code": "7340115",
+    "careers": [
+      "Nhà báo",
+      "Biên tập viên",
+      "Chuyên viên Marketing",
+      "Content creator"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Tài chính ngân hàng",
+    "description": "Tín dụng, đầu tư và quản trị rủi ro tài chính.",
+    "keywords": [
+      "chính",
+      "giao tiếp",
+      "hàng",
+      "kinh doanh",
+      "ngân",
+      "phân tích",
+      "tài"
+    ],
+    "code": "7340201",
+    "careers": [
+      "Chuyên viên phân tích",
+      "Nhân viên kinh doanh",
+      "Kế toán viên",
+      "Chuyên viên tài chính"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Kế toán",
+    "description": "Ghi chép, báo cáo tài chính và tuân thủ kế toán–thuế.",
+    "keywords": [
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích",
+      "toán"
+    ],
+    "code": "7340301",
+    "careers": [
+      "Chuyên viên phân tích",
+      "Nhân viên kinh doanh",
+      "Kế toán viên",
+      "Chuyên viên tài chính"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Kiểm toán",
+    "description": "Kiểm toán độc lập, nội bộ và đánh giá minh bạch tài chính.",
+    "keywords": [
+      "giao tiếp",
+      "kinh doanh",
+      "kiểm",
+      "phân tích",
+      "toán"
+    ],
+    "code": "7340302",
+    "careers": [
+      "Chuyên viên kinh doanh",
+      "Kế toán",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Phân tích đầu tư tài chính",
+    "description": "Phân tích đầu tư tài chính: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: D01, D07.",
+    "keywords": [
+      "chính",
+      "giao tiếp",
+      "kinh doanh",
+      "phân",
+      "phân tích",
+      "tài",
+      "tích",
+      "đầu"
+    ],
+    "code": "7310104",
+    "careers": [
+      "Chuyên viên phân tích",
+      "Nhân viên kinh doanh",
+      "Kế toán viên",
+      "Chuyên viên tài chính"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Chứng khoán",
+    "description": "Môi giới, phân tích thị trường và dịch vụ chứng khoán.",
+    "keywords": [
+      "chứng",
+      "giao tiếp",
+      "khoán",
+      "kinh doanh",
+      "phân tích"
+    ],
+    "code": "7340201",
+    "careers": [
+      "Chuyên viên kinh doanh",
+      "Kế toán",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Bảo hiểm",
+    "description": "Sản phẩm bảo hiểm, bồi thường và quản trị rủi ro.",
+    "keywords": [
+      "bảo",
+      "giao tiếp",
+      "hiểm",
+      "kinh doanh",
+      "phân tích"
+    ],
+    "code": "7340204",
+    "careers": [
+      "Chuyên viên kinh doanh",
+      "Kế toán",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Logistics và quản lý chuỗi cung ứng",
+    "description": "Vận tải, kho bãi và tối ưu chuỗi cung ứng.",
+    "keywords": [
+      "chuỗi",
+      "cung",
+      "giao tiếp",
+      "kinh doanh",
+      "logistics",
+      "phân tích",
+      "quản",
+      "ứng"
+    ],
+    "code": "7840104",
+    "careers": [
+      "Chuyên viên phân tích",
+      "Nhân viên kinh doanh",
+      "Kế toán viên",
+      "Chuyên viên tài chính"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Quản trị logistics",
+    "description": "Điều phối vận hành logistics và hợp đồng vận chuyển.",
+    "keywords": [
+      "giao tiếp",
+      "kinh doanh",
+      "logistics",
+      "phân tích",
+      "quản",
+      "trị"
+    ],
+    "code": "7510605",
+    "careers": [
+      "Chuyên viên phân tích",
+      "Nhân viên kinh doanh",
+      "Kế toán viên",
+      "Chuyên viên tài chính"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Thương mại quốc tế",
+    "description": "Xuất nhập khẩu, Incoterms và thương lượng hợp đồng.",
+    "keywords": [
+      "giao tiếp",
+      "kinh doanh",
+      "mại",
+      "phân tích",
+      "quốc",
+      "thương"
+    ],
+    "code": "7340121",
+    "careers": [
+      "Chuyên viên kinh doanh",
+      "Kế toán",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Bất động sản",
+    "description": "Bất động sản: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: C00, D01.",
+    "keywords": [
+      "bất",
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích",
+      "sản",
+      "động"
+    ],
+    "code": "7340116",
+    "careers": [
+      "Nhà báo",
+      "Luật sư",
+      "Giáo viên",
+      "Chuyên viên xã hội"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "C00",
+      "D01"
+    ]
+  },
+  {
+    "name": "Quản lý dự án",
+    "description": "Lập kế hoạch, giám sát tiến độ và quản trị dự án.",
+    "keywords": [
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích",
+      "quản"
+    ],
+    "code": "7340409",
+    "careers": [
+      "Chuyên viên kinh doanh",
+      "Kế toán",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Quản trị văn phòng",
+    "description": "Hành chính, thư ký điều hành và quy trình văn phòng.",
+    "keywords": [
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích",
+      "phòng",
+      "quản",
+      "trị",
+      "văn"
+    ],
+    "code": "7340406",
+    "careers": [
+      "Chuyên viên kinh doanh",
+      "Kế toán",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "D01",
+      "D07"
+    ]
+  },
+  {
+    "name": "Du lịch",
+    "description": "Lữ hành, điểm đến và phát triển sản phẩm du lịch.",
+    "keywords": [
+      "lịch"
+    ],
+    "code": "7810101",
+    "careers": [
+      "Hướng dẫn viên du lịch",
+      "Quản lý khách sạn",
+      "Chuyên viên sự kiện"
+    ],
+    "family": "tourism",
+    "exam_blocks": [
+      "C00",
+      "C15",
+      "D15"
+    ]
+  },
+  {
+    "name": "Quản trị khách sạn",
+    "description": "Vận hành khách sạn, lễ tân và trải nghiệm lưu trú.",
+    "keywords": [
+      "khách",
+      "quản",
+      "sạn",
+      "trị"
+    ],
+    "code": "7810201",
+    "careers": [
+      "Hướng dẫn viên du lịch",
+      "Quản lý khách sạn",
+      "Chuyên viên sự kiện"
+    ],
+    "family": "tourism",
+    "exam_blocks": [
+      "C15",
+      "D01",
+      "D15"
+    ]
+  },
+  {
+    "name": "Quản trị nhà hàng",
+    "description": "Ẩm thực, F&B và quản lý nhà hàng–dịch vụ ăn uống.",
+    "keywords": [
+      "hàng",
+      "nhà",
+      "quản",
+      "trị"
+    ],
+    "code": "7810202",
+    "careers": [
+      "Hướng dẫn viên du lịch",
+      "Quản lý khách sạn",
+      "Chuyên viên sự kiện"
+    ],
+    "family": "tourism",
+    "exam_blocks": [
+      "C00",
+      "C15",
+      "D01",
+      "D15"
+    ]
+  },
+  {
+    "name": "Hướng dẫn du lịch",
+    "description": "Thuyết minh, tour và dịch vụ hướng dẫn viên chuyên nghiệp.",
+    "keywords": [
+      "dẫn",
+      "hướng",
+      "lịch"
+    ],
+    "code": "7810102",
+    "careers": [
+      "Hướng dẫn viên du lịch",
+      "Quản lý khách sạn",
+      "Chuyên viên sự kiện"
+    ],
+    "family": "tourism",
+    "exam_blocks": [
+      "C00",
+      "C15",
+      "D15"
+    ]
+  },
+  {
+    "name": "Dịch vụ hàng không",
+    "description": "Tiếp viên, dịch vụ sân bay và vận hành hàng không thương mại.",
+    "keywords": [
+      "dịch",
+      "hàng",
+      "không"
+    ],
+    "code": "7810103",
+    "careers": [
+      "Kỹ sư",
+      "Lập trình viên",
+      "Nhà khoa học"
+    ],
+    "family": "aviation",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01"
+    ]
+  },
+  {
+    "name": "Ngôn ngữ Anh",
+    "description": "Tiếng Anh học thuật, giao tiếp và biên phiên dịch.",
+    "keywords": [
+      "anh",
+      "ngôn",
+      "ngữ"
+    ],
+    "code": "7220201",
+    "careers": [
+      "Biên dịch viên",
+      "Phiên dịch viên",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "lang",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14"
+    ]
+  },
+  {
+    "name": "Ngôn ngữ Trung",
+    "description": "Tiếng Trung thương mại và văn hóa Trung Hoa.",
+    "keywords": [
+      "ngôn",
+      "ngữ",
+      "trung"
+    ],
+    "code": "7220204",
+    "careers": [
+      "Biên dịch viên",
+      "Phiên dịch viên",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "lang",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14",
+      "D15"
+    ]
+  },
+  {
+    "name": "Ngôn ngữ Nhật",
+    "description": "Tiếng Nhật cho doanh nghiệp và du học.",
+    "keywords": [
+      "ngôn",
+      "ngữ",
+      "nhật"
+    ],
+    "code": "7220209",
+    "careers": [
+      "Biên dịch viên",
+      "Phiên dịch viên",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "lang",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14",
+      "D15"
+    ]
+  },
+  {
+    "name": "Ngôn ngữ Hàn",
+    "description": "Tiếng Hàn cho giao tiếp và làm việc với doanh nghiệp Hàn Quốc.",
+    "keywords": [
+      "hàn",
+      "ngôn",
+      "ngữ"
+    ],
+    "code": "7220210",
+    "careers": [
+      "Biên dịch viên",
+      "Phiên dịch viên",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "lang",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14",
+      "D15"
+    ]
+  },
+  {
+    "name": "Ngôn ngữ Pháp",
+    "description": "Tiếng Pháp và văn hóa Pháp ngữ.",
+    "keywords": [
+      "ngôn",
+      "ngữ",
+      "pháp"
+    ],
+    "code": "7220203",
+    "careers": [
+      "Biên dịch viên",
+      "Phiên dịch viên",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "lang",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14",
+      "D15"
+    ]
+  },
+  {
+    "name": "Ngôn ngữ Đức",
+    "description": "Ngôn ngữ Đức: ngoại ngữ, biên phiên dịch và giao tiếp quốc tế. Khối thi thường: C14, D01, D14.",
+    "keywords": [
+      "ngôn",
+      "ngữ",
+      "đức"
+    ],
+    "code": "7220205",
+    "careers": [
+      "Biên dịch viên",
+      "Phiên dịch viên",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "lang",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14",
+      "D15"
+    ]
+  },
+  {
+    "name": "Biên - phiên dịch",
+    "description": "Đào tạo kỹ năng biên dịch và phiên dịch; phù hợp khối D và người giỏi ngoại ngữ.",
+    "keywords": [
+      "biên",
+      "dịch",
+      "giao tiếp",
+      "ngoại ngữ",
+      "phiên"
+    ],
+    "code": "7229040",
+    "careers": [
+      "Biên dịch viên",
+      "Phiên dịch viên",
+      "Giảng viên ngoại ngữ"
+    ],
+    "family": "lang",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14"
+    ]
+  },
+  {
+    "name": "Báo chí",
+    "description": "Tìm tin, viết bài và sản xuất nội dung báo chí.",
+    "keywords": [
+      "báo",
+      "chí"
+    ],
+    "code": "7320101",
+    "careers": [
+      "Nhà báo",
+      "Biên tập viên",
+      "Chuyên viên Marketing",
+      "Content creator"
+    ],
+    "family": "media",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D14"
+    ]
+  },
+  {
+    "name": "Truyền thông đa phương tiện",
+    "description": "Truyền thông đa phương tiện: truyền thông, báo chí và quan hệ công chúng. Khối thi thường: C00, C14, D01.",
+    "keywords": [
+      "phương",
+      "thông",
+      "tiện",
+      "truyền"
+    ],
+    "code": "7320104",
+    "careers": [
+      "Nhà báo",
+      "Biên tập viên",
+      "Chuyên viên Marketing",
+      "Content creator"
+    ],
+    "family": "media",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D01"
+    ]
+  },
+  {
+    "name": "Quan hệ công chúng",
+    "description": "PR, quản trị khủng hoảng và hình ảnh thương hiệu.",
+    "keywords": [
+      "chúng",
+      "công",
+      "quan"
+    ],
+    "code": "7320104",
+    "careers": [
+      "Nhà báo",
+      "Luật sư",
+      "Giáo viên",
+      "Chuyên viên xã hội"
+    ],
+    "family": "media",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ]
+  },
+  {
+    "name": "Quảng cáo",
+    "description": "Sáng tạo quảng cáo, media planning và truyền thông thương hiệu.",
+    "keywords": [
+      "cáo",
+      "quảng"
+    ],
+    "code": "7320105",
+    "careers": [
+      "Nhà báo",
+      "Biên tập viên",
+      "Chuyên viên Marketing",
+      "Content creator"
+    ],
+    "family": "media",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D01"
+    ]
+  },
+  {
+    "name": "Xuất bản",
+    "description": "Biên tập, xuất bản sách và quản lý bản quyền.",
+    "keywords": [
+      "bản",
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích",
+      "xuất"
+    ],
+    "code": "7320401",
+    "careers": [
+      "Nhà báo",
+      "Luật sư",
+      "Giáo viên",
+      "Chuyên viên xã hội"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "C00",
+      "C14"
+    ]
+  },
+  {
+    "name": "Thiết kế đồ họa",
+    "description": "Thiết kế đồ họa: thiết kế, mỹ thuật và sáng tạo thẩm mỹ. Khối thi thường: C15, D01, K00.",
+    "keywords": [
+      "họa",
+      "sáng tạo",
+      "thiết",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "code": "7210403",
+    "careers": [
+      "Kiến trúc sư",
+      "Thiết kế đồ họa",
+      "Designer sản phẩm"
+    ],
+    "family": "art",
+    "exam_blocks": [
+      "C15",
+      "D01",
+      "K00",
+      "K01"
+    ]
+  },
+  {
+    "name": "Thiết kế thời trang",
+    "description": "Phác thảo, may mẫu và xu hướng thời trang.",
+    "keywords": [
+      "sáng tạo",
+      "thiết",
+      "thiết kế",
+      "thẩm mỹ",
+      "thời",
+      "trang"
+    ],
+    "code": "7210404",
+    "careers": [
+      "Kiến trúc sư",
+      "Thiết kế đồ họa",
+      "Designer sản phẩm"
+    ],
+    "family": "art",
+    "exam_blocks": [
+      "D01",
+      "K00",
+      "K01"
+    ]
+  },
+  {
+    "name": "Thiết kế nội thất",
+    "description": "Không gian nội thất, vật liệu và trải nghiệm sống.",
+    "keywords": [
+      "nội",
+      "sáng tạo",
+      "thiết",
+      "thiết kế",
+      "thất",
+      "thẩm mỹ"
+    ],
+    "code": "7580108",
+    "careers": [
+      "Kiến trúc sư",
+      "Thiết kế đồ họa",
+      "Designer sản phẩm"
+    ],
+    "family": "art",
+    "exam_blocks": [
+      "D01",
+      "D15",
+      "K00",
+      "K01"
+    ]
+  },
+  {
+    "name": "Thiết kế công nghiệp",
+    "description": "Thiết kế sản phẩm công nghiệp và ergonomics.",
+    "keywords": [
+      "công",
+      "nghiệp",
+      "sáng tạo",
+      "thiết",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "code": "7210402",
+    "careers": [
+      "Kiến trúc sư",
+      "Thiết kế đồ họa",
+      "Designer sản phẩm"
+    ],
+    "family": "art",
+    "exam_blocks": [
+      "A00",
+      "D01",
+      "K00",
+      "K01"
+    ]
+  },
+  {
+    "name": "Mỹ thuật ứng dụng",
+    "description": "Mỹ thuật ứng dụng trong in ấn, trang trí và sản phẩm.",
+    "keywords": [
+      "dụng",
+      "sáng tạo",
+      "thiết kế",
+      "thuật",
+      "thẩm mỹ",
+      "ứng"
+    ],
+    "code": "7210101",
+    "careers": [
+      "Kiến trúc sư",
+      "Thiết kế đồ họa",
+      "Designer sản phẩm"
+    ],
+    "family": "art",
+    "exam_blocks": [
+      "C00",
+      "K00",
+      "K01"
+    ]
+  },
+  {
+    "name": "Kiến trúc",
+    "description": "Thiết kế công trình, quy hoạch công trình và giám sát thi công.",
+    "keywords": [
+      "kiến",
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ",
+      "trúc"
+    ],
+    "code": "7580101",
+    "careers": [
+      "Kiến trúc sư",
+      "Thiết kế đồ họa",
+      "Designer sản phẩm"
+    ],
+    "family": "art",
+    "exam_blocks": [
+      "A00",
+      "D01",
+      "K00"
+    ]
+  },
+  {
+    "name": "Quy hoạch đô thị",
+    "description": "Quy hoạch đô thị: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: A00, C00.",
+    "keywords": [
+      "giao tiếp",
+      "hoạch",
+      "kinh doanh",
+      "phân tích",
+      "quy",
+      "thị"
+    ],
+    "code": "7580105",
+    "careers": [
+      "Kỹ sư",
+      "Lập trình viên",
+      "Nhà khoa học"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "A00",
+      "C00"
+    ]
+  },
+  {
+    "name": "Sư phạm Toán",
+    "description": "Đào tạo giáo viên Toán THPT và phương pháp giảng dạy.",
+    "keywords": [
+      "giao tiếp",
+      "giáo dục",
+      "giảng dạy",
+      "kiên nhẫn",
+      "phạm",
+      "toán"
+    ],
+    "code": "7140209",
+    "careers": [
+      "Giáo viên",
+      "Giảng viên",
+      "Chuyên viên giáo dục"
+    ],
+    "family": "education",
+    "exam_blocks": [
+      "A00",
+      "A01"
+    ]
+  },
+  {
+    "name": "Sư phạm Văn",
+    "description": "Đào tạo giáo viên Ngữ văn và kỹ năng soạn giảng.",
+    "keywords": [
+      "giao tiếp",
+      "giáo dục",
+      "giảng dạy",
+      "kiên nhẫn",
+      "phạm",
+      "văn"
+    ],
+    "code": "7140217",
+    "careers": [
+      "Giáo viên",
+      "Giảng viên",
+      "Chuyên viên giáo dục"
+    ],
+    "family": "education",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14"
+    ]
+  },
+  {
+    "name": "Sư phạm Anh",
+    "description": "Đào tạo giáo viên Tiếng Anh và sư phạm ngoại ngữ.",
+    "keywords": [
+      "anh",
+      "giao tiếp",
+      "giáo dục",
+      "giảng dạy",
+      "kiên nhẫn",
+      "phạm"
+    ],
+    "code": "7140231",
+    "careers": [
+      "Giáo viên",
+      "Giảng viên",
+      "Chuyên viên giáo dục"
+    ],
+    "family": "education",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "D14"
+    ]
+  },
+  {
+    "name": "Sư phạm Tin học",
+    "description": "Đào tạo giáo viên Tin học và STEM trong nhà trường.",
+    "keywords": [
+      "giao tiếp",
+      "giáo dục",
+      "giảng dạy",
+      "học",
+      "kiên nhẫn",
+      "phạm",
+      "tin"
+    ],
+    "code": "7140210",
+    "careers": [
+      "Giáo viên",
+      "Giảng viên",
+      "Chuyên viên giáo dục"
+    ],
+    "family": "education",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "D01"
+    ]
+  },
+  {
+    "name": "Giáo dục tiểu học",
+    "description": "Sư phạm tiểu học và tâm lý lứa tuổi.",
+    "keywords": [
+      "dục",
+      "giao tiếp",
+      "giáo",
+      "giáo dục",
+      "giảng dạy",
+      "học",
+      "kiên nhẫn",
+      "tiểu"
+    ],
+    "code": "7140202",
+    "careers": [
+      "Giáo viên",
+      "Giảng viên",
+      "Chuyên viên giáo dục"
+    ],
+    "family": "education",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "D01"
+    ]
+  },
+  {
+    "name": "Giáo dục mầm non",
+    "description": "Chăm sóc và giáo dục trẻ mầm non.",
+    "keywords": [
+      "dục",
+      "giao tiếp",
+      "giáo",
+      "giáo dục",
+      "giảng dạy",
+      "kiên nhẫn",
+      "mầm",
+      "non"
+    ],
+    "code": "7140201",
+    "careers": [
+      "Giáo viên",
+      "Giảng viên",
+      "Chuyên viên giáo dục"
+    ],
+    "family": "education",
+    "exam_blocks": [
+      "C00",
+      "C01"
+    ]
+  },
+  {
+    "name": "Tâm lý học giáo dục",
+    "description": "Tâm lý học đường và tư vấn học sinh.",
+    "keywords": [
+      "dục",
+      "giao tiếp",
+      "giáo",
+      "giáo dục",
+      "giảng dạy",
+      "học",
+      "kiên nhẫn",
+      "tâm"
+    ],
+    "code": "7310403",
+    "careers": [
+      "Giáo viên",
+      "Giảng viên",
+      "Chuyên viên giáo dục"
+    ],
+    "family": "education",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ]
+  },
+  {
+    "name": "Tâm lý học",
+    "description": "Tư vấn tâm lý, đánh giá hành vi và nghiên cứu tâm lý.",
+    "keywords": [
+      "học",
+      "tâm"
+    ],
+    "code": "7310601",
+    "careers": [
+      "Tư vấn viên",
+      "Chuyên viên công tác xã hội"
+    ],
+    "family": "social",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ]
+  },
+  {
+    "name": "Xã hội học",
+    "description": "Nghiên cứu xã hội, khảo sát và chính sách cộng đồng.",
+    "keywords": [
+      "học",
+      "hội"
+    ],
+    "code": "7310301",
+    "careers": [
+      "Tư vấn viên",
+      "Chuyên viên công tác xã hội"
+    ],
+    "family": "social",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ]
+  },
+  {
+    "name": "Công tác xã hội",
+    "description": "Hỗ trợ nhóm yếu thế và can thiệp xã hội.",
+    "keywords": [
+      "công",
+      "hội",
+      "tác"
+    ],
+    "code": "7760101",
+    "careers": [
+      "Tư vấn viên",
+      "Chuyên viên công tác xã hội"
+    ],
+    "family": "social",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ]
+  },
+  {
+    "name": "Quan hệ quốc tế",
+    "description": "Ngoại giao, quan hệ quốc tế và tổ chức phi chính phủ.",
+    "keywords": [
+      "giao tiếp",
+      "kinh doanh",
+      "phân tích",
+      "quan",
+      "quốc"
+    ],
+    "code": "7310206",
+    "careers": [
+      "Nhà báo",
+      "Luật sư",
+      "Giáo viên",
+      "Chuyên viên xã hội"
+    ],
+    "family": "econ",
+    "exam_blocks": [
+      "C00",
+      "C14",
+      "D01",
+      "D14"
+    ]
+  },
+  {
+    "name": "Đông phương học",
+    "description": "Đông phương học: kinh tế, quản trị và tài chính trong doanh nghiệp. Khối thi thường: D01, D07.",
+    "keywords": [
+      "giao tiếp",
+      "học",
+      "kinh doanh",
+      "phân tích",
+      "phương",
+      "đông"
+    ],
+    "code": "7310608",
+    "careers": [
+      "Nhà báo",
+      "Luật sư",
+      "Giáo viên",
+      "Chuyên viên xã hội"
+    ],
+    "family": "education",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ]
+  },
+  {
+    "name": "Việt Nam học",
+    "description": "Lịch sử, văn hóa và nghiên cứu Việt Nam.",
+    "keywords": [
+      "giao tiếp",
+      "giảng dạy",
+      "học",
+      "kiên nhẫn",
+      "nam",
+      "việt"
+    ],
+    "code": "7310630",
+    "careers": [
+      "Nhà báo",
+      "Luật sư",
+      "Giáo viên",
+      "Chuyên viên xã hội"
+    ],
+    "family": "education",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14",
+      "D14"
+    ]
+  },
+  {
+    "name": "Sư phạm Lịch sử",
+    "description": "Đào tạo giáo viên Lịch sử; phù hợp người yêu thích lịch sử, khối C và định hướng giáo dục.",
+    "keywords": [
+      "giao tiếp",
+      "giáo dục",
+      "giảng dạy",
+      "lịch",
+      "nghiên cứu",
+      "phạm"
+    ],
+    "code": "7140218",
+    "careers": [
+      "Giáo viên",
+      "Giảng viên",
+      "Chuyên viên giáo dục"
+    ],
+    "family": "education",
+    "exam_blocks": [
+      "C00",
+      "C01",
+      "C14"
+    ]
+  },
+  {
+    "name": "Nông nghiệp",
+    "description": "Sản xuất cây trồng, đất đai và quản lý trang trại.",
+    "keywords": [
+      "nghiệp",
+      "nông"
+    ],
+    "code": "7620101",
+    "careers": [
+      "Kỹ sư nông nghiệp",
+      "Chuyên viên môi trường",
+      "Quản lý trang trại"
+    ],
+    "family": "agri",
+    "exam_blocks": [
+      "A02",
+      "B00"
+    ]
+  },
+  {
+    "name": "Công nghệ nông nghiệp",
+    "description": "Cơ giới hóa, IoT nông nghiệp và chế biến nông sản.",
+    "keywords": [
+      "công",
+      "công nghệ ứng dụng",
+      "kỹ thuật",
+      "nghiệp",
+      "nghệ",
+      "nông"
+    ],
+    "code": "7620101",
+    "careers": [
+      "Kỹ sư nông nghiệp",
+      "Chuyên viên môi trường",
+      "Quản lý trang trại"
+    ],
+    "family": "tech_applied",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03"
+    ]
+  },
+  {
+    "name": "Thú y",
+    "description": "Thú y lâm sàng, dịch tễ và an toàn thực phẩm động vật.",
+    "keywords": [
+      "thú"
+    ],
+    "code": "7640101",
+    "careers": [
+      "Kỹ sư nông nghiệp",
+      "Chuyên viên môi trường",
+      "Quản lý trang trại"
+    ],
+    "family": "agri",
+    "exam_blocks": [
+      "B00"
+    ]
+  },
+  {
+    "name": "Chăn nuôi",
+    "description": "Chăn nuôi gia súc, thức ăn và quản lý trại.",
+    "keywords": [
+      "chăn",
+      "nuôi"
+    ],
+    "code": "7620105",
+    "careers": [
+      "Kỹ sư sinh học",
+      "Kỹ sư môi trường",
+      "Nhà nghiên cứu"
+    ],
+    "family": "agri",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03"
+    ]
+  },
+  {
+    "name": "Lâm nghiệp",
+    "description": "Lâm sinh, quản lý rừng và bảo tồn.",
+    "keywords": [
+      "lâm",
+      "nghiệp"
+    ],
+    "code": "7620202",
+    "careers": [
+      "Kỹ sư sinh học",
+      "Kỹ sư môi trường",
+      "Nhà nghiên cứu"
+    ],
+    "family": "agri",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03"
+    ]
+  },
+  {
+    "name": "Nuôi trồng thủy sản",
+    "description": "Nuôi trồng thủy sản, chế biến và quản lý ao hồ–biển.",
+    "keywords": [
+      "nuôi",
+      "sản",
+      "thủy",
+      "trồng"
+    ],
+    "code": "7620301",
+    "careers": [
+      "Kỹ sư nông nghiệp",
+      "Chuyên viên môi trường",
+      "Quản lý trang trại"
+    ],
+    "family": "agri",
+    "exam_blocks": [
+      "A02",
+      "B00",
+      "B03"
+    ]
+  },
+  {
+    "name": "Thể dục thể thao",
+    "description": "Huấn luyện thể thao, quản lý thi đấu và giáo dục thể chất.",
+    "keywords": [
+      "dục",
+      "thao",
+      "thể"
+    ],
+    "code": "7729001",
+    "careers": [
+      "Bác sĩ",
+      "Dược sĩ",
+      "Kỹ sư nông nghiệp"
+    ],
+    "family": "sport",
+    "exam_blocks": [
+      "B00",
+      "C00"
+    ]
+  },
+  {
+    "name": "Huấn luyện thể thao",
+    "description": "Huấn luyện viên chuyên môn và khoa học thể thao.",
+    "keywords": [
+      "huấn",
+      "luyện",
+      "thao",
+      "thể"
+    ],
+    "code": "7140207",
+    "careers": [
+      "Bác sĩ",
+      "Dược sĩ",
+      "Kỹ sư nông nghiệp"
+    ],
+    "family": "sport",
+    "exam_blocks": [
+      "B00",
+      "C00"
+    ]
+  },
+  {
+    "name": "Âm nhạc",
+    "description": "Thanh nhạc, nhạc cụ và biểu diễn âm nhạc.",
+    "keywords": [
+      "nhạc",
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "code": "7140221",
+    "careers": [
+      "Biên tập viên",
+      "Phiên dịch viên",
+      "Chuyên viên truyền thông"
+    ],
+    "family": "art",
+    "exam_blocks": [
+      "C14",
+      "D01",
+      "K01"
+    ]
+  },
+  {
+    "name": "Diễn viên sân khấu điện ảnh",
+    "description": "Diễn viên sân khấu điện ảnh: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02.",
+    "keywords": [
+      "diễn",
+      "giải quyết vấn đề",
+      "khấu",
+      "kỹ thuật",
+      "sân",
+      "tư duy logic",
+      "viên",
+      "điện",
+      "ảnh"
+    ],
+    "code": "7210234",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "art",
+    "exam_blocks": [
+      "D01",
+      "K00",
+      "K01"
+    ]
+  },
+  {
+    "name": "Đạo diễn",
+    "description": "Đạo diễn: kỹ thuật ứng dụng — thiết kế, vận hành và bảo trì hệ thống kỹ thuật. Khối thi thường: A00, A01, A02.",
+    "keywords": [
+      "diễn",
+      "giải quyết vấn đề",
+      "kỹ thuật",
+      "tư duy logic",
+      "đạo"
+    ],
+    "code": "7210227",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Kỹ sư tự động hóa"
+    ],
+    "family": "engineering",
+    "exam_blocks": [
+      "A00",
+      "A01",
+      "A02"
+    ]
+  },
+  {
+    "name": "Biên kịch",
+    "description": "Viết kịch bản phim, phim truyền hình và sân khấu.",
+    "keywords": [
+      "biên",
+      "kịch",
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ"
+    ],
+    "code": "7210225",
+    "careers": [
+      "Nhà báo",
+      "Luật sư",
+      "Giáo viên",
+      "Chuyên viên xã hội"
+    ],
+    "family": "art",
+    "exam_blocks": [
+      "C00",
+      "C14"
+    ]
+  },
+  {
+    "name": "Nhiếp ảnh",
+    "description": "Nhiếp ảnh nghệ thuật, thương mại và post-production.",
+    "keywords": [
+      "nhiếp",
+      "sáng tạo",
+      "thiết kế",
+      "thẩm mỹ",
+      "ảnh"
+    ],
+    "code": "7210301",
+    "careers": [
+      "Nhà báo",
+      "Luật sư",
+      "Giáo viên",
+      "Chuyên viên xã hội"
+    ],
+    "family": "art",
+    "exam_blocks": [
+      "C00",
+      "C15",
+      "D01"
+    ]
+  },
+  {
+    "name": "Mỹ thuật",
+    "description": "Hội họa, điêu khắc và triển lãm mỹ thuật.",
+    "keywords": [
+      "sáng tạo",
+      "thiết kế",
+      "thuật",
+      "thẩm mỹ"
+    ],
+    "code": "7210101",
+    "careers": [
+      "Kiến trúc sư",
+      "Thiết kế đồ họa",
+      "Designer sản phẩm"
+    ],
+    "family": "art",
+    "exam_blocks": [
+      "C00",
+      "K01"
+    ]
+  }
+]

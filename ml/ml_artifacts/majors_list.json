@@ -1,0 +1,486 @@
+[
+  {
+    "name": "Công nghệ thông tin",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật phần mềm",
+    "description": ""
+  },
+  {
+    "name": "Khoa học máy tính",
+    "description": ""
+  },
+  {
+    "name": "Trí tuệ nhân tạo",
+    "description": ""
+  },
+  {
+    "name": "Khoa học dữ liệu",
+    "description": ""
+  },
+  {
+    "name": "An toàn thông tin",
+    "description": ""
+  },
+  {
+    "name": "Hệ thống thông tin",
+    "description": ""
+  },
+  {
+    "name": "Mạng máy tính và truyền thông dữ liệu",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật máy tính",
+    "description": ""
+  },
+  {
+    "name": "Lập trình nhúng và IoT",
+    "description": ""
+  },
+  {
+    "name": "Thiết kế game",
+    "description": ""
+  },
+  {
+    "name": "Công nghệ đa phương tiện",
+    "description": ""
+  },
+  {
+    "name": "Thương mại điện tử",
+    "description": ""
+  },
+  {
+    "name": "Toán học",
+    "description": ""
+  },
+  {
+    "name": "Toán ứng dụng",
+    "description": ""
+  },
+  {
+    "name": "Thống kê",
+    "description": ""
+  },
+  {
+    "name": "Khoa học dữ liệu thống kê",
+    "description": ""
+  },
+  {
+    "name": "Vật lý học",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật vật lý",
+    "description": ""
+  },
+  {
+    "name": "Công nghệ vật liệu",
+    "description": ""
+  },
+  {
+    "name": "Cơ điện tử",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật cơ khí",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật ô tô",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật hàng không",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật điện",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật điện tử viễn thông",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật điều khiển và tự động hóa",
+    "description": ""
+  },
+  {
+    "name": "Robot và trí tuệ nhân tạo",
+    "description": ""
+  },
+  {
+    "name": "Hóa học",
+    "description": ""
+  },
+  {
+    "name": "Công nghệ hóa học",
+    "description": ""
+  },
+  {
+    "name": "Công nghệ thực phẩm",
+    "description": ""
+  },
+  {
+    "name": "Công nghệ sinh học",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật môi trường",
+    "description": ""
+  },
+  {
+    "name": "Quản lý tài nguyên môi trường",
+    "description": ""
+  },
+  {
+    "name": "Sinh học",
+    "description": ""
+  },
+  {
+    "name": "Công nghệ sinh học y dược",
+    "description": ""
+  },
+  {
+    "name": "Công nghệ xét nghiệm",
+    "description": ""
+  },
+  {
+    "name": "Khoa học sự sống",
+    "description": ""
+  },
+  {
+    "name": "Y khoa",
+    "description": ""
+  },
+  {
+    "name": "Răng hàm mặt",
+    "description": ""
+  },
+  {
+    "name": "Dược học",
+    "description": ""
+  },
+  {
+    "name": "Điều dưỡng",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật xét nghiệm y học",
+    "description": ""
+  },
+  {
+    "name": "Kỹ thuật hình ảnh y học",
+    "description": ""
+  },
+  {
+    "name": "Y tế công cộng",
+    "description": ""
+  },
+  {
+    "name": "Dinh dưỡng",
+    "description": ""
+  },
+  {
+    "name": "Vật lý trị liệu",
+    "description": ""
+  },
+  {
+    "name": "Hộ sinh",
+    "description": ""
+  },
+  {
+    "name": "Luật",
+    "description": ""
+  },
+  {
+    "name": "Luật kinh tế",
+    "description": ""
+  },
+  {
+    "name": "Luật quốc tế",
+    "description": ""
+  },
+  {
+    "name": "Kinh tế học",
+    "description": ""
+  },
+  {
+    "name": "Kinh tế quốc tế",
+    "description": ""
+  },
+  {
+    "name": "Kinh doanh quốc tế",
+    "description": ""
+  },
+  {
+    "name": "Quản trị kinh doanh",
+    "description": ""
+  },
+  {
+    "name": "Quản trị nhân lực",
+    "description": ""
+  },
+  {
+    "name": "Marketing",
+    "description": ""
+  },
+  {
+    "name": "Digital Marketing",
+    "description": ""
+  },
+  {
+    "name": "Tài chính ngân hàng",
+    "description": ""
+  },
+  {
+    "name": "Kế toán",
+    "description": ""
+  },
+  {
+    "name": "Kiểm toán",
+    "description": ""
+  },
+  {
+    "name": "Phân tích đầu tư tài chính",
+    "description": ""
+  },
+  {
+    "name": "Chứng khoán",
+    "description": ""
+  },
+  {
+    "name": "Bảo hiểm",
+    "description": ""
+  },
+  {
+    "name": "Logistics và quản lý chuỗi cung ứng",
+    "description": ""
+  },
+  {
+    "name": "Quản trị logistics",
+    "description": ""
+  },
+  {
+    "name": "Thương mại quốc tế",
+    "description": ""
+  },
+  {
+    "name": "Bất động sản",
+    "description": ""
+  },
+  {
+    "name": "Quản lý dự án",
+    "description": ""
+  },
+  {
+    "name": "Quản trị văn phòng",
+    "description": ""
+  },
+  {
+    "name": "Du lịch",
+    "description": ""
+  },
+  {
+    "name": "Quản trị khách sạn",
+    "description": ""
+  },
+  {
+    "name": "Quản trị nhà hàng",
+    "description": ""
+  },
+  {
+    "name": "Hướng dẫn du lịch",
+    "description": ""
+  },
+  {
+    "name": "Dịch vụ hàng không",
+    "description": ""
+  },
+  {
+    "name": "Ngôn ngữ Anh",
+    "description": ""
+  },
+  {
+    "name": "Ngôn ngữ Trung",
+    "description": ""
+  },
+  {
+    "name": "Ngôn ngữ Nhật",
+    "description": ""
+  },
+  {
+    "name": "Ngôn ngữ Hàn",
+    "description": ""
+  },
+  {
+    "name": "Ngôn ngữ Pháp",
+    "description": ""
+  },
+  {
+    "name": "Ngôn ngữ Đức",
+    "description": ""
+  },
+  {
+    "name": "Phiên dịch biên dịch",
+    "description": ""
+  },
+  {
+    "name": "Báo chí",
+    "description": ""
+  },
+  {
+    "name": "Truyền thông đa phương tiện",
+    "description": ""
+  },
+  {
+    "name": "Quan hệ công chúng",
+    "description": ""
+  },
+  {
+    "name": "Quảng cáo",
+    "description": ""
+  },
+  {
+    "name": "Xuất bản",
+    "description": ""
+  },
+  {
+    "name": "Thiết kế đồ họa",
+    "description": ""
+  },
+  {
+    "name": "Thiết kế thời trang",
+    "description": ""
+  },
+  {
+    "name": "Thiết kế nội thất",
+    "description": ""
+  },
+  {
+    "name": "Thiết kế công nghiệp",
+    "description": ""
+  },
+  {
+    "name": "Mỹ thuật ứng dụng",
+    "description": ""
+  },
+  {
+    "name": "Kiến trúc",
+    "description": ""
+  },
+  {
+    "name": "Quy hoạch đô thị",
+    "description": ""
+  },
+  {
+    "name": "Sư phạm Toán",
+    "description": ""
+  },
+  {
+    "name": "Sư phạm Văn",
+    "description": ""
+  },
+  {
+    "name": "Sư phạm Anh",
+    "description": ""
+  },
+  {
+    "name": "Sư phạm Tin học",
+    "description": ""
+  },
+  {
+    "name": "Giáo dục tiểu học",
+    "description": ""
+  },
+  {
+    "name": "Giáo dục mầm non",
+    "description": ""
+  },
+  {
+    "name": "Tâm lý học giáo dục",
+    "description": ""
+  },
+  {
+    "name": "Tâm lý học",
+    "description": ""
+  },
+  {
+    "name": "Xã hội học",
+    "description": ""
+  },
+  {
+    "name": "Công tác xã hội",
+    "description": ""
+  },
+  {
+    "name": "Quan hệ quốc tế",
+    "description": ""
+  },
+  {
+    "name": "Đông phương học",
+    "description": ""
+  },
+  {
+    "name": "Việt Nam học",
+    "description": ""
+  },
+  {
+    "name": "Nông nghiệp",
+    "description": ""
+  },
+  {
+    "name": "Công nghệ nông nghiệp",
+    "description": ""
+  },
+  {
+    "name": "Thú y",
+    "description": ""
+  },
+  {
+    "name": "Chăn nuôi",
+    "description": ""
+  },
+  {
+    "name": "Lâm nghiệp",
+    "description": ""
+  },
+  {
+    "name": "Nuôi trồng thủy sản",
+    "description": ""
+  },
+  {
+    "name": "Thể dục thể thao",
+    "description": ""
+  },
+  {
+    "name": "Huấn luyện thể thao",
+    "description": ""
+  },
+  {
+    "name": "Âm nhạc",
+    "description": ""
+  },
+  {
+    "name": "Diễn viên sân khấu điện ảnh",
+    "description": ""
+  },
+  {
+    "name": "Đạo diễn",
+    "description": ""
+  },
+  {
+    "name": "Biên kịch",
+    "description": ""
+  },
+  {
+    "name": "Nhiếp ảnh",
+    "description": ""
+  },
+  {
+    "name": "Mỹ thuật",
+    "description": ""
+  }
+]

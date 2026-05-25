@@ -1,0 +1,728 @@
+[
+  {
+    "name": "Công nghệ thông tin",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật phần mềm",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Khoa học máy tính",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Trí tuệ nhân tạo",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Khoa học dữ liệu",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "An toàn thông tin",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Hệ thống thông tin",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Mạng máy tính và truyền thông dữ liệu",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật máy tính",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Lập trình nhúng và IoT",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Thiết kế game",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Công nghệ đa phương tiện",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Thương mại điện tử",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Toán học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Toán ứng dụng",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Thống kê",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Khoa học dữ liệu thống kê",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Vật lý học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật vật lý",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Công nghệ vật liệu",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Cơ điện tử",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật cơ khí",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật ô tô",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật hàng không",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật điện",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật điện tử viễn thông",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật điều khiển và tự động hóa",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Robot và trí tuệ nhân tạo",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Hóa học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Công nghệ hóa học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Công nghệ thực phẩm",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Công nghệ sinh học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật môi trường",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quản lý tài nguyên môi trường",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Sinh học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Công nghệ sinh học y dược",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Công nghệ xét nghiệm",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Khoa học sự sống",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Y khoa",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Răng hàm mặt",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Dược học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Điều dưỡng",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật xét nghiệm y học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kỹ thuật hình ảnh y học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Y tế công cộng",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Dinh dưỡng",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Vật lý trị liệu",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Hộ sinh",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Luật",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Luật kinh tế",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Luật quốc tế",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kinh tế học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kinh tế quốc tế",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kinh doanh quốc tế",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quản trị kinh doanh",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quản trị nhân lực",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Marketing",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Digital Marketing",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Tài chính ngân hàng",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kế toán",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kiểm toán",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Phân tích đầu tư tài chính",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Chứng khoán",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Bảo hiểm",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Logistics và quản lý chuỗi cung ứng",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quản trị logistics",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Thương mại quốc tế",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Bất động sản",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quản lý dự án",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quản trị văn phòng",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Du lịch",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quản trị khách sạn",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quản trị nhà hàng",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Hướng dẫn du lịch",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Dịch vụ hàng không",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Ngôn ngữ Anh",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Ngôn ngữ Trung",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Ngôn ngữ Nhật",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Ngôn ngữ Hàn",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Ngôn ngữ Pháp",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Ngôn ngữ Đức",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Phiên dịch biên dịch",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Báo chí",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Truyền thông đa phương tiện",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quan hệ công chúng",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quảng cáo",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Xuất bản",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Thiết kế đồ họa",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Thiết kế thời trang",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Thiết kế nội thất",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Thiết kế công nghiệp",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Mỹ thuật ứng dụng",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Kiến trúc",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quy hoạch đô thị",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Sư phạm Toán",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Sư phạm Văn",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Sư phạm Anh",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Sư phạm Tin học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Giáo dục tiểu học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Giáo dục mầm non",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Tâm lý học giáo dục",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Tâm lý học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Xã hội học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Công tác xã hội",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Quan hệ quốc tế",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Đông phương học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Việt Nam học",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Nông nghiệp",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Công nghệ nông nghiệp",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Thú y",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Chăn nuôi",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Lâm nghiệp",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Nuôi trồng thủy sản",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Thể dục thể thao",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Huấn luyện thể thao",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Âm nhạc",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Diễn viên sân khấu điện ảnh",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Đạo diễn",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Biên kịch",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Nhiếp ảnh",
+    "description": "",
+    "keywords": [],
+    "code": null
+  },
+  {
+    "name": "Mỹ thuật",
+    "description": "",
+    "keywords": [],
+    "code": null
+  }
+]

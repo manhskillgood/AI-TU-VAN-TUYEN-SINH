@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "order": [
+    "A00",
+    "A01",
+    "A02",
+    "B00",
+    "B03",
+    "H00",
+    "C00",
+    "C01",
+    "C14",
+    "C15",
+    "D01",
+    "D07",
+    "D14",
+    "D15",
+    "K00",
+    "K01"
+  ],
+  "blocks": [
+    {
+      "id": "A00",
+      "subjects": [
+        "Toán",
+        "Vật lý",
+        "Hóa học"
+      ]
+    },
+    {
+      "id": "A01",
+      "subjects": [
+        "Toán",
+        "Vật lý",
+        "Tiếng Anh"
+      ]
+    },
+    {
+      "id": "A02",
+      "subjects": [
+        "Toán",
+        "Vật lý",
+        "Sinh học"
+      ]
+    },
+    {
+      "id": "B00",
+      "subjects": [
+        "Toán",
+        "Hóa học",
+        "Sinh học"
+      ]
+    },
+    {
+      "id": "B03",
+      "subjects": [
+        "Toán",
+        "Hóa học",
+        "Tiếng Anh"
+      ]
+    },
+    {
+      "id": "H00",
+      "subjects": [
+        "Hóa học",
+        "Sinh học",
+        "Tiếng Anh"
+      ]
+    },
+    {
+      "id": "C00",
+      "subjects": [
+        "Ngữ văn",
+        "Lịch sử",
+        "Địa lý"
+      ]
+    },
+    {
+      "id": "C01",
+      "subjects": [
+        "Ngữ văn",
+        "Lịch sử",
+        "Giáo dục công dân"
+      ]
+    },
+    {
+      "id": "C14",
+      "subjects": [
+        "Ngữ văn",
+        "Lịch sử",
+        "Tiếng Anh"
+      ]
+    },
+    {
+      "id": "C15",
+      "subjects": [
+        "Ngữ văn",
+        "Địa lý",
+        "Tiếng Anh"
+      ]
+    },
+    {
+      "id": "D01",
+      "subjects": [
+        "Toán",
+        "Ngữ văn",
+        "Tiếng Anh"
+      ]
+    },
+    {
+      "id": "D07",
+      "subjects": [
+        "Toán",
+        "Hóa học",
+        "Tiếng Anh"
+      ]
+    },
+    {
+      "id": "D14",
+      "subjects": [
+        "Ngữ văn",
+        "Lịch sử",
+        "Tiếng Anh"
+      ]
+    },
+    {
+      "id": "D15",
+      "subjects": [
+        "Ngữ văn",
+        "Địa lý",
+        "Tiếng Anh"
+      ]
+    },
+    {
+      "id": "K00",
+      "subjects": [
+        "Ngữ văn",
+        "Toán",
+        "Vẽ (năng khiếu)"
+      ]
+    },
+    {
+      "id": "K01",
+      "subjects": [
+        "Ngữ văn",
+        "Vẽ (năng khiếu)",
+        "Mỹ thuật"
+      ]
+    }
+  ]
+}

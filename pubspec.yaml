@@ -1,0 +1,87 @@
+name: education_guidance_app
+description: "Ứng dụng AI trong việc hỗ trợ tuyển sinh và tư vấn ngành học"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.0.0
+  get: ^4.6.0
+
+  # API & HTTP
+  http: ^1.1.0
+  dio: ^5.3.0
+
+  # Database & Local Storage
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  uuid: ^4.5.1
+  path_provider: ^2.1.0
+  shared_preferences: ^2.2.0
+  flutter_secure_storage: ^9.2.4
+
+  # UI & Styling
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.0
+  animated_splash_screen: ^1.3.0
+  shimmer: ^3.0.0
+
+  # Chat & Real-time
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  cloud_firestore: ^6.1.2
+  firebase_storage: ^13.0.6
+  firebase_messaging: ^16.1.1
+
+  # Charts & Graphs
+  fl_chart: ^0.64.0
+  # using fl_chart instead of Syncfusion to avoid SDK compatibility issues
+
+  # Image Handling
+  image_picker: ^1.0.0
+  cached_network_image: ^3.3.0
+
+  # AI Integration
+  google_generative_ai: ^0.4.7
+
+  # Date & Time
+  intl: ^0.18.1
+
+  # Validation
+  email_validator: ^2.1.0
+
+  # Loading & Utils
+  lottie: ^2.7.0
+  firebase_app_check: ^0.4.1+4
+  url_launcher: ^6.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/majors.json
+    - assets/guidance_rules.json
+    - assets/guidance_rules_optimized.json
+    - assets/major_universities.json
+    - assets/data/majors_list.json
+    - assets/data/majors_catalog.json
+    - assets/data/majors_by_block.json
+    - assets/data/exam_blocks.json
+    - assets/data/universities_registry.json
+    - assets/data/major_codes_tt09.json
+    - assets/data/special_career_tracks.json

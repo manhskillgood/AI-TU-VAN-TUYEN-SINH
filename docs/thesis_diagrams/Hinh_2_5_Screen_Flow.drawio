@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" agent="DO_AN_TN">
+  <diagram id="flow" name="Hinh 2.5 Screen Flow">
+    <mxGraphModel dx="1084" dy="604" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="splash" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Splash" vertex="1">
+          <mxGeometry height="40" width="100" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="welcome" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Welcome" vertex="1">
+          <mxGeometry height="40" width="100" x="400" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="login" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Login" vertex="1">
+          <mxGeometry height="40" width="80" x="300" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="signup" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="SignUp" vertex="1">
+          <mxGeometry height="40" width="80" x="520" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="home" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A8A;fontColor=#ffffff;strokeColor=#1E3A8A;fontStyle=1" value="Home / Main" vertex="1">
+          <mxGeometry height="45" width="140" x="380" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="wizard" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Wizard&#xa;Định hướng" vertex="1">
+          <mxGeometry height="45" width="110" x="80" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="result" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Kết quả&#xa;gợi ý" vertex="1">
+          <mxGeometry height="45" width="110" x="80" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="chat" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Chatbot" vertex="1">
+          <mxGeometry height="40" width="110" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="charts" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Biểu đồ" vertex="1">
+          <mxGeometry height="40" width="90" x="260" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="forum" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Diễn đàn" vertex="1">
+          <mxGeometry height="40" width="90" x="400" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="detail" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Chi tiết bài" vertex="1">
+          <mxGeometry height="35" width="90" x="400" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="chat2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Chatbot" vertex="1">
+          <mxGeometry height="40" width="90" x="540" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="profile" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Hồ sơ" vertex="1">
+          <mxGeometry height="40" width="90" x="680" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="Admin Shell" vertex="1">
+          <mxGeometry height="45" width="110" x="680" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="dash" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="Dashboard" vertex="1">
+          <mxGeometry height="30" width="70" x="620" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="rules" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="Quy tắc" vertex="1">
+          <mxGeometry height="30" width="60" x="700" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="users" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="Users" vertex="1">
+          <mxGeometry height="30" width="55" x="770" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="mod" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="Forum mod" vertex="1">
+          <mxGeometry height="30" width="70" x="835" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" edge="1" parent="1" source="splash" style="endArrow=classic;html=1;" target="welcome">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" edge="1" parent="1" source="welcome" style="endArrow=classic;html=1;" target="login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" edge="1" parent="1" source="welcome" style="endArrow=classic;html=1;" target="signup">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" edge="1" parent="1" source="login" style="endArrow=classic;html=1;" target="home">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" edge="1" parent="1" source="signup" style="endArrow=classic;html=1;" target="home">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6" edge="1" parent="1" source="home" style="endArrow=classic;html=1;" target="wizard">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7" edge="1" parent="1" source="wizard" style="endArrow=classic;html=1;" target="result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8" edge="1" parent="1" source="result" style="endArrow=classic;html=1;dashed=1;" target="chat" value="tùy chọn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9" edge="1" parent="1" source="home" style="endArrow=classic;html=1;" target="charts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f10" edge="1" parent="1" source="home" style="endArrow=classic;html=1;" target="forum">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f11" edge="1" parent="1" source="forum" style="endArrow=classic;html=1;" target="detail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f12" edge="1" parent="1" source="home" style="endArrow=classic;html=1;" target="chat2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f13" edge="1" parent="1" source="home" style="endArrow=classic;html=1;" target="profile">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f14" edge="1" parent="1" source="home" style="endArrow=classic;html=1;strokeColor=#d79b00;" target="admin" value="admin only">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f15" edge="1" parent="1" source="admin" style="endArrow=classic;html=1;" target="dash">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cap" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=2;fontSize=11;" value="Hình 2.5. Sơ đồ điều hướng các màn hình chính" vertex="1">
+          <mxGeometry height="30" width="400" x="300" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

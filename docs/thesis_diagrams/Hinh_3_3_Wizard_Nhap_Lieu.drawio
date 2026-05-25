@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="DO_AN_TN">
+  <diagram id="wizard" name="Hinh 3.3 Wizard nhap lieu">
+    <mxGraphModel dx="1857" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=14;" value="Quy trình nhập liệu — Wizard Định hướng ngành học" vertex="1">
+          <mxGeometry height="30" width="520" x="154" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Bắt đầu&#xa;Trang chủ → Định hướng" vertex="1">
+          <mxGeometry height="55" width="160" x="334" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;fontStyle=1" value="Bước 1 — Khối thi&#xa;Chọn tổ hợp (D01, A01, …)&#xa;→ xác định 3 môn xét tuyển" vertex="1">
+          <mxGeometry height="70" width="220" x="304" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;fontStyle=1" value="Bước 2 — Điểm số&#xa;Nhập điểm TB 0–10&#xa;cho 3 môn của khối" vertex="1">
+          <mxGeometry height="70" width="220" x="304" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;fontStyle=1" value="Bước 3 — Sở thích&#xa;Chọn 1–3 sở thích&#xa;(lọc theo khối đã chọn)" vertex="1">
+          <mxGeometry height="70" width="220" x="304" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dec" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;fontSize=11;" value="Tick ngành&#xa;đặc thù?&#xa;(CA / QĐ / …)" vertex="1">
+          <mxGeometry height="80" width="120" x="354" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;fontStyle=1" value="Bước 4 — Ưu điểm&#xa;Chọn 2–3 kỹ năng&#xa;(logic, giao tiếp, …)" vertex="1">
+          <mxGeometry height="70" width="220" x="304" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="s5opt" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;fontSize=11;dashed=1;dashPattern=8 8;" value="Bước 5* — Thể chất&#xa;(tùy chọn)&#xa;Giới tính, chiều cao,&#xa;cân nặng, nhóm ngành" vertex="1">
+          <mxGeometry height="80" width="170" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="s6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;fontStyle=1" value="Bước 5/6 — Khu vực&#xa;Chọn miền muốn học&#xa;(Bắc / Trung / Nam)" vertex="1">
+          <mxGeometry height="70" width="220" x="304" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="input" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;fontSize=11;" value="Tạo GuidanceRecommendInput&#xa;(khối, điểm, sở thích,&#xa;ưu điểm, khu vực, thể chất*)" vertex="1">
+          <mxGeometry height="65" width="240" x="294" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="ai" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A8A;fontColor=#ffffff;strokeColor=#1E3A8A;align=center;fontStyle=1" value="Phân tích AI&#xa;• Rule-based (GuidanceService)&#xa;• SBERT / FastAPI (tùy cấu hình)&#xa;• Gemini (giải thích bổ sung)" vertex="1">
+          <mxGeometry height="85" width="260" x="284" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="result" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;fontStyle=1" value="Bước cuối — Kết quả&#xa;Top ngành, trường, điểm phù hợp&#xa;Nút &quot;Lưu kết quả&quot; (F06)" vertex="1">
+          <mxGeometry height="75" width="240" x="294" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="save" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;fontSize=11;dashed=1;" value="Lưu Firestore&#xa;career_guidance&#xa;(đã đăng nhập)" vertex="1">
+          <mxGeometry height="55" width="140" x="560" y="935" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="Kết thúc" vertex="1">
+          <mxGeometry height="45" width="100" x="364" y="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;fontSize=10;spacingLeft=6;spacingTop=4;" value="* Bước Thể chất chỉ hiện khi học sinh chọn quan tâm&#xa;  ngành Công an / Quân đội / An ninh / Hàng không.&#xa;• Nút &quot;Quay lại&quot; / &quot;Tiếp tục&quot; điều hướng giữa các bước.&#xa;• Vào bước Kết quả: tự gọi computeGuidance()." vertex="1">
+          <mxGeometry height="70" width="320" x="-26" y="927.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cap" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=2;fontSize=11;" value="Hình 3.3. Sơ đồ các bước nhập liệu wizard định hướng ngành học" vertex="1">
+          <mxGeometry height="30" width="480" x="174" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="start" style="endArrow=classic;html=1;" target="s1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="s1" style="endArrow=classic;html=1;" target="s2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="s2" style="endArrow=classic;html=1;" target="s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="s3" style="endArrow=classic;html=1;" target="dec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="dec" style="endArrow=classic;html=1;" target="s4" value="Không">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="dec" style="endArrow=classic;html=1;strokeColor=#d79b00;" target="s5opt" value="Có">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="s5opt" style="endArrow=classic;html=1;strokeColor=#d79b00;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="s4" style="endArrow=classic;html=1;" target="s6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="s6" style="endArrow=classic;html=1;" target="input">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="input" style="endArrow=classic;html=1;" target="ai">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="ai" style="endArrow=classic;html=1;" target="result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="result" style="endArrow=classic;html=1;" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="result" style="endArrow=classic;html=1;dashed=1;strokeColor=#6c8ebf;" target="save" value="Lưu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="save" style="endArrow=classic;html=1;dashed=1;strokeColor=#6c8ebf;" target="end">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="1048" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="back" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#666666;fontStyle=2" value="← Quay lại giữa các bước (trừ bước 1)" vertex="1">
+          <mxGeometry height="20" width="200" x="560" y="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
