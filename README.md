@@ -11,15 +11,30 @@
 
 ## Demo (screenshot)
 
-Thêm ảnh chụp màn hình vào [`docs/images/demo/`](docs/images/demo/) (xem [hướng dẫn đặt tên file](docs/images/demo/README.md)).
+### Khởi động & xác thực
 
-| Trang chủ | Wizard | Kết quả gợi ý |
-|:---:|:---:|:---:|
-| ![Home](docs/images/demo/01_home.png) | ![Wizard](docs/images/demo/02_wizard.png) | ![Kết quả](docs/images/demo/03_ket_qua.png) |
-
-| Chatbot | Admin |
+| Splash | Đăng nhập / Đăng ký |
 |:---:|:---:|
-| ![Chatbot](docs/images/demo/04_chatbot.png) | ![Admin](docs/images/demo/05_admin.png) |
+| ![Splash](docs/images/demo/man_splash.png) | ![Đăng nhập](docs/images/demo/dangnhap_dangky.png) |
+
+### AI gợi ý ngành & Chatbot
+
+| Kết quả gợi ý (Explainable AI) | Chatbot tư vấn |
+|:---:|:---:|
+| ![Kết quả gợi ý](docs/images/demo/ketuqagoiynganh.png) | ![Chatbot](docs/images/demo/chatbotAI.png) |
+
+### Thống kê, cộng đồng & quản trị
+
+| Biểu đồ xu hướng | Diễn đàn | Admin |
+|:---:|:---:|:---:|
+| ![Biểu đồ 1](docs/images/demo/bieudoxuhuong1.png) | ![Diễn đàn](docs/images/demo/diendan.png) | ![Admin](docs/images/demo/admin.png) |
+| ![Biểu đồ 2](docs/images/demo/bieudoxuhuong2.png) | | |
+
+### Giao diện Dark mode
+
+<p align="center">
+  <img src="docs/images/demo/giaodiendarkmode.png" alt="Dark mode" width="320" />
+</p>
 
 ## Clone & chạy nhanh
 
