@@ -7,7 +7,19 @@
 | **Stack** | Flutter · Firebase · Rule-based AI (`GuidanceService`) · FastAPI/SBERT · Gemini |
 | **Tác giả** | Lê Đức Mạnh |
 
-> Sau khi push GitHub, ghi link repo vào CV, ví dụ: `https://github.com/<username>/do-an-tn`
+> **GitHub:** https://github.com/manhskillgood/AI-TU-VAN-TUYEN-SINH
+
+## Demo (screenshot)
+
+Thêm ảnh chụp màn hình vào [`docs/images/demo/`](docs/images/demo/) (xem [hướng dẫn đặt tên file](docs/images/demo/README.md)).
+
+| Trang chủ | Wizard | Kết quả gợi ý |
+|:---:|:---:|:---:|
+| ![Home](docs/images/demo/01_home.png) | ![Wizard](docs/images/demo/02_wizard.png) | ![Kết quả](docs/images/demo/03_ket_qua.png) |
+
+| Chatbot | Admin |
+|:---:|:---:|
+| ![Chatbot](docs/images/demo/04_chatbot.png) | ![Admin](docs/images/demo/05_admin.png) |
 
 ## Clone & chạy nhanh
 

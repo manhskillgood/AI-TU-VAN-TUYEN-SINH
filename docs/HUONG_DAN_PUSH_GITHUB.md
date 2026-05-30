@@ -31,7 +31,7 @@ File vẫn nằm trên máy bạn; chỉ không lên GitHub nữa.
    - Name: `do-an-tn` hoặc `ai-tuyen-sinh-tu-van-nganh` (tên CV-friendly)
    - **Public** (để ghi link CV)
    - **Không** tick "Add README" (repo local đã có code)
-3. Copy URL, ví dụ: `https://github.com/TEN_GITHUB/do-an-tn.git`
+3. Copy URL — repo của bạn: `https://github.com/manhskillgood/AI-TU-VAN-TUYEN-SINH.git`
 
 ---
 
