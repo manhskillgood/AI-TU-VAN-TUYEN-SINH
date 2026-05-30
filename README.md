@@ -6,7 +6,6 @@
 |---|---|
 | **Stack** | Flutter · Firebase · Rule-based AI (`GuidanceService`) · FastAPI/SBERT · Gemini |
 | **Tác giả** | Lê Đức Mạnh |
-| **Đẩy lên GitHub** | Xem [docs/HUONG_DAN_PUSH_GITHUB.md](docs/HUONG_DAN_PUSH_GITHUB.md) |
 
 > Sau khi push GitHub, ghi link repo vào CV, ví dụ: `https://github.com/<username>/do-an-tn`
 
@@ -251,8 +250,7 @@ lib/
 - Provider Package: https://pub.dev/packages/provider
 
 ## Liên Hệ & Hỗ Trợ
-
-Nếu có bất kỳ câu hỏi hoặc vấn đề, vui lòng tạo issue trên GitHub hoặc liên hệ với đội phát triển.
+Gmail: Leducmanh19102004@gmail.com
 
 ---
 
