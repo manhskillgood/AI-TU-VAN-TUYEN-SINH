@@ -1,390 +1,332 @@
-# NỘI DUNG 15 SLIDE THUYẾT TRÌNH ĐỒ ÁN TỐT NGHIỆP
+# THUYẾT TRÌNH ĐỒ ÁN — BẢN TỐI ƯU (13 SLIDE + LỜI NÓI)
 
-> **Đề tài:** Ứng dụng AI trong hệ thống hỗ trợ tuyển sinh và tư vấn ngành học
->
-> Tạo PowerPoint từ nội dung bên dưới. Mỗi mục `## Slide X` = 1 slide.
-> Hình minh họa: chụp từ app + sơ đồ trong `docs/thesis_diagrams/`.
+> **Đề tài:** Ứng dụng AI trong hệ thống hỗ trợ tuyển sinh và tư vấn ngành học  
+> **Thời gian:** ~12–15 phút (nói chậm, rõ, nhìn hội đồng — không đọc slide word-by-word)  
+> **Trên slide:** ít chữ · **Dưới đây:** lời nói đầy đủ để luyện tập
+
+---
+
+## Cấu trúc tổng
+
+| Slide | Nội dung | Thời gian |
+|-------|----------|----------|
+| 1 | Bìa | ~20s |
+| 2 | Mục lục | ~30s |
+| 3 | Vấn đề + Mục tiêu + Phạm vi | ~1,5 phút |
+| 4 | Kiến trúc | ~1 phút |
+| 5–6 | AI Engine (2 slide) | ~2,5 phút |
+| 7–8 | Demo ứng dụng (2 slide) | ~2 phút |
+| 9 | Chatbot + Admin | ~1 phút |
+| 10 | Công nghệ + Kiểm thử | ~1 phút |
+| 11 | Ưu / Nhược | ~1 phút |
+| 12 | Kết luận | ~45s |
+| 13 | Q&A | — |
 
 ---
 
 ## Slide 1 — Trang bìa
 
+**Trên slide:**
 ```
 ĐỒ ÁN TỐT NGHIỆP
-
 ỨNG DỤNG AI TRONG HỆ THỐNG
 HỖ TRỢ TUYỂN SINH VÀ TƯ VẤN NGÀNH HỌC
-
-Sinh viên: Hà Quỳnh Trang
-GVHD: [Tên giảng viên]
+Sinh viên: Lê Đức Mạnh
+GVHD: [Tên GVHD]
 Năm: 2026
 ```
 
----
+### Lời trình bày (~20 giây)
 
-## Slide 2 — Đặt vấn đề (WHY)
-
-**Thực trạng:**
-- 70% học sinh THPT chọn ngành theo cảm tính hoặc theo gia đình
-- Tỷ lệ chuyển ngành / bỏ học năm nhất cao → lãng phí xã hội
-- Công tác tư vấn hiện tại: thủ công (hội thảo, tờ rơi), thiếu cá nhân hóa
-
-**Cơ hội:**
-- AI có thể phân tích năng lực + sở thích → gợi ý có cơ sở
-- Xu hướng Explainable AI: giải thích được lý do gợi ý (khác mô hình "hộp đen")
-
-> *Ghi chú cho thuyết trình:* Đây là slide quan trọng nhất — hội đồng muốn biết "tại sao cần làm đề tài này". Nói thêm: "Em không nhằm thay thế con người, mà hỗ trợ ra quyết định có dữ liệu."
+> Kính chào thầy cô trong Hội đồng, em là **Lê Đức Mạnh**, sinh viên thực hiện đồ án tốt nghiệp với đề tài **"Ứng dụng AI trong hệ thống hỗ trợ tuyển sinh và tư vấn ngành học"**, dưới sự hướng dẫn của thầy/cô **[Tên GVHD]**.  
+> Em xin phép trình bày trong khoảng **12 đến 15 phút**, sau đó em sẵn sàng trả lời câu hỏi của Hội đồng. Em xin phép bắt đầu.
 
 ---
 
-## Slide 3 — Mục tiêu đề tài
+## Slide 2 — Mục lục
 
-| # | Mục tiêu | Kết quả |
-|---|----------|---------|
-| 1 | Xây dựng CSDL tuyển sinh (ngành, trường, điểm chuẩn) | `majors_catalog.json`, `major_universities.json`, Firestore |
-| 2 | Xây dựng AI Engine dựa trên tập luật (Rule-based) | `GuidanceService` — 14+ quy tắc, tính điểm phù hợp |
-| 3 | Thiết kế cơ chế Explainable AI | Hiển thị lý do gợi ý cho từng ngành |
-| 4 | Phát triển ứng dụng Flutter (Mobile) | App Android chạy thực tế |
-| 5 | Đồng bộ dữ liệu cloud | Firebase Firestore + Authentication |
-| 6 | Chatbot tư vấn tích hợp LLM | Google Generative AI (Gemini) |
+**Trên slide:**
+1. Vấn đề & Mục tiêu  
+2. Kiến trúc hệ thống  
+3. AI Engine (Rule-based, giải thích được)  
+4. Demo ứng dụng  
+5. Chatbot & Quản trị  
+6. Công nghệ & Kiểm thử  
+7. Ưu / Nhược & Kết luận  
 
----
+### Lời trình bày (~30 giây)
 
-## Slide 4 — Phạm vi & Đối tượng
-
-**Phạm vi:**
-- Gợi ý ngành học đại học (không thay thế quyết định con người)
-- Dữ liệu: ngành/trường khu vực Việt Nam (mô phỏng + thực)
-- Quy mô demo đồ án tốt nghiệp
-
-**Đối tượng:**
-- Người dùng chính: Học sinh THPT, sinh viên năm nhất
-- Quản trị viên: Cán bộ tuyển sinh / giáo viên hướng nghiệp
-
-**Phương pháp:**
-- Lý thuyết: Hệ chuyên gia, Rule-based AI, Explainable AI, LLM
-- Thực nghiệm: Xây dựng tập luật → kiểm thử hồ sơ giả lập → đánh giá
+> Nội dung trình bày gồm **7 phần** như slide.  
+> Em đi từ **bối cảnh và mục tiêu**, sau đó **kiến trúc**, phần trọng tâm là **AI Engine** và **demo ứng dụng**, rồi **chatbot, quản trị**, **công nghệ và kiểm thử**, cuối cùng **ưu nhược điểm và kết luận**.  
+> Em xin chuyển sang phần đặt vấn đề.
 
 ---
 
-## Slide 5 — Kiến trúc hệ thống (QUAN TRỌNG — hội đồng hay hỏi)
+## Slide 3 — Vấn đề & Mục tiêu & Phạm vi
 
-```
-┌─────────────────────────────────────────┐
-│         Presentation Layer              │
-│         Flutter (Dart)                  │
-│   Wizard · Kết quả · Chat · Admin · …  │
-├─────────────────────────────────────────┤
-│       Application Logic Layer           │
-│  GuidanceService (Rule-based AI Engine) │
-│  SBERT/FastAPI (ML — tùy chọn)         │
-│  Gemini API (Chatbot)                   │
-├─────────────────────────────────────────┤
-│        Local Data Layer                 │
-│  SQLite · SharedPreferences             │
-│  guidance_rules.json (offline)          │
-├─────────────────────────────────────────┤
-│         Cloud Data Layer                │
-│  Firebase Firestore (users, majors,     │
-│  admissions, guidance_rules, career_    │
-│  guidance, forum_posts)                 │
-│  Firebase Authentication                │
-└─────────────────────────────────────────┘
-```
+**Trên slide:**
+- Vấn đề: chọn ngành thiếu cơ sở; tư vấn thủ công
+- Mục tiêu: Flutter + AI rule-based giải thích được + Firebase + Chatbot
+- Phạm vi: hỗ trợ quyết định, không thay thế con người
 
-> Dùng hình `Hinh_2_3_Kien_truc.drawio` xuất PNG chèn vào slide.
+### Lời trình bày (~1,5 phút)
 
-**Điểm nhấn khi trình bày:**
-- Client–Cloud Architecture: không cần backend server riêng
-- Offline-first: quy tắc lưu local, không cần internet để gợi ý
-- Phân quyền: admin whitelist bằng email trong Firestore Rules
-
----
-
-## Slide 6 — AI Engine: Cách hoạt động (SLIDE THEN CHỐT — hội đồng CHẮC CHẮN hỏi)
-
-**Quy trình 5 bước:**
-
-```
-Hồ sơ học sinh → Chuẩn hóa điểm (0–1) → Tính base score theo nhóm ngành
-     → Áp dụng tập luật (rule engine) → Sắp xếp → Top N ngành + giải thích
-```
-
-**Chi tiết thuật toán trong `GuidanceService.computeSuitability()`:**
-
-1. **Normalize** điểm 0–10 → 0–1 (math, literature, english)
-2. **Base score** theo nhóm ngành — trọng số khác nhau:
-   - CNTT: `math×0.6 + english×0.25 + literature×0.15`
-   - Kinh tế: `literature×0.45 + english×0.35 + math×0.2`
-   - Y tế: `english×0.45 + literature×0.25 + math×0.3`
-   - Kỹ thuật: `math×0.55 + literature×0.15 + english×0.3`
-3. **Strength boost**: kỹ năng (logic, giao tiếp…) nhân hệ số
-4. **Region boost**: ưu tiên nhẹ theo miền (Bắc/Nam)
-5. **Rule engine**: duyệt 14+ luật, mỗi luật có `conditions` + `boostMajors` + `confidence`
-6. **Normalize** kết quả: top = 100%, còn lại tỷ lệ theo
-
-> *Chuẩn bị câu trả lời:*
-> - "Tại sao dùng rule-based mà không dùng ML?" → Explainable AI, giải thích được, dễ kiểm soát trong giáo dục, không cần training data lớn
-> - "Có bao nhiêu rule?" → 14+ rule, có thể thêm/xóa từ admin
-> - "Độ chính xác bao nhiêu?" → Kiểm thử 19 test case, 100% pass (unit test)
-
----
-
-## Slide 7 — Cấu trúc 1 Rule (ví dụ cụ thể)
-
-```json
-{
-  "id": "tech_boost",
-  "conditions": {
-    "interest": "công nghệ",
-    "math_min": 0.7,
-    "block": "A01"
-  },
-  "boostMajors": {
-    "Công nghệ thông tin": 1.5,
-    "Kỹ thuật phần mềm": 1.4,
-    "Khoa học dữ liệu": 1.3
-  },
-  "confidence": 0.85,
-  "reason": "Học sinh có năng lực toán cao + sở thích công nghệ phù hợp nhóm CNTT",
-  "enabled": true
-}
-```
-
-**Giải thích cho hội đồng:**
-- `conditions`: khi nào rule được kích hoạt (điểm, sở thích, khối thi)
-- `boostMajors`: nhân hệ số vào base score (1.5 = tăng 50%)
-- `confidence`: mức tin cậy của rule
-- `reason`: **Explainable AI** — lý do hiển thị cho học sinh
-
----
-
-## Slide 8 — Luồng nhập liệu Wizard (6 bước)
-
-| Bước | Tên | Nội dung nhập |
-|------|-----|---------------|
-| 1 | Khối thi | Chọn tổ hợp (A01, D01, C00, …) → xác định 3 môn |
-| 2 | Điểm số | Nhập điểm TB 0–10 cho 3 môn |
-| 3 | Sở thích | Chọn 1–3 (Công nghệ, Y tế, Kinh tế, …) — lọc theo khối |
-| 4 | Ưu điểm | Chọn 2–3 kỹ năng (logic, giao tiếp, …) |
-| 5 | Khu vực | Miền Bắc / Trung / Nam |
-| 6 | Kết quả | Top ngành + trường + giải thích + nút Lưu |
-
-**Tùy chọn:** Nếu tick "Quan tâm Công an/Quân đội" → thêm bước **Thể chất** (chiều cao, cân nặng)
-
-> Dùng hình `Hinh_3_3_Wizard_Nhap_Lieu.drawio` hoặc chụp màn hình app
-
----
-
-## Slide 9 — Explainable AI: Kết quả gợi ý minh họa
-
-**Ví dụ đầu vào:**
-- Khối A01, Toán 8.5, Lý 7.5, Hóa 8.0
-- Sở thích: Công nghệ | Ưu điểm: Tư duy logic
-- Khu vực: Miền Bắc
-
-**Kết quả AI trả về:**
-
-| Ngành | Điểm phù hợp | Lý do (Explainable) |
-|-------|-------------|---------------------|
-| Công nghệ thông tin | 100% | Toán cao + sở thích Công nghệ + rule tech_boost (×1.5) |
-| Khoa học máy tính | 92% | Toán cao + logic + khối A01 |
-| Trí tuệ nhân tạo | 88% | Toán + Công nghệ + rule AI_boost |
-| Kỹ thuật phần mềm | 85% | Toán + sở thích + region boost Bắc |
-| Khoa học dữ liệu | 80% | Toán + Công nghệ + rule data_boost |
-
-> *Chụp screenshot trang Kết quả trên app để chèn*
-
-**Điểm nhấn:** Mỗi ngành có **lý do giải thích** (reason) — không phải "hộp đen"
-
----
-
-## Slide 10 — Chatbot AI (Gemini)
-
-**Tích hợp:** Google Generative AI API (Gemini)
-
-**Khả năng:**
-- Trả lời câu hỏi tự nhiên về ngành học, trường, học phí
-- Giải thích kết quả gợi ý từ wizard
-- Tư vấn lộ trình nghề nghiệp
-
-**Ví dụ hội thoại:**
-```
-Học sinh: "Ngành CNTT học những gì?"
-Chatbot:  "Ngành CNTT đào tạo lập trình, hệ thống phần mềm,
-           trí tuệ nhân tạo, quản trị mạng. Cơ hội việc làm:
-           lập trình viên, kỹ sư phần mềm, chuyên gia dữ liệu…"
-```
-
-> *Chụp screenshot màn hình Chatbot*
-
----
-
-## Slide 11 — Hệ thống Admin (A01–A05)
-
-| Chức năng | Mô tả | Màn hình |
-|-----------|-------|----------|
-| A01 — Người dùng | Xem, phân quyền admin, xóa tài khoản | AdminUsersScreen |
-| A02 — Ngành học | CRUD ngành, nhập từ assets/cloud | AdminMajorsScreen |
-| A03 — Trường ĐH | CRUD trường đại học | AdminUniversitiesScreen |
-| A04 — Tuyển sinh | CRUD dữ liệu điểm chuẩn | AdminAdmissionsScreen |
-| A05 — Thống kê | Dashboard: số rule, user, phiên gợi ý | AdminDashboardScreen |
-
-**Thêm:**
-- Quản lý quy tắc AI: thêm/xóa/bật/tắt rule, đồng bộ Firestore ↔ thiết bị
-- Kiểm duyệt diễn đàn: xem/xóa bài viết
-
-> *Chụp 1-2 screenshot Admin Dashboard + quản lý quy tắc*
-
----
-
-## Slide 12 — Công nghệ sử dụng
-
-| Thành phần | Công nghệ | Vai trò |
-|------------|-----------|---------|
-| Frontend | **Flutter 3.x** (Dart) | UI đa nền tảng |
-| Cloud DB | **Firebase Firestore** | NoSQL document database |
-| Auth | **Firebase Authentication** | Đăng nhập email/password |
-| AI Engine | **GuidanceService** (Rule-based) | Suy luận + Explainable |
-| ML (tùy chọn) | **SBERT + FastAPI** | Embedding similarity |
-| Chatbot | **Google Gemini API** | Hỏi đáp tự nhiên |
-| Local DB | **SQLite + SharedPreferences** | Cache offline |
-| Charts | **fl_chart** | Biểu đồ xu hướng |
-| Testing | **flutter_test** | 19 unit test |
-
----
-
-## Slide 13 — Kết quả kiểm thử
-
-| Tiêu chí | Kết quả |
-|----------|---------|
-| Unit test | **19/19 passed** (guidance, merge, region, widget) |
-| Thời gian phản hồi AI | < 2 giây (local rule engine) |
-| Giao diện | Hỗ trợ Light + Dark mode |
-| Bảo mật | Firestore Rules + Admin email whitelist |
-| Chạy thực tế | Android emulator + thiết bị thật |
-
-**Bảng đánh giá nhanh:**
-
-| Hồ sơ đầu vào | Ngành gợi ý | Phù hợp? |
-|----------------|-------------|----------|
-| Toán 8.5, Anh 7, sở thích lập trình | Công nghệ thông tin (100%) | ✅ Chính xác |
-| Toán 7, Văn 8, sở thích kinh doanh | Quản trị kinh doanh (82%) | ✅ Chính xác |
-| Khối C00, Văn 9, sở thích giáo dục | Sư phạm Văn (95%) | ✅ Chính xác |
-
----
-
-## Slide 14 — Ưu / Nhược điểm & Hướng phát triển
-
-**Ưu điểm:**
-- ✅ Explainable AI: giải thích lý do gợi ý (khác hộp đen)
-- ✅ Offline-first: chạy không cần internet (rule local)
-- ✅ Mã nguồn Flutter 1 codebase → Android + iOS + Web
-- ✅ Admin quản trị rule linh hoạt, đồng bộ cloud
-- ✅ 19 test case pass 100%
-
-**Nhược điểm:**
-- ⚠️ Phụ thuộc chất lượng dữ liệu (điểm chuẩn cần cập nhật hàng năm)
-- ⚠️ Chưa mô phỏng yếu tố tâm lý, hoàn cảnh cá nhân
-- ⚠️ Quy mô demo, chưa triển khai production
-
-**Hướng phát triển:**
-- 🔄 Kết hợp ML (SBERT đã sẵn sàng) để nâng cao gợi ý
-- 🔄 Tích hợp API Bộ GD&ĐT cập nhật điểm chuẩn tự động
-- 🔄 Đưa lên Google Play / App Store
-- 🔄 Mở rộng: tư vấn nghề nghiệp, dự đoán tỷ lệ đỗ
-
----
-
-## Slide 15 — Kết luận & Q&A
-
-**Tóm tắt:**
-- Đã xây dựng hệ thống **AI Rule-based + Explainable** hỗ trợ tư vấn ngành học
-- Ứng dụng Flutter chạy thực tế trên Android
-- 6 chức năng người dùng (F01–F06) + 5 chức năng admin (A01–A05)
-- 14+ quy tắc AI, 19 test case, chatbot Gemini tích hợp
-
-**Đóng góp:**
-- Mô hình AI giải thích được — minh bạch trong giáo dục
-- Kiến trúc Client–Cloud linh hoạt, dễ mở rộng
-- Nền tảng có thể phát triển thành công cụ tư vấn hướng nghiệp thực tế
-
-```
-CẢM ƠN HỘI ĐỒNG ĐÃ LẮNG NGHE
-Em sẵn sàng trả lời câu hỏi.
-```
-
----
-
----
-
-# PHỤ LỤC: CÂU HỎI HỘI ĐỒNG THƯỜNG HỎI & GỢI Ý TRẢ LỜI
-
-## 1. "Tại sao dùng Rule-based mà không dùng Machine Learning?"
-
-> "Dạ thưa thầy/cô, em chọn Rule-based vì 3 lý do:
-> 1. **Explainable AI**: trong giáo dục, học sinh và phụ huynh cần hiểu TẠI SAO được gợi ý ngành đó — rule-based giải thích được từng bước, ML thì là hộp đen.
-> 2. **Không cần training data lớn**: hệ thống tuyển sinh VN chưa có bộ dữ liệu huấn luyện đủ lớn và chuẩn.
-> 3. **Kiểm soát được**: admin thêm/xóa/sửa rule trực tiếp, không cần retrain model.
+> **Về vấn đề:** Hiện nay nhiều học sinh THPT chọn ngành học chủ yếu theo **cảm tính**, theo **xu hướng** hoặc theo **ý kiến gia đình**, chưa dựa đủ trên **năng lực học tập**, **sở thích** và **nhu cầu nghề nghiệp**. Hệ quả là tỷ lệ **chuyển ngành**, **bỏ học** hoặc **chán nản** ở năm nhất vẫn đáng quan tâm.  
+> Công tác tư vấn tuyển sinh ở trường phổ thông và một số đơn vị đại học phần lớn vẫn **thủ công** — qua hội thảo, tờ rơi, tư vấn trực tiếp — nên **thiếu tính cá nhân hóa** và khó xử lý khi số lượng học sinh lớn.
 >
-> Tuy nhiên, hệ thống đã chuẩn bị sẵn module SBERT/FastAPI để kết hợp ML trong tương lai — đây là hướng phát triển."
-
-## 2. "Thuật toán tính điểm phù hợp cụ thể như thế nào?"
-
-> "Dạ, thuật toán gồm 6 bước:
-> 1. Chuẩn hóa điểm 0–10 → 0–1
-> 2. Tính base score theo nhóm ngành với trọng số khác nhau (VD: CNTT ưu tiên Toán 60%)
-> 3. Nhân strength boost (kỹ năng logic → ×1.1 cho CNTT)
-> 4. Nhân region boost (miền Bắc → ×1.03 cho ngành Công nghệ)
-> 5. Duyệt 14+ rule: nếu conditions khớp → nhân boostMajors vào score
-> 6. Normalize: ngành cao nhất = 100%, còn lại tỷ lệ theo
+> **Về hướng giải quyết:** Trí tuệ nhân tạo, đặc biệt hướng **AI giải thích được** — Explainable AI — có thể giúp phân tích hồ sơ học sinh và **gợi ý ngành có cơ sở**, đồng thời **nêu rõ lý do**, thay vì chỉ đưa ra một danh sách như mô hình “hộp đen” khó kiểm chứng.
 >
-> Code nằm trong `GuidanceService.computeSuitability()`, ~180 dòng, đã unit test."
-
-## 3. "Firestore Rules bảo mật thế nào?"
-
-> "Dạ, em thiết kế theo principle of least privilege:
-> - `users/{userId}`: chỉ đọc/sửa hồ sơ của mình; admin mới list được tất cả
-> - `guidance_rules`: authenticated users đọc (load rule); chỉ admin email whitelist mới ghi
-> - `forum_posts`: public đọc, chỉ tác giả/admin sửa/xóa
-> - Admin xác định bằng custom claim HOẶC email whitelist trong rules
-> - File: `firestore.rules`, ~240 dòng với validation chặt chẽ"
-
-## 4. "Tại sao dùng Flutter chứ không dùng React Native / native?"
-
-> "Flutter cho phép 1 codebase chạy Android + iOS + Web, tiết kiệm thời gian phát triển cho đồ án. Dart có null safety, hot reload nhanh, và Firebase SDK tích hợp tốt. Giao diện em custom bằng theme_colors + Material 3, hỗ trợ cả light/dark mode."
-
-## 5. "19 test case gồm những gì?"
-
-> "Gồm 4 file test:
-> - `guidance_service_test.dart`: 8 test (IT high score, Marketing medium, low score, block filtering, conflict rules...)
-> - `recommendation_merge_test.dart`: 6 test (merge ML + local, region filtering)
-> - `region_label_utils_test.dart`: 1 test (normalize legacy labels)
-> - `university_region_test.dart`: 2 test (Bắc only, Nam excludes Hà Nội)
-> - `widget_test.dart`: 1 test (splash branding)
+> **Mục tiêu đồ án** của em là xây dựng **ứng dụng Flutter** tích hợp **AI Engine dạng rule-based** trong `GuidanceService`, kết nối **Firebase** để lưu trữ và đồng bộ dữ liệu, và tích hợp **chatbot** hỗ trợ hỏi đáp. Kết quả mong đợi: học sinh nhập hồ sơ, nhận **gợi ý ngành phù hợp** kèm **giải thích**.
 >
-> Tất cả pass 100%, chạy bằng `flutter test`."
+> **Phạm vi:** Em tập trung **gợi ý ngành đại học** trong phạm vi demo đồ án, dữ liệu ngành–trường tham chiếu thực tế và mô phỏng. Em nhấn mạnh: hệ thống **hỗ trợ ra quyết định**, **không thay thế** vai trò phụ huynh, giáo viên hay tư vấn viên chuyên môn.
 
-## 6. "Dữ liệu ngành/trường lấy từ đâu?"
+---
 
-> "Em xây dựng từ nhiều nguồn:
-> - `majors_catalog.json`: 50+ ngành, có mã ngành theo TT09
-> - `major_universities.json`: mapping ngành → trường
-> - `majors_by_block.json`: mapping khối thi → ngành + trường
-> - Dữ liệu tham khảo từ website tuyển sinh các trường ĐH
-> - Admin có thể nhập/cập nhật thêm từ Firebase (A02–A04)"
+## Slide 4 — Kiến trúc hệ thống
 
-## 7. "Chatbot Gemini có giới hạn gì không?"
+**Trên slide:** Chèn **hình kiến trúc bạn đã vẽ** (Flutter Client — Android, đủ 3 tầng + 3 dịch vụ ngoài) — **chiếm ~70% slide**, chữ tối thiểu.
 
-> "Có ạ:
-> - Phụ thuộc API key + quota Google (miễn phí có giới hạn request/phút)
-> - Không có memory dài hạn giữa các phiên chat
-> - Câu trả lời có thể không chính xác 100% (hạn chế chung của LLM)
-> - Em đã thêm disclaimer trong app: kết quả chỉ mang tính tham khảo"
+**2 bullet (góc dưới, tùy chọn):**
+- Client Flutter: Presentation → Provider → Service → Local data
+- Kết nối: **Firebase** · **FastAPI+SBERT** · **Gemini**
 
-## 8. "Đề tài có gì mới so với các hệ thống tư vấn hiện có?"
+> *Không dùng `Hinh_2_3_Kien_truc.drawio` nữa nếu hình này đã đầy đủ và khớp code thực tế.*
 
-> "Dạ, 3 điểm mới:
-> 1. **Explainable AI**: giải thích lý do gợi ý — các hệ thống hiện tại chỉ hiện danh sách
-> 2. **Kiến trúc hybrid**: Rule-based (chính) + SBERT (ML tùy chọn) + Gemini (chatbot) — 3 tầng AI
-> 3. **Admin quản trị rule**: cán bộ tuyển sinh tự thêm/sửa rule không cần lập trình viên"
+### Lời trình bày (~1 phút) — khớp đúng hình trên
+
+> Slide này là **kiến trúc tổng thể** ứng dụng **Flutter phía client Android**, em chia **ba tầng logic** và **ba kênh kết nối ra ngoài**.
+>
+> **Tầng Presentation** — giao diện: Home, Wizard nhập liệu, màn Kết quả, Chat, Forum, và khu vực Admin.  
+> **Tầng State Management** — em dùng **Provider**: `AuthProvider` quản lý đăng nhập, `ThemeProvider` giao diện sáng/tối, `CareerGuidanceProvider` trạng thái luồng tư vấn ngành.  
+> **Tầng Business / Service** — xử lý nghiệp vụ: `GuidanceService` là **AI rule-based**; `RecommendationMergeService` gộp kết quả rule với gợi ý ML; `AIService` gọi chatbot; `UserService`, `ForumLocalService` phục vụ người dùng và diễn đàn.
+>
+> **Dữ liệu cục bộ:** JSON assets như `majors_catalog`, **SQLite** `edu_guidance_forum.db`, **SharedPreferences** — theme, chat local, rule — giúp app **chạy offline** một phần.
+>
+> **Ba dịch vụ bên ngoài:**  
+> — **Firebase** qua HTTPS: Authentication và Firestore — users, rules, forum, chat trên cloud.  
+> — **FastAPI + SBERT** qua HTTP cổng 8000: endpoint `POST /recommend`, dùng `major_embeddings.npy` — **bổ trợ** gợi ý semantic, không thay lõi rule.  
+> — **Google Gemini** qua HTTPS API: **chatbot tư vấn** generative.
+>
+> Như vậy kiến trúc là **client–cloud hybrid**: lõi gợi ý và giải thích trên app; Firebase lưu trữ; ML và LLM là **tầng bổ trợ**. Phân quyền admin qua **Firestore Rules** và email whitelist.  
+> Em xin chuyển sang **phần lõi — AI Engine**.
+
+---
+
+## Slide 5 — AI Engine (A) — Luồng xử lý
+
+**Trên slide:** Chèn **sơ đồ Sequence** (User → UI Wizard → GuidanceService → FastAPI SBERT → MergeService → Hiển thị) — file `Hinh_2_4_Sequence.drawio` export PNG, **phóng to ~70% slide**.
+
+**3 bullet (góc dưới, tùy chọn):**
+- Lõi: `GuidanceService` — rule + **lý do** (Explainable)
+- Bổ trợ: `POST /recommend` (SBERT) → `MergeService`
+- **Fallback:** FastAPI lỗi/timeout → chỉ dùng kết quả local
+
+### Lời trình bày (~1 phút 15 giây)
+
+> Đây là **luồng xử lý gợi ý ngành** — sơ đồ **sequence** em thiết kế trong báo cáo (`Hinh 2.4`).
+>
+> **Bước 1:** Người dùng hoàn tất **wizard** — khối thi, điểm, sở thích.  
+> **Bước 2:** `GuidanceService` gọi `computeSuitability()` kèm **tập luật** — trả về **điểm local** và **lý do** cho từng ngành. Đây là **lõi rule-based, giải thích được**.  
+> **Bước 3:** App gửi `POST /recommend` tới **FastAPI + SBERT** — nhận `top_majors` từ embedding ngành (semantic).  
+> **Bước 4:** `RecommendationMergeService` **gộp** kết quả ML và local → **Top 8 ngành**, có badge **ML / Rule** để minh bạch nguồn gợi ý.  
+> **Bước 5:** UI **hiển thị kết quả** cho học sinh.
+>
+> Khối **`alt`** phía dưới: nếu **FastAPI lỗi hoặc timeout**, hệ thống **fallback** — chỉ dùng kết quả `GuidanceService`, app **vẫn chạy được** không phụ thuộc server ML.  
+> Slide tiếp theo em minh họa **màn hình kết quả** trên app.
+
+---
+
+## Slide 6 — AI Engine (B) — Minh chứng
+
+**Trên slide:** Screenshot kết quả (có % + lý do) HOẶC bảng 1 dòng CNTT 100%
+
+### Lời trình bày (~1 phút 15 giây)
+
+> Slide này là **minh chứng Explainable AI** — điểm khác biệt so với nhiều app chỉ hiện danh sách ngành.
+>
+> Ví dụ học sinh khối **A01**, **Toán cao**, chọn sở thích **Công nghệ**: hệ thống xếp **Công nghệ thông tin** đầu bảng, khoảng **100% phù hợp**, và hiển thị **lý do** — ví dụ: điểm Toán đạt ngưỡng, sở thích khớp nhóm CNTT, **rule** `tech_boost` được kích hoạt với hệ số tăng. Học sinh và phụ huynh **đọc được vì sao**, không chỉ thấy một con số.
+>
+> Mỗi rule trong tập luật có trường **`reason`** — câu giải thích bằng tiếng Việt — khi rule áp dụng, app đưa nội dung đó ra giao diện. Đó chính là **Explainable AI** em triển khai.
+>
+> Nếu thầy cô hỏi **“Sao không dùng Machine Learning làm chính?”** — em xin trả lời ngắn tại đây: trong tư vấn giáo dục cần **minh bạch**; dữ liệu huấn luyện quy mô lớn, chuẩn hóa ở Việt Nam còn hạn chế; rule do **admin chỉnh** được mà **không cần retrain**. ML và LLM em đặt vai trò **bổ trợ** — SBERT, Gemini — **không thay** lõi rule.  
+> Em xin chuyển sang **demo giao diện ứng dụng**.
+
+---
+
+## Slide 7 — Demo (A) — Nhập liệu
+
+**Trên slide:** Screenshot Wizard + 3 bullet (khối → điểm → sở thích → kỹ năng → khu vực)
+
+### Lời trình bày (~1 phút)
+
+> Đây là **luồng người dùng** học sinh trên app. Sau đăng nhập, học sinh vào **wizard định hướng** — em thiết kế **nhiều bước** để tránh nhập một form dài gây nhầm lẫn.
+>
+> **Bước 1:** Chọn **khối thi** — A01, D01, C00… — hệ thống xác định **ba môn** tương ứng.  
+> **Bước 2:** Nhập **điểm trung bình** từng môn, thang 0 đến 10.  
+> **Bước 3:** Chọn **sở thích** — Công nghệ, Y tế, Kinh tế… — danh sách **lọc theo khối** để không gợi ý ngành ngoài tổ hợp.  
+> **Bước 4:** Chọn **ưu điểm / kỹ năng** — logic, giao tiếp… — dùng cho hệ số boost.  
+> **Bước 5:** Chọn **khu vực** — Bắc, Trung, Nam — ưu tiên gợi ý trường phù hợp.
+>
+> Nếu học sinh quan tâm **Công an, Quân đội**, app có thêm bước **thể chất** — chiều cao, cân nặng — theo module riêng.  
+> Sau khi hoàn tất, người dùng bấm phân tích — em chiếu **màn kết quả** ở slide sau.
+
+---
+
+## Slide 8 — Demo (B) — Kết quả
+
+**Trên slide:** Screenshot màn Kết quả (cùng case slide 7)
+
+### Lời trình bày (~1 phút)
+
+> Đây là **kết quả** cùng bộ dữ liệu em vừa nhập: khối A01, điểm Toán cao, sở thích Công nghệ.
+>
+> App hiển thị **danh sách ngành** xếp theo **mức phù hợp phần trăm**, kèm **gợi ý trường** theo khu vực, và quan trọng là **dòng giải thích** cho từng ngành — từ rule và từ thuật toán base score.  
+> Học sinh có thể **lưu kết quả** lên Firestore để xem lại trong **lịch sử gợi ý** — chức năng F06 trong báo cáo.
+>
+> Như vậy luồng **nhập liệu → AI xử lý → kết quả giải thích được → lưu cloud** đã chạy **end-to-end** trên thiết bị Android em demo.  
+> Em xin chuyển sang **chatbot và khu vực quản trị**.
+
+---
+
+## Slide 9 — Chatbot & Admin
+
+**Trên slide:** 2 ảnh (Chat + Admin) · Phân quyền Firestore Rules
+
+### Lời trình bày (~1 phút)
+
+> **Chatbot:** Em tích hợp **Google Gemini API** để học sinh hỏi đáp tự nhiên — ngành học gì, học những môn nào, triển vọng việc làm… Chatbot **bổ sung** cho wizard, **không thay** kết quả gợi ý chính từ Rule Engine. App có **ghi chú** kết quả chatbot mang tính **tham khảo**.
+>
+> **Khu vực Admin** phục vụ cán bộ tuyển sinh hoặc quản trị: **A01** quản lý người dùng; **A02–A04** quản lý ngành, trường, dữ liệu tuyển sinh; **A05** dashboard thống kê. Đặc biệt admin có thể **thêm, sửa, bật tắt quy tắc AI** và **đồng bộ** với Firestore — không cần sửa code và build lại app.
+>
+> **Bảo mật:** Chỉ tài khoản **email nằm trong whitelist** mới thực hiện thao tác admin; người dùng thường chỉ đọc/ghi **dữ liệu của chính mình** — cấu hình trong `firestore.rules`.
+
+---
+
+## Slide 10 — Công nghệ & Kiểm thử
+
+**Trên slide:** Flutter · Firebase · GuidanceService · Gemini · 19/19 test · <2s
+
+### Lời trình bày (~1 phút)
+
+> **Công nghệ:** Giao diện **Flutter/Dart** — một codebase triển khai Android, có thể mở rộng iOS và Web. Backend dữ liệu **Firebase Firestore** và **Firebase Authentication**. Lõi AI là **`GuidanceService`** viết bằng Dart — rule-based. Chatbot qua **Gemini API**. Dữ liệu offline: **SQLite**, **SharedPreferences**.
+>
+> **Kiểm thử:** Em viết **19 unit và widget test**, chạy `flutter test`, kết quả **pass 100%**. Các test bao gồm: logic gợi ý với điểm cao/thấp, lọc theo khối, xung đột rule, merge gợi ý ML, lọc trường theo miền, và smoke test màn splash.  
+> Thời gian phản hồi AI engine em đo **dưới 2 giây** trên emulator và thiết bị thật. Giao diện hỗ trợ **sáng và tối** để dễ đọc.
+>
+> Em xin chuyển sang **đánh giá ưu, nhược điểm**.
+
+---
+
+## Slide 11 — Ưu & Nhược
+
+**Trên slide:** Bảng 3 ưu / 3 nhược + 1 dòng hướng phát triển
+
+### Lời trình bày (~1 phút)
+
+> **Ưu điểm:** Thứ nhất, **giải thích được kết quả** — phù hợp yêu cầu minh bạch trong giáo dục. Thứ hai, **gợi ý offline** nhờ rule lưu local — học sinh vẫn dùng được khi mạng yếu. Thứ ba, **kiến trúc mở rộng** — Flutter một nguồn, admin quản rule và dữ liệu trên cloud.
+>
+> **Hạn chế:** Em nêu thẳng để Hội đồng đánh giá đúng. Thứ nhất, **chất lượng gợi ý phụ thuộc dữ liệu** ngành, trường, điểm chuẩn — cần **cập nhật hàng năm**. Thứ hai, **chưa khảo sát người dùng thật** quy mô lớn — mới kiểm thử kỹ thuật và vài profile mẫu. Thứ ba, **rule-based chưa phản ánh hết** yếu tố tâm lý, hoàn cảnh; chatbot LLM **phụ thuộc API** và có thể sai — em đã ghi trong báo cáo.
+>
+> **Hướng phát triển:** Kết hợp **ML/SBERT**, tích hợp **API Bộ GD&ĐT**, pilot tại trường, đưa lên **CH Play / App Store**.
+
+---
+
+## Slide 12 — Kết luận
+
+**Trên slide:** Đã hoàn thành · Đóng góp · Cảm ơn & Q&A
+
+### Lời trình bày (~45 giây)
+
+> **Tóm lại**, em đã hoàn thành hệ thống **ứng dụng AI hỗ trợ tuyển sinh và tư vấn ngành học** với **AI rule-based giải thích được**, **ứng dụng Flutter** chạy thực tế, **Firebase** cho dữ liệu và xác thực, đủ chức năng **học sinh F01–F06** và **admin A01–A05**, tích hợp **chatbot Gemini**, **19 test pass**.
+>
+> **Đóng góp:** Đề xuất mô hình tư vấn **minh bạch** trong giáo dục; kiến trúc **client–cloud** có thể phát triển thành công cụ hướng nghiệp thực tế.
+>
+> Em xin **cảm ơn thầy cô và Hội đồng** đã lắng nghe. Em **sẵn sàng trả lời câu hỏi**.
+
+---
+
+## Slide 13 — Q&A
+
+**Trên slide:** HỎI ĐÁP
+
+### Lời trình bày
+
+> (Không nói thêm — lắng nghe câu hỏi, trả lời theo phần **Ôn trước trưởng khoa** bên dưới.)
+
+---
+
+---
+
+# ÔN TRƯỚC TRƯỞNG KHOA — CÂU HỎI GẮT & TRẢ LỜI (NÓI MIỆNG)
+
+> Mỗi câu ~30–45 giây. Không đọc slide khi trả lời.
+
+### 1. "AI của em là gì? Có phải machine learning không?"
+
+**Trả lời:** "Dạ, lõi là **hệ chuyên gia rule-based**: tập luật + engine tính điểm phù hợp. Em chọn vì **giải thích được** từng gợi ý — phù hợp tư vấn giáo dục. ML (SBERT) và LLM (Gemini) em dùng **bổ trợ**, không thay lõi rule."
+
+### 2. "Thuật toán tính điểm cụ thể?"
+
+**Trả lời:** "Chuẩn hóa điểm 0–1 → base score theo nhóm ngành (VD CNTT: Toán 60%) → nhân boost kỹ năng, miền → duyệt 14+ rule, nếu khớp `conditions` thì nhân `boostMajors` → chuẩn hóa top = 100%. Code: `GuidanceService.computeSuitability()`, đã unit test."
+
+### 3. "Tại sao không dùng ML làm chính?"
+
+**Trả lời:** "Thiếu dataset huấn luyện chuẩn quy mô lớn; kết quả ML khó giải thích cho phụ huynh; rule do admin sửa được không cần retrain. Hướng sau: kết hợp SBERT."
+
+### 4. "Explainable AI em làm thế nào?"
+
+**Trả lời:** "Mỗi rule có field `reason`; khi rule kích hoạt, app hiển thị lý do trên màn kết quả. Học sinh thấy vì sao CNTT cao điểm — không chỉ một con số."
+
+### 5. "Bảo mật Firebase? Admin lấy data người khác thế nào?"
+
+**Trả lời:** "Firestore Rules: user chỉ đọc/sửa document của mình; **chỉ email admin** trong whitelist mới list users, ghi `guidance_rules`. Auth Firebase + `ensureFirestoreSession` trước thao tác nhạy cảm."
+
+### 6. "Dữ liệu ngành/trường từ đâu? Tin được không?"
+
+**Trả lời:** "Từ catalog JSON (mã TT09), mapping khối–ngành–trường; tham khảo website tuyển sinh. Đây là **demo đồ án** — production cần API Bộ GD&ĐT hoặc cập nhật định kỳ qua admin."
+
+### 7. "Chatbot Gemini sai thì sao?"
+
+**Trả lời:** "Chatbot chỉ **hỏi đáp tham khảo**; gợi ý chính từ Rule Engine. App có disclaimer; không lưu memory dài giữa phiên; phụ thuộc quota API."
+
+### 8. "Em kiểm thử ra sao? Có số liệu không?"
+
+**Trả lời:** "19 test `flutter test` pass 100%: logic gợi ý (khối, điểm cao/thấp, conflict rule), merge ML, region trường, widget splash. Thử tay: Toán cao + IT → CNTT đầu; Văn cao + kinh doanh → QTKD."
+
+### 9. "Đóng góp khoa học / thực tiễn?"
+
+**Trả lời:** "Khoa học: rule-based + explainable vào tư vấn hướng nghiệp. Thực tiễn: app chạy được, admin quản rule/dữ liệu, học sinh có công cụ tham khảo trước khi chọn ngành."
+
+### 10. "Hạn chế lớn nhất? Em có che không?"
+
+**Trả lời:** "Dạ không ạ: phụ thuộc dữ liệu đầu vào; chưa khảo sát người dùng thật quy mô lớn; rule chưa phủ hết yếu tố tâm lý. Em ghi rõ trong báo cáo."
+
+### 11. "Flutter tại sao không React Native?"
+
+**Trả lời:** "Một codebase Android/iOS/Web; Firebase SDK tốt; phù hợp thời gian đồ án; UI Material 3, light/dark."
+
+### 12. "Triển khai thật cho trường, em làm gì tiếp?"
+
+**Trả lời:** "Cập nhật dữ liệu tuyển sinh tự động; giám sát vận hành; pilot học sinh THPT; tích hợp ML sau khi có phản hồi thực tế."
+
+---
+
+## CHECKLIST TRƯỚC KHI VÀO PHÒNG
+
+- [ ] In hoặc mở file này trên điện thoại — luyện **1 lần đầy đủ** (~15 phút)
+- [ ] Slide 4: hình **Kiến trúc Flutter Client** (3 tầng + Firebase/SBERT/Gemini) **đủ lớn**
+- [ ] Slide 6, 7, 8: có **ảnh app** đủ lớn
+- [ ] Slide 6 + 8: **cùng 1 case** demo (A01 + Công nghệ)
+- [ ] Nhớ số **19/19 test**, **14+ rule**, **< 2 giây**
+- [ ] App mở sẵn trên điện thoại (backup nếu máy chiếu lỗi)
+- [ ] Khi trả lời: **dừng 1 giây** trước câu quan trọng — tự tin, không đọc slide
+
+---
+
+## GỢI Ý ĐIỀN FORM
+
+**Số chương:** 3 · **Tổng số trang:** [điền theo Word/PDF]
+
+**Thành công:** App Flutter + Firebase; AI rule-based Explainable; F01–F06, A01–A05; chatbot; 19/19 test.
+
+**Hạn chế:** Dữ liệu cần cập nhật; chưa khảo sát user rộng; rule/LLM còn giới hạn.

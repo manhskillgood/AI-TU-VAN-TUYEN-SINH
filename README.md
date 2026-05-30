@@ -1,4 +1,32 @@
-# Tư vấn ngành học - Ứng dụng AI hỗ trợ tuyển sinh
+# Ứng dụng AI hỗ trợ tuyển sinh & tư vấn ngành học
+
+**Graduation project** — Mobile app giúp học sinh THPT nhập hồ sơ (điểm, khối thi, sở thích) và nhận **gợi ý ngành đại học** kèm **lý do giải thích** (Explainable AI).
+
+| | |
+|---|---|
+| **Stack** | Flutter · Firebase · Rule-based AI (`GuidanceService`) · FastAPI/SBERT · Gemini |
+| **Tác giả** | Lê Đức Mạnh |
+| **Đẩy lên GitHub** | Xem [docs/HUONG_DAN_PUSH_GITHUB.md](docs/HUONG_DAN_PUSH_GITHUB.md) |
+
+> Sau khi push GitHub, ghi link repo vào CV, ví dụ: `https://github.com/<username>/do-an-tn`
+
+## Clone & chạy nhanh
+
+```bash
+git clone <repo-url>
+cd DO_AN_TN
+flutter pub get
+```
+
+**Firebase (bắt buộc):** copy `lib/firebase_options.example.dart` → `lib/firebase_options.dart` và điền config, hoặc chạy `flutterfire configure`. File `firebase_options.dart` **không** commit lên public repo.
+
+**Gemini (tùy chọn):**
+
+```bash
+flutter run --dart-define=GEN_AI_KEY=<your-google-ai-key>
+```
+
+---
 
 Ứng dụng Flutter/Dart xây dựng các chức năng hỗ trợ tuyển sinh và tư vấn ngành học cho học sinh, sử dụng công nghệ AI.
 
